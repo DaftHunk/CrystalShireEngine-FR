@@ -1455,7 +1455,7 @@ ManageBoxes:
 
 .StorageMonMenu:
 	db MENU_BACKUP_TILES
-	menu_coords 9, 4, 19, 17
+	menu_coords 8, 4, 19, 17
 	dw .StorageMenuData2
 	db 1 ; default option
 
@@ -1468,7 +1468,7 @@ ManageBoxes:
 
 .PartyMonMenu:
 	db MENU_BACKUP_TILES
-	menu_coords 10, 4, 19, 17
+	menu_coords 9, 4, 19, 17
 	dw .PartyMenuData2
 	db 1 ; default option
 
@@ -1481,7 +1481,7 @@ ManageBoxes:
 
 .BoxMenu:
 	db MENU_BACKUP_TILES
-	menu_coords 10, 8, 19, 17
+	menu_coords 9, 8, 19, 17
 	dw .BoxMenuData2
 	db 1 ; default option
 
@@ -2533,7 +2533,7 @@ BillsPC_Item:
 
 .MailMenu:
 	db MENU_BACKUP_TILES
-	menu_coords 11, 3, 19, 12
+	menu_coords 9, 3, 19, 12
 	dw .MailMenuData
 	db 1 ; default option
 
@@ -2546,7 +2546,7 @@ BillsPC_Item:
 
 .ItemMenu:
 	db MENU_BACKUP_TILES
-	menu_coords 11, 5, 19, 12
+	menu_coords 9, 5, 19, 12
 	dw .ItemMenuData
 	db 1 ; default option
 
@@ -2559,7 +2559,7 @@ BillsPC_Item:
 
 .NoItemMenu:
 	db MENU_BACKUP_TILES
-	menu_coords 11, 7, 19, 12
+	menu_coords 10, 7, 19, 12
 	dw .NoItemMenuData
 	db 1 ; default option
 

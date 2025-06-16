@@ -46,7 +46,7 @@ ConvertFrenchGermanMailToEnglish:
 	ld l, e
 .loop
 	ld a, [hl]
-	cp "'s"
+	cp "s"
 	jr nz, .check_intermediate_chars
 	ld a, $d4 ; 's in English font
 	jr .replace
@@ -78,7 +78,7 @@ ConvertEnglishMailToFrenchGerman:
 	ld a, [hl]
 	cp $d4 ; 's in English font
 	jr nz, .check_intermediate_chars
-	ld a, "'s"
+	ld a, "s"
 	jr .replace
 
 .check_intermediate_chars
