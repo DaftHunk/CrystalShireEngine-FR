@@ -1,10 +1,11 @@
-	db "POISONMOTH@" ; species name
-	dw 411, 280 ; height, weight
+	db "Mite@" ; species name
+	db 15 ; height
+	dw 125 ; weight
 
-	db   "The scales it"
-	next "scatters will"
-	next "paralyze anyone"
+	db   "Les écailles qu'il"
+	next "sème ont le pou-"
+	next "voir de Paralyser"
 
-	page "who touches them,"
-	next "making that person"
-	next "unable to stand.@"
+	page "totalement un"
+	next "ennemi."
+	next "@"

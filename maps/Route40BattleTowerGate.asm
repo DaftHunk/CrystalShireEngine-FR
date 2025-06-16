@@ -19,25 +19,23 @@ Route40BattleTowerGateTwinScript:
 	jumptextfaceplayer Route40BattleTowerGateTwinText
 
 Route40BattleTowerGateRockerText:
-	text "Are you going to"
-	line "the BATTLE TOWER?"
+	text "Tu vas à la Tour"
+	line "de Combat?"
 
-	para "This is a secret,"
-	line "but if you win a"
+	para "Si tu gagnes plein"
+	line "de fois, tu peux"
 
-	para "whole lot, you can"
-	line "win special gifts."
+	para "remporter des"
+	line "trucs spéciaux."
 	done
 
 Route40BattleTowerGateTwinText:
-	text "The levels of the"
-	line "#MON I want to"
+	text "Mes #mon ont"
+	line "tous des niveaux"
+	cont "différents..."
 
-	para "use are all"
-	line "different."
-
-	para "I have to go train"
-	line "them now!"
+	para "Je dois les"
+	line "entraîner!"
 	done
 
 Route40BattleTowerGate_MapEvents:

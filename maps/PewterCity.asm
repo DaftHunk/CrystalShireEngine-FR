@@ -67,87 +67,88 @@ PewterCityFruitTree2:
 	fruittree FRUITTREE_PEWTER_CITY_2
 
 PewterCityCooltrainerFText:
-	text "Have you visited"
-	line "PEWTER GYM?"
+	text "As-tu vu l'Arène"
+	line "d'Argenta?"
 
-	para "The LEADER uses"
-	line "rock-type #MON."
+	para "Le Champion a des"
+	line "#mon de Roche."
 	done
 
 PewterCityBugCatcherText:
-	text "At night, CLEFAIRY"
-	line "come out to play"
-	cont "at MT.MOON."
+	text "La nuit, les"
+	line "Mélofée sortent"
+	cont "pour jouer au Mont"
+	cont "Selenite."
 
-	para "But not every"
-	line "night."
+	para "Mais pas toutes"
+	line "les nuits."
 	done
 
 PewterCityGrampsText:
-	text "Ah, you came all"
-	line "the way out here"
-	cont "from JOHTO?"
+	text "Ah, tu viens de"
+	line "Johto, toi?"
 
-	para "That brings back"
-	line "memories. When I"
+	para "Moi aussi je me"
+	line "baladais dans"
 
-	para "was young, I went"
-	line "to JOHTO to train."
+	para "Johto étant plus"
+	line "jeune."
 
-	para "You remind me so"
-	line "much of what I was"
+	para "Tu me rappelles"
+	line "mes jeunes années."
 
-	para "like as a young"
-	line "man."
-
-	para "Here. I want you"
-	line "to have this item"
-	cont "I found in JOHTO."
+	para "Tiens. Voilà un"
+	line "objet que j'ai"
+	cont "trouvé à Johto."
 	done
 
 PewterCityGrampsText_GotSilverWing:
-	text "Going to new, un-"
-	line "known places and"
-	cont "seeing new people…"
+	text "Découvrir de nou-"
+	line "veaux visages, de"
+	cont "nouveaux lieux..."
 
-	para "Those are the joys"
-	line "of travel."
+	para "C'est beau de"
+	line "voyager."
 	done
 
 PewterCitySignText:
-	text "PEWTER CITY"
-	line "A Stone Gray City"
+	text "Argenta"
+	line "Grise comme le roc"
 	done
 
 PewterGymSignText:
-	text "PEWTER CITY"
-	line "#MON GYM"
-	cont "LEADER: BROCK"
+	text "Champion d'Arène"
+	line "d'Argenta:"
+	cont "Pierre"
 
-	para "The Rock Solid"
-	line "#MON Trainer"
+	para "Le dresseur dur"
+	line "comme la Roche"
 	done
 
 PewterMuseumSignText:
-	text "There's a notice"
-	line "here…"
+	text "Il y a une affiche"
+	line "ici..."
 
-	para "PEWTER MUSEUM OF"
-	line "SCIENCE is closed"
-	cont "for renovations…"
+	para "Le Musée des"
+	line "Sciences d'Argenta"
+	cont "est fermé pour"
+	cont "cause de"
+	cont "rénovations..."
 	done
 
 PewterCityMtMoonGiftShopSignText:
-	text "There's a notice"
-	line "here…"
+	text "Il y a une affiche"
+	line "ici..."
 
-	para "MT.MOON GIFT SHOP"
-	line "NOW OPEN!"
+	para "La Boutique de"
+	line "Souvenirs du Mont"
+	cont "Selenite est"
+	cont "ouverte!"
 	done
 
 PewterCityWelcomeSignText:
-	text "WELCOME TO"
-	line "PEWTER CITY!"
+	text "Bienvenue à"
+	line "Argenta!"
 	done
 
 PewterCity_MapEvents:

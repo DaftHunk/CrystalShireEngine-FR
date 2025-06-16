@@ -40,89 +40,86 @@ CinnabarIslandBlueTeleport:
 	step_end
 
 CinnabarIslandBlueText:
-	text "Who are you?"
+	text "T'es qui toi?"
 
-	para "Well, it's plain"
-	line "to see that you're"
-	cont "a trainer…"
+	para "T'es dresseur,"
+	line "ça se voit..."
 
-	para "My name's BLUE."
+	para "Moi c'est Blue."
 
-	para "I was once the"
-	line "CHAMPION, although"
+	para "J'ai été un Maître"
+	line "pendant un temps."
 
-	para "it was for only a"
-	line "short time…"
+	para "Enfin, pendant"
+	line "quelques minutes."
 
-	para "That meddling RED"
-	line "did me in…"
+	para "Juste avant que"
+	line "Red me batte..."
 
-	para "Anyway, what do"
-	line "you want? You want"
+	para "Je le hais ce"
+	line "type..."
 
-	para "to challenge me or"
-	line "something?"
+	para "Bon tu veux quoi?"
+	line "Tu veux t'battre?"
 
-	para "…I hate to say"
-	line "it, but I'm not in"
+	para "Désolé mais j'ai"
+	line "pas la tête à ça."
 
-	para "the mood for a"
-	line "battle now."
+	para "Regarde autour"
+	line "de toi..."
 
-	para "Take a good look"
-	line "around you…"
+	para "Un volcan explose"
+	line "et une ville"
 
-	para "A volcano erupts,"
-	line "and just like"
+	para "disparaît d'un"
+	line "coup."
 
-	para "that, a whole town"
-	line "disappears."
+	para "Faire du # #"
+	line "c'est bien joli"
 
-	para "We can go on win-"
-	line "ning and losing in"
+	para "mais on peut se"
+	line "faire balayer par"
 
-	para "#MON. But if"
-	line "nature so much as"
+	para "une catastrophe"
+	line "naturelle à tout"
+	cont "moment..."
 
-	para "twitches, we can"
-	line "lose in a second."
+	para "..."
 
-	para "…"
+	para "C'est comme ça."
+	line "On y peut rien."
 
-	para "That's the way it"
-	line "is…"
+	para "Mais bon. J'suis"
+	line "quand même un"
+	cont "dresseur."
 
-	para "But, anyway, I'm"
-	line "still a trainer."
+	para "Et un balèze en"
+	line "plus. J'te l'avais"
+	cont "dit, non?"
 
-	para "If I see a strong"
-	line "opponent, it makes"
-	cont "me want to battle."
+	para "Si tu cherches un"
+	line "bon combat, viens"
+	cont "à l'Arène de"
+	cont "Jadielle."
 
-	para "If you want to"
-	line "battle me, come to"
-	cont "the VIRIDIAN GYM."
-
-	para "I'll take you on"
-	line "then."
+	para "Et ça sera ta"
+	line "p'tite fête."
 	done
 
 CinnabarIslandGymSignText:
-	text "There's a notice"
-	line "here…"
+	text "Il y a un mot..."
 
-	para "CINNABAR GYM has"
-	line "relocated to SEA-"
-	cont "FOAM ISLANDS."
+	para "L'Arène de Cramoi-"
+	line "s'Ile est déplacée"
+	cont "aux Iles Ecume."
 
-	para "BLAINE"
+	para "Auguste"
 	done
 
 CinnabarIslandSignText:
-	text "CINNABAR ISLAND"
+	text "Cramois'Ile"
 
-	para "The Fiery Town of"
-	line "Burning Desire"
+	para "Rouge comme le feu"
 	done
 
 CinnabarIsland_MapEvents:

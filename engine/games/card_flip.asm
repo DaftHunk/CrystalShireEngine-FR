@@ -463,10 +463,10 @@ CardFlip_UpdateCoinBalanceDisplay:
 	call PrintTextboxText
 ; fallthrough
 CardFlip_PrintCoinBalance:
-	hlcoord 9, 15
-	lb bc, 1, 9
+	hlcoord 8, 15
+	lb bc, 1, 10
 	call Textbox
-	hlcoord 10, 16
+	hlcoord 9, 16
 	ld de, .CoinStr
 	rst PlaceString
 	hlcoord 15, 16
@@ -475,7 +475,7 @@ CardFlip_PrintCoinBalance:
 	jmp PrintNum
 
 .CoinStr:
-	db "COIN@"
+	db "Jeton@"
 
 CardFlip_InitTilemap:
 	xor a

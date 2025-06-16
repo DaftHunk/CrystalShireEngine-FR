@@ -21,26 +21,23 @@ CeruleanMart_CooltrainerF:
 	jumptextfaceplayer CeruleanMart_CooltrainerFText
 
 CeruleanMart_CooltrainerMText:
-	text "You'll run into"
-	line "many trainers on"
+	text "Tu croiseras beau-"
+	line "coup de dresseurs"
 
-	para "the way to CERU-"
-	line "LEAN's CAPE."
+	para "sur la route du"
+	line "Cap d'Azuria."
 
-	para "They want to see"
-	line "how they stack"
-
-	para "up against other"
-	line "trainers."
+	para "Ils voudront se"
+	line "mesurer à toi."
 	done
 
 CeruleanMart_CooltrainerFText:
-	text "MISTY is about the"
-	line "only person in"
+	text "Ondine est peut-"
+	line "être la seule à"
 
-	para "town who can beat"
-	line "the trainers at"
-	cont "CERULEAN's CAPE."
+	para "pouvoir battre les"
+	line "dresseurs du Cap"
+	cont "d'Azuria."
 	done
 
 CeruleanMart_MapEvents:

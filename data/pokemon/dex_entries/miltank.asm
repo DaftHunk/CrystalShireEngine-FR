@@ -1,10 +1,11 @@
-	db "MILK COW@" ; species name
-	dw 311, 1660 ; height, weight
+	db "Vachalait@" ; species name
+	db 12 ; height
+	dw 755 ; weight
 
-	db   "In order to milk a"
-	next "MILTANK, one must"
-	next "have a knack for"
+	db   "Traire un Ecremeuh"
+	next "demande des tré-"
+	next "sors de patience,"
 
-	page "rhythmically pull-"
-	next "ing up and down"
-	next "on its udders.@"
+	page "de douceur et de"
+	next "doigté."
+	next "@"

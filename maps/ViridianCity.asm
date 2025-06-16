@@ -86,131 +86,131 @@ ViridianCityMartSign:
 	jumpstd MartSignScript
 
 ViridianCityCoffeeGrampsQuestionText:
-	text "Hey, kid! I just"
-	line "had a double shot"
+	text "Hé, toi! Je"
+	line "viens de m'enfiler"
 
-	para "of espresso, and"
-	line "I am wired!"
+	para "un double café et"
+	line "j'ai la patate!"
 
-	para "I need to talk to"
-	line "someone, so you'll"
-	cont "have to do!"
+	para "Faut qu'je parle à"
+	line "quelqu'un alors..."
+	cont "Ecoute-moi!"
 
-	para "I might not look"
-	line "like much now, but"
+	para "J'ai pas l'air"
+	line "mais je suis un"
 
-	para "I was an expert at"
-	line "catching #MON."
+	para "expert en capture"
+	line "de #mon."
 
-	para "Do you believe me?"
+	para "Tu me crois, hein?"
 	done
 
 ViridianCityCoffeeGrampsBelievedText:
-	text "Good, good. Yes, I"
-	line "was something out"
+	text "Tant mieux."
+	line "J'étais un crack!"
 
-	para "of the ordinary,"
-	line "let me tell you!"
+	para "Un balèze! J'avais"
+	line "la classe!"
 	done
 
 ViridianCityCoffeeGrampsDoubtedText:
-	text "What? You little"
-	line "whelp!"
+	text "Quoi? Sale peste!"
 
-	para "If I were just a"
-	line "bit younger, I'd"
+	para "Si j'étais plus"
+	line "jeune, j't'en"
 
-	para "show you a thing"
-	line "or two. Humph!"
+	para "ferais baver, moi!"
+	line "Oh que oui!"
 	done
 
 ViridianCityGrampsNearGymText:
-	text "This GYM didn't"
-	line "have a LEADER"
-	cont "until recently."
+	text "Cette Arène vient"
+	line "juste d'avoir un"
+	cont "Champion officiel."
 
-	para "A young man from"
-	line "PALLET became the"
+	para "Un jeune homme de"
+	line "Palette est devenu"
 
-	para "LEADER, but he's"
-	line "often away."
+	para "le Champion mais"
+	line "il se balade"
+	cont "beaucoup."
 	done
 
 ViridianCityGrampsNearGymBlueReturnedText:
-	text "Are you going to"
-	line "battle the LEADER?"
+	text "Vas-tu affronter"
+	line "le Champion?"
 
-	para "Good luck to you."
-	line "You'll need it."
+	para "Bonne chance."
+	line "T'en auras besoin."
 	done
 
 ViridianCityDreamEaterFisherText:
-	text "Yawn!"
+	text "(baille)!"
 
-	para "I must have dozed"
-	line "off in the sun."
+	para "J'ai dormi sous"
+	line "le soleil."
 
-	para "…I had this dream"
-	line "about a DROWZEE"
+	para "...J'ai rêvé d'un"
+	line "Soporifik en train"
 
-	para "eating my dream."
-	line "Weird, huh?"
+	para "de manger mes"
+	line "songes. Bizarre!"
 
-	para "Huh?"
-	line "What's this?"
+	para "Hein?"
+	line "C'est quoi?"
 
-	para "Where did this TM"
-	line "come from?"
+	para "D'où vient cette"
+	line "CT?"
 
-	para "This is spooky!"
-	line "Here, you can have"
-	cont "this TM."
+	para "C'est louche!"
+	line "Tiens, je te la"
+	cont "donne."
 	done
 
 ViridianCityDreamEaterFisherGotDreamEaterText:
-	text "TM42 contains"
-	line "DREAM EATER…"
+	text "CT42 contient"
+	line "Dévorêve..."
 
-	para "…Zzzzz…"
+	para "...Zzzzz..."
 	done
 
 ViridianCityYoungsterText:
-	text "I heard that there"
-	line "are many items on"
+	text "On dit qu'il y a"
+	line "plein d'objets sur"
 
-	para "the ground in"
-	line "VIRIDIAN FOREST."
+	para "le sol de la Forêt"
+	line "de Jade."
 	done
 
 ViridianCitySignText:
-	text "VIRIDIAN CITY"
+	text "Jadielle"
 
-	para "The Eternally"
-	line "Green Paradise"
+	para "Le paradis vert"
+	line "éternel"
 	done
 
 ViridianGymSignText:
-	text "VIRIDIAN CITY"
-	line "#MON GYM"
-	cont "LEADER: …"
+	text "Champion d'Arène"
+	line "de Jadielle:"
+	cont "..."
 
-	para "The rest of the"
-	line "text is illegible…"
+	para "Le reste est"
+	line "illisible..."
 	done
 
 ViridianCityWelcomeSignText:
-	text "WELCOME TO"
-	line "VIRIDIAN CITY,"
+	text "Bienvenue à"
+	line "Jadielle, la porte"
 
-	para "THE GATEWAY TO"
-	line "INDIGO PLATEAU"
+	para "vers le Plateau"
+	line "Indigo"
 	done
 
 TrainerHouseSignText:
-	text "TRAINER HOUSE"
+	text "Club des Dresseurs"
 
-	para "The Club for Top"
-	line "Trainer Battles"
+	para "Réservé aux"
+	line "meilleurs"
 	done
 
 ViridianCity_MapEvents:

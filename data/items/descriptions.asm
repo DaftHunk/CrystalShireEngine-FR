@@ -211,662 +211,652 @@ ItemDescriptionsBalls:
 .IndirectEnd:
 
 MasterBallDesc:
-	db   "The best BALL. It"
-	next "never misses.@"
+	db   "La meilleure Ball."
+	next "Ne rate jamais.@"
 
 UltraBallDesc:
-	db   "A BALL with a high"
-	next "rate of success.@"
+	db   "Ball à haut taux"
+	next "de réussite.@"
 
 BrightpowderDesc:
-	db   "Lowers the foe's"
-	next "accuracy. (HOLD)@"
+	db   "Baisse Précision"
+	next "de l'ennemi.(Tenu)@"
 
 GreatBallDesc:
-	db   "A BALL with a de-"
-	next "cent success rate.@"
+	db   "Ball à taux de"
+	next "réussite correct.@"
 
 PokeBallDesc:
-	db   "An item for catch-"
-	next "ing #MON.@"
+	db   "Objet pour captu-"
+	next "rer les #mon.@"
 
 BicycleDesc:
-	db   "A collapsible bike"
-	next "for fast movement.@"
+	db   "Un vélo pliable"
+	next "pour se balader.@"
 
 MoonStoneDesc:
-	db   "Evolves certain"
-	next "kinds of #MON.@"
+	db   "Evolue certains"
+	next "types de #mon.@"
 
 AntidoteDesc:
-	db   "Cures poisoned"
-	next "#MON.@"
+	db   "Soigne les #mon"
+	next "Empoisonnés.@"
 
 BurnHealDesc:
-	db   "Heals burned"
-	next "#MON.@"
+	db   "Soigne les #mon"
+	next "Brûlés.@"
 
 IceHealDesc:
-	db   "Defrosts frozen"
-	next "#MON.@"
+	db   "Dégèle les #mon"
+	next "Gelés.@"
 
 AwakeningDesc:
-	db   "Awakens sleeping"
-	next "#MON.@"
+	db   "Réveille les #-"
+	next "mon Endormis.@"
 
 ParlyzHealDesc:
-	db   "Heals paralyzed"
-	next "#MON.@"
+	db   "Soigne les #mon"
+	next "Paralysés.@"
 
 FullRestoreDesc:
-	db   "Fully restores HP"
-	next "& status.@"
+	db   "Restaure tous PV"
+	next "et statut.@"
 
 MaxPotionDesc:
-	db   "Fully restores"
-	next "#MON HP.@"
+	db   "Restaure tous les"
+	next "PV d'un #mon.@"
 
 HyperPotionDesc:
-	db   "Restores #MON"
-	next "HP by 200.@"
+	db   "Restaure 200 PV"
+	next "d'un #mon.@"
 
 SuperPotionDesc:
-	db   "Restores #MON"
-	next "HP by 50.@"
+	db   "Restaure 50 PV"
+	next "d'un #mon.@"
 
 PotionDesc:
-	db   "Restores #MON"
-	next "HP by 20.@"
+	db   "Restaure 20 PV"
+	next "d'un #mon.@"
 
 EscapeRopeDesc:
-	db   "Use for escaping"
-	next "from caves, etc.@"
+	db   "Pour s'enfuir"
+	next "d'une grotte, etc.@"
 
 RepelDesc:
-	db   "Repels weak #-"
-	next "MON for 100 steps.@"
+	db   "Repousse faibles"
+	next "<PKMN> de 100 pas.@"
 
 MaxElixerDesc:
-	db   "Fully restores the"
-	next "PP of one #MON.@"
+	db   "Restaure tous PP"
+	next "d'un #mon.@"
 
 FireStoneDesc:
-	db   "Evolves certain"
-	next "kinds of #MON.@"
-
 ThunderStoneDesc:
-	db   "Evolves certain"
-	next "kinds of #MON.@"
-
 WaterStoneDesc:
-	db   "Evolves certain"
-	next "kinds of #MON.@"
+LeafStoneDesc:
+	db   "Evolue certains"
+	next "types de #mon.@"
 
 HPUpDesc:
-	db   "Raises the HP of"
-	next "one #MON.@"
+	db   "Monte les PV d'un"
+	next "#mon.@"
 
 ProteinDesc:
-	db   "Raises ATTACK of"
-	next "one #MON.@"
+	db   "Monte l'Attaque"
+	next "d'un #mon.@"
 
 IronDesc:
-	db   "Raises DEFENSE of"
-	next "one #MON.@"
+	db   "Monte la Défense"
+	next "d'un #mon.@"
 
 CarbosDesc:
-	db   "Raises SPEED of"
-	next "one #MON.@"
+	db   "Monte la Vitesse"
+	next "d'un #mon.@"
 
 LuckyPunchDesc:
-	db   "Ups critical hit"
-	next "ratio of CHANSEY.@"
+	db   "Plus de Critiques"
+	next "avec LEVEINARD.@"
 
 CalciumDesc:
-	db   "Raises SPCL.ATK"
-	next "of one #MON.@"
+	db   "Monte le Spécial"
+	next "d'un #mon.@"
 
 RareCandyDesc:
-	db   "Raises level of a"
-	next "#MON by one.@"
+	db   "Monte d'un niveau"
+	next "un #mon.@"
 
 XAccuracyDesc:
-	db   "Raises accuracy."
-	next "(1 BTL)@"
-
-LeafStoneDesc:
-	db   "Evolves certain"
-	next "kinds of #MON.@"
+	db   "Monte la Préci-"
+	next "sion. (1 Cbt)@"
 
 MetalPowderDesc:
-	db   "Raises DEFENSE of"
-	next "DITTO. (HOLD)@"
+	db   "Monte Défense de"
+	next "Métamorph. (Tenu)@"
 
 NuggetDesc:
-	db   "Made of pure gold."
-	next "Sell high.@"
+	db   "En or pur."
+	next "Se vend cher.@"
 
 PokeDollDesc:
-	db   "Use to escape from"
-	next "a wild #MON.@"
+	db   "Pour s'enfuir face"
+	next "à un <PKMN> sauvage.@"
 
 FullHealDesc:
-	db   "Eliminates all"
-	next "status problems.@"
+	db   "Contre tout chan-"
+	next "gement de statut.@"
 
 ReviveDesc:
-	db   "Restores a fainted"
-	next "#MON to 1/2 HP.@"
+	db   "Réanime #mon KO"
+	next "avec 1/2 PV.@"
 
 MaxReviveDesc:
-	db   "Fully restores a"
-	next "fainted #MON.@"
+	db   "Réanimation et"
+	next "soin total.@"
 
 GuardSpecDesc:
-	db   "Prevents stats"
-	next "reduction. (1 BTL)@"
+	db   "Prévient réduction"
+	next "de stat. (1 Cbt)@"
 
 SuperRepelDesc:
-	db   "Repels weak #-"
-	next "MON for 200 steps.@"
+	db   "Repousse faibles"
+	next "<PKMN> de 200 pas.@"
 
 MaxRepelDesc:
-	db   "Repels weak #-"
-	next "MON for 250 steps.@"
+	db   "Repousse faibles"
+	next "<PKMN> de 250 pas.@"
 
 DireHitDesc:
-	db   "Ups critical hit"
-	next "ratio. (1 BTL)@"
+	db   "Plus de chances de"
+	next "Critiques. (1 Cbt)@"
 
 FreshWaterDesc:
-	db   "Restores #MON"
-	next "HP by 50.@"
+	db   "Restaure 50 PV"
+	next "d'un #mon.@"
 
 SodaPopDesc:
-	db   "Restores #MON"
-	next "HP by 60.@"
+	db   "Restaure 60 PV"
+	next "d'un #mon.@"
 
 LemonadeDesc:
-	db   "Restores #MON"
-	next "HP by 80.@"
+	db   "Restaure 80 PV"
+	next "d'un #mon.@"
 
 XAttackDesc:
-	db   "Raises ATTACK."
-	next "(1 BTL)@"
+	db   "Monte l'Attaque."
+	next "(1 Cbt)@"
 
 XDefendDesc:
-	db   "Raises DEFENSE."
-	next "(1 BTL)@"
+	db   "Monte la Défense."
+	next "(1 Cbt)@"
 
 XSpeedDesc:
-	db   "Raises SPEED."
-	next "(1 BTL)@"
+	db   "Monte la Vitesse."
+	next "(1 Cbt)@"
 
 XSpecialDesc:
-	db   "Raises SPECIAL"
-	next "ATTACK. (1 BTL)@"
+	db   "Monte l'Atq.Spé."
+	next "(1 Cbt)@"
 
 CoinCaseDesc:
-	db   "Holds up to 9,999"
-	next "game coins.@"
+	db   "Contient jusqu'à"
+	next "9999 Jetons.@"
 
 ItemfinderDesc:
-	db   "Checks for unseen"
-	next "items in the area.@"
+	db   "Voir objets invi-"
+	next "sibles de la zone.@"
 
 ExpShareDesc:
-	db   "Shares battle EXP."
-	next "Points. (HOLD)@"
+	db   "Partage les pts"
+	next "d'Exp. (Tenu)@"
 
 OldRodDesc:
-	db   "Use by water to"
-	next "fish for #MON.@"
+	db   "Pour pêcher les"
+	next "<PKMN> dans l'eau.@"
 
 GoodRodDesc:
-	db   "A good ROD for"
-	next "catching #MON.@"
+	db   "Une bonne canne à"
+	next "pêcher les <PKMN>.@"
 
 SilverLeafDesc:
-	db   "A strange, silver-"
-	next "colored leaf.@"
+	db   "Une étrange feuil-"
+	next "le argentée.@"
 
 SuperRodDesc:
-	db   "The best ROD for"
-	next "catching #MON.@"
+	db   "La meilleure canne"
+	next "à pêcher les <PKMN>.@"
 
 PPUpDesc:
-	db   "Raises max PP of"
-	next "a selected move.@"
+	db   "Monte le max de PP"
+	next "d'une capacité.@"
 
 EtherDesc:
-	db   "Restores PP of one"
-	next "move by 10.@"
+	db   "Restaure 10 PP"
+	next "d'une capacité.@"
 
 MaxEtherDesc:
-	db   "Fully restores PP"
-	next "of one move.@"
+	db   "Restaure tous les"
+	next "PP d'une capacité.@"
 
 ElixerDesc:
-	db   "Restores PP of all"
-	next "moves by 10.@"
+	db   "Restaure 10 PP de"
+	next "toutes capacités.@"
 
 RedScaleDesc:
-	db   "A scale from the"
-	next "red GYARADOS.@"
+	db   "Ecaille du Lévia-"
+	next "tor rouge.@"
 
 SecretPotionDesc:
-	db   "Fully heals any"
-	next "#MON.@"
+	db   "Soin total d'un"
+	next "#mon.@"
 
 SSTicketDesc:
-	db   "A ticket for the"
-	next "S.S.AQUA.@"
+	db   "Un ticket pour"
+	next "l'Aquaria.@"
 
 MysteryEggDesc:
-	db   "An EGG obtained"
-	next "from MR.#MON.@"
+	db   "Un Oeuf obtenu de"
+	next "M.#mon.@"
 
 ClearBellDesc:
-	db   "Makes a gentle"
-	next "ringing.@"
+	db   "Sonne doucement.@"
 
 SilverWingDesc:
-	db   "A strange, silver-"
-	next "colored feather.@"
+	db   "Une étrange plume"
+	next "argentée.@"
 
 MoomooMilkDesc:
-	db   "Restores #MON"
-	next "HP by 100.@"
+	db   "Restaure 100 PV"
+	next "d'un #mon.@"
 
 QuickClawDesc:
-	db   "Raises 1st strike"
-	next "ratio. (HOLD)@"
+	db   "Plus de chances d'"
+	next "initiative. (Tenu)@"
 
 PsnCureBerryDesc:
-	db   "A self-cure for"
-	next "poison. (HOLD)@"
+	db   "Un antidote auto-"
+	next "matique. (Tenu)@"
 
 GoldLeafDesc:
-	db   "A strange, gold-"
-	next "colored leaf.@"
+	db   "Une étrange feuil-"
+	next "le dorée.@"
 
 SoftSandDesc:
-	db   "Powers up ground-"
-	next "type moves. (HOLD)@"
+	db   "Renforce les capa-"
+	next "cités Sol. (Tenu)@"
 
 SharpBeakDesc:
-	db   "Powers up flying-"
-	next "type moves. (HOLD)@"
+	db   "Renforce les capa-"
+	next "cités Vol. (Tenu)@"
 
 PrzCureBerryDesc:
-	db   "A self-cure for"
-	next "paralysis. (HOLD)@"
+	db   "Un anti-Paralysie"
+	next "automatique.(Tenu)@"
 
 BurntBerryDesc:
-	db   "A self-cure for"
-	next "freezing. (HOLD)@"
+	db   "Un anti-Gel"
+	next "automatique.(Tenu)@"
 
 IceBerryDesc:
-	db   "A self-heal for a"
-	next "burn. (HOLD)@"
+	db   "Un anti-Brûle"
+	next "automatique.(Tenu)@"
 
 PoisonBarbDesc:
-	db   "Powers up poison-"
-	next "type moves. (HOLD)@"
+	db   "Renforce capacités"
+	next "Poison. (Tenu)@"
 
 KingsRockDesc:
-	db   "May make the foe"
-	next "flinch. (HOLD)@"
+	db   "Peut Apeurer l'"
+	next "ennemi. (Tenu)@"
 
 BitterBerryDesc:
-	db   "A self-cure for"
-	next "confusion. (HOLD)@"
+	db   "Un anti-Confusion"
+	next "automatique.(Tenu)@"
 
 MintBerryDesc:
-	db   "A self-awakening"
-	next "for sleep. (HOLD)@"
+	db   "Réveil pour <PKMN>"
+	next "Endormis. (Tenu)@"
 
 RedApricornDesc:
-	db   "A red APRICORN.@"
+	db   "Un Noigrume rouge.@"
 
 TinyMushroomDesc:
-	db   "An ordinary mush-"
-	next "room. Sell low.@"
+	db   "Un champignon."
+	next "Se vend peu cher.@"
 
 BigMushroomDesc:
-	db   "A rare mushroom."
-	next "Sell high.@"
+	db   "Champignon rare."
+	next "Se vend cher.@"
 
 SilverPowderDesc:
-	db   "Powers up bug-type"
-	next "moves. (HOLD)@"
+	db   "Renforce capacités"
+	next "Insecte. (Tenu)@"
 
 BluApricornDesc:
-	db   "A blue APRICORN.@"
+	db   "Un Noigrume bleu.@"
 
 AmuletCoinDesc:
-	db   "Doubles monetary"
-	next "earnings. (HOLD)@"
+	db   "Double les gains"
+	next "d'argent. (Tenu)@"
 
 YlwApricornDesc:
-	db   "A yellow APRICORN.@"
+	db   "Un Noigrume jaune.@"
 
 GrnApricornDesc:
-	db   "A green APRICORN.@"
+	db   "Un Noigrume vert.@"
 
 CleanseTagDesc:
-	db   "Helps repel wild"
-	next "#MON. (HOLD)@"
+	db   "Repousse les <PKMN>"
+	next "sauvages. (Tenu)@"
 
 MysticWaterDesc:
-	db   "Powers up water-"
-	next "type moves. (HOLD)@"
+	db   "Renforce capacités"
+	next "Eau. (Tenu)@"
 
 TwistedSpoonDesc:
-	db   "Powers up psychic-"
-	next "type moves. (HOLD)@"
+	db   "Renforce capacités"
+	next "Psy. (Tenu)@"
 
 WhtApricornDesc:
-	db   "A white APRICORN.@"
+	db   "Un Noigrume blanc.@"
 
 BlackbeltDesc:
-	db   "Boosts fighting-"
-	next "type moves. (HOLD)@"
+	db   "Renforce capacités"
+	next "Combat. (Tenu)@"
 
 BlkApricornDesc:
-	db   "A black APRICORN."
+	db   "Un Noigrume noir."
 	next "@"
 
 PnkApricornDesc:
-	db   "A pink APRICORN."
+	db   "Un Noigrume rose."
 	next "@"
 
 BlackGlassesDesc:
-	db   "Powers up dark-"
-	next "type moves. (HOLD)@"
+	db   "Renforce capacités"
+	next "Ténèbres. (Tenu)@"
 
 SlowpokeTailDesc:
-	db   "Very tasty. Sell"
-	next "high.@"
+	db   "Très bon. Se vend"
+	next "cher.@"
 
 PinkBowDesc:
-	db   "Powers up normal-"
-	next "type moves. (HOLD)@"
+	db   "Renforce capacités"
+	next "Normal. (Tenu)@"
 
 StickDesc:
-	db   "An ordinary stick."
-	next "Sell low.@"
+	db   "Un poireau normal."
+	next "Se vend peu cher.@"
 
 SmokeBallDesc:
-	db   "Escape from wild"
-	next "#MON. (HOLD)@"
+	db   "Pour s'enfuir face"
+	next "à un <PKMN> sauvage.@"
 
 NeverMeltIceDesc:
-	db   "Powers up ice-type"
-	next "moves. (HOLD)@"
+	db   "Renforce capacités"
+	next "Glace. (Tenu)@"
 
 MagnetDesc:
-	db   "Boosts electric-"
-	next "type moves. (HOLD)@"
+	db   "Renforce capacités"
+	next "Electrik. (Tenu)@"
 
 MiracleBerryDesc:
-	db   "Cures all status"
-	next "problems. (HOLD)@"
+	db   "Contre changement"
+	next "de statut. (Tenu)@"
 
 PearlDesc:
-	db   "A beautiful pearl."
-	next "Sell low.@"
+	db   "Une belle perle."
+	next "Se vend peu cher.@"
 
 BigPearlDesc:
-	db   "A big, beautiful"
-	next "pearl. Sell high.@"
+	db   "Une belle grosse"
+	next "perle. Très chère.@"
 
 EverStoneDesc:
-	db   "Stops evolution."
-	next "(HOLD)@"
+	db   "Arrête une"
+	next "évolution. (Tenu)@"
 
 SpellTagDesc:
-	db   "Powers up ghost-"
-	next "type moves. (HOLD)@"
+	db   "Renforce capacités"
+	next "Spectre. (Tenu)@"
 
 RageCandyBarDesc:
-	db   "Restores #MON"
-	next "HP by 20.@"
+	db   "Restaure 20 PV"
+	next "d'un #mon.@"
 
 GSBallDesc:
-	db   "The mysterious"
-	next "BALL.@"
+	db   "Une Ball"
+	next "mystérieuse.@"
 
 BlueCardDesc:
-	db   "Card to save"
-	next "points.@"
+	db   "Carte pour gagner"
+	next "des points.@"
 
 MiracleSeedDesc:
-	db   "Powers up grass-"
-	next "type moves. (HOLD)@"
+	db   "Renforce capacités"
+	next "Plante. (Tenu)@"
 
 ThickClubDesc:
-	db   "A bone of some"
-	next "sort. Sell low.@"
+	db   "Un os. Se vend"
+	next "peu cher.@"
 
 FocusBandDesc:
-	db   "May prevent faint-"
-	next "ing. (HOLD)@"
+	db   "Peut empêcher un"
+	next "K.O. (Tenu)@"
 
 EnergyPowderDesc:
-	db   "Restores #MON"
-	next "HP by 50. Bitter.@"
+	db   "Restaure 50 PV"
+	next "d'un <PKMN>. Amer.@"
 
 EnergyRootDesc:
-	db   "Restores #MON"
-	next "HP by 200. Bitter.@"
+	db   "Restaure 200 PV"
+	next "d'un <PKMN>. Amer.@"
 
 HealPowderDesc:
-	db   "Cures all status"
-	next "problems. Bitter.@"
+	db   "Contre changement"
+	next "de statut. Amer.@"
 
 RevivalHerbDesc:
-	db   "Revives fainted"
-	next "#MON. Bitter.@"
+	db   "Réanime un <PKMN>"
+	next "K.O. Amer.@"
 
 HardStoneDesc:
-	db   "Powers up rock-"
-	next "type moves. (HOLD)@"
+	db   "Renforce capacités"
+	next "Roche. (Tenu)@"
 
 LuckyEggDesc:
-	db   "Earns extra EXP."
-	next "points. (HOLD)@"
+	db   "Gagne plus de pts"
+	next "Exp. (Tenu)@"
 
 CardKeyDesc:
-	db   "Opens shutters in"
-	next "the RADIO TOWER.@"
+	db   "Ouvre les volets"
+	next "dans Tour Radio.@"
 
 MachinePartDesc:
-	db   "A machine part for"
-	next "the POWER PLANT.@"
+	db   "Un élément de la"
+	next "Centrale.@"
 
 EggTicketDesc:
-	db   "May use at Golden-"
-	next "rod trade corner.@"
+	db   "A utiliser au"
+	next "Centre Troc.@"
 
 LostItemDesc:
-	db   "The # DOLL lost"
-	next "by the COPYCAT.@"
+	db   "# Poupée perdue"
+	next "par la Copieuse.@"
 
 StardustDesc:
-	db   "Pretty, red sand."
-	next "Sell high.@"
+	db   "Joli sable rouge."
+	next "Se vend cher.@"
 
 StarPieceDesc:
-	db   "A hunk of red gem."
-	next "Sell very high.@"
+	db   "Morceau de joyau"
+	next "rouge. Très cher.@"
 
 BasementKeyDesc:
-	db   "Opens doors.@"
+	db   "Ouvre des portes.@"
 
 PassDesc:
-	db   "A ticket for the"
-	next "MAGNET TRAIN.@"
+	db   "Un ticket pour le"
+	next "Train Magnet.@"
 
 ZincDesc:
-	db   "Raises SPCL.DEF"
-	next "of one #MON.@"
+	db   "Monte la Déf.Spé."
+	next "d'un #mon.@"
 
 CharcoalDesc:
-	db   "Powers up fire-"
-	next "type moves. (HOLD)@"
+	db   "Renforce capacités"
+	next "Feu. (Tenu)@"
 
 BerryJuiceDesc:
-	db   "Restores #MON"
-	next "HP by 20.@"
+	db   "Restaure 20 PV"
+	next "d'un #mon.@"
 
 ScopeLensDesc:
-	db   "Raises critical"
-	next "hit ratio. (HOLD)@"
+	db   "Plus de chances de"
+	next "Critiques. (Tenu)@"
 
 MetalCoatDesc:
-	db   "Powers up steel-"
-	next "type moves. (HOLD)@"
+	db   "Renforce capacités"
+	next "Acier. (Tenu)@"
 
 DragonFangDesc:
-	db   "Powers up dragon-"
-	next "type moves. (HOLD)@"
+	db   "Renforce capacités"
+	next "Dragon. (Tenu)@"
 
 LeftoversDesc:
-	db   "Restores HP during"
-	next "battle. (HOLD)@"
+	db   "Restaure les PV"
+	next "en combat. (Tenu)@"
 
 MysteryBerryDesc:
-	db   "A self-restore"
-	next "for PP. (HOLD)@"
+	db   "Restaure les PP en"
+	next "auto. (Tenu)@"
 
 DragonScaleDesc:
-	db   "A rare dragon-type"
-	next "item.@"
+	db   "Une écaille rare"
+	next "du type Dragon.@"
 
 BerserkGeneDesc:
-	db   "Boosts ATTACK but"
-	next "causes confusion.@"
+	db   "Monte l'Attaque,"
+	next "rend Confus.@"
 
 SacredAshDesc:
-	db   "Fully revives all"
-	next "fainted #MON.@"
+	db   "Réanimation totale"
+	next "de tous #mon.@"
 
 HeavyBallDesc:
-	db   "A BALL for catch-"
-	next "ing heavy #MON.@"
+	db   "Ball pour capturer"
+	next "les <PKMN> lourds.@"
 
 FlowerMailDesc:
-	db   "Flower-print MAIL."
-	next "(HOLD)@"
+	db   "Lettre à fleurs."
+	next "(Tenu)@"
 
 LevelBallDesc:
-	db   "A BALL for lower-"
-	next "level #MON.@"
+	db   "Ball pour #mon"
+	next "de niveau moindre.@"
 
 LureBallDesc:
-	db   "A BALL for #MON"
-	next "hooked by a ROD.@"
+	db   "Ball pour #mon"
+	next "ferrés par Canne.@"
 
 FastBallDesc:
-	db   "A BALL for catch-"
-	next "ing fast #MON.@"
+	db   "Ball pour capturer"
+	next "#mon rapides.@"
 
 LightBallDesc:
-	db   "An odd, electrical"
-	next "orb. (HOLD)@"
+	db   "Un orbe électri-"
+	next "que étrange.(Tenu)@"
 
 FriendBallDesc:
-	db   "A BALL that makes"
-	next "#MON friendly.@"
+	db   "Ball pour rendre"
+	next "un <PKMN> amical.@"
 
 MoonBallDesc:
-	db   "A BALL for MOON"
-	next "STONE evolvers.@"
+	db   "Ball pour évolués"
+	next "par Pierre Lune.@"
 
 LoveBallDesc:
-	db   "For catching the"
-	next "opposite gender.@"
+	db   "Pour capturer le"
+	next "genre opposé.@"
 
 NormalBoxDesc:
-	db   "Open it and see"
-	next "what's inside.@"
+	db   "Ouvrir pour voir"
+	next "à l'intérieur.@"
 
 GorgeousBoxDesc:
-	db   "Open it and see"
-	next "what's inside.@"
+	db   "Ouvrir pour voir"
+	next "à l'intérieur.@"
 
 SunStoneDesc:
-	db   "Evolves certain"
-	next "kinds of #MON.@"
+	db   "Evolue certains"
+	next "types de #mon.@"
 
 PolkadotBowDesc:
-	db   "Powers up normal-"
-	next "type moves. (HOLD)@"
+	db   "Renforce capacités"
+	next "Normal. (Tenu)@"
 
 UpGradeDesc:
-	db   "A mysterious box"
-	next "made by SILPH CO.@"
+	db   "Une étrange boîte"
+	next "de la Sylphe SARL.@"
 
 BerryDesc:
-	db   "A self-restore"
-	next "item. (10HP, HOLD)@"
+	db   "Auto-soin."
+	next "(10PV, Tenu)@"
 
 GoldBerryDesc:
-	db   "A self-restore"
-	next "item. (30HP, HOLD)@"
+	db   "Auto-soin."
+	next "(30PV, Tenu)@"
 
 SquirtBottleDesc:
-	db   "A bottle used for"
-	next "watering plants.@"
+	db   "Bouteille pour ar-"
+	next "roser les plantes.@"
 
 ParkBallDesc:
-	db   "The Bug-Catching"
-	next "Contest BALL.@"
+	db   "Ball du Concours"
+	next "de Capture.@"
 
 RainbowWingDesc:
-	db   "A mystical feather"
-	next "of rainbow colors.@"
+	db   "Plume mystique"
+	next "arc-en-ciel.@"
 
 QuestionMarkDesc:
 	db   "?@"
 
 BrickPieceDesc:
-	db   "A rare chunk of"
-	next "tile.@"
+	db   "Morceau rare d'une"
+	next "brique.@"
 
 SurfMailDesc:
-	db   "LAPRAS-print MAIL."
-	next "(HOLD)@"
+	db   "Lettre avec un"
+	next "Lokhlass. (Tenu)@"
 
 LiteBlueMailDesc:
-	db   "DRATINI-print"
-	next "MAIL. (HOLD)@"
+	db   "Lettre avec un"
+	next "Minidraco. (Tenu)@"
 
 PortraitMailDesc:
-	db   "MAIL featuring the"
-	next "holder's likeness.@"
+	db   "Lettre au goût du"
+	next "détenteur. (Tenu)@"
 
 LovelyMailDesc:
-	db   "Heart-print MAIL."
-	next "(HOLD)@"
+	db   "Lettre à coeurs."
+	next "(Tenu)@"
 
 EonMailDesc:
-	db   "EEVEE-print MAIL."
-	next "(HOLD)@"
+	db   "Lettre avec un"
+	next "Evoli. (Tenu)@"
 
 MorphMailDesc:
-	db   "DITTO-print MAIL."
-	next "(HOLD)@"
+	db   "Lettre avec un"
+	next "Métamorph. (Tenu)@"
 
 BlueSkyMailDesc:
-	db   "Sky-print MAIL."
-	next "(HOLD)@"
+	db   "Lettre avec des"
+	next "nuages. (Tenu)@"
 
 MusicMailDesc:
-	db   "NATU-print MAIL."
-	next "(HOLD)@"
+	db   "Lettre avec un"
+	next "Natu. (Tenu)@"
 
 MirageMailDesc:
-	db   "MEW-print MAIL."
-	next "(HOLD)@"
+	db   "Lettre avec un"
+	next "Mew. (Tenu)@"

@@ -60,11 +60,11 @@ PokemonCenterPC:
 	dw HallOfFamePC, .String_HallOfFame
 	dw TurnOffPC,    .String_TurnOff
 
-.String_PlayersPC:  db "<PLAYER>'s PC@"
-.String_BillsPC:    db "BILL's PC@"
-.String_OaksPC:     db "PROF.OAK's PC@"
-.String_HallOfFame: db "HALL OF FAME@"
-.String_TurnOff:    db "TURN OFF@"
+.String_PlayersPC:  db "PC de <PLAYER>@"
+.String_BillsPC:    db "PC de Léo@"
+.String_OaksPC:     db "PC de Chen@"
+.String_HallOfFame: db "Célébrité@"
+.String_TurnOff:    db "Déconnexion@"
 
 .WhichPC:
 ; entries correspond to PCPC_* constants
@@ -255,7 +255,7 @@ _PlayersPC:
 
 PlayersPCMenuData:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 15, 12
+	menu_coords 0, 0, 17, 12
 	dw .PlayersPCMenuData
 	db 1 ; default selected option
 
@@ -276,13 +276,13 @@ PlayersPCMenuData:
 	dw PlayerLogOffMenu,       .LogOff
 	dw PlayerLogOffMenu,       .TurnOff
 
-.WithdrawItem: db "WITHDRAW ITEM@"
-.DepositItem:  db "DEPOSIT ITEM@"
-.TossItem:     db "TOSS ITEM@"
-.MailBox:      db "MAIL BOX@"
-.Decoration:   db "DECORATION@"
-.TurnOff:      db "TURN OFF@"
-.LogOff:       db "LOG OFF@"
+.WithdrawItem: db "Retirer Objet@"
+.DepositItem:  db "Stocker Objet@"
+.TossItem:     db "Jeter Objet@"
+.MailBox:      db "Boîte Lettres@"
+.Decoration:   db "Décoration@"
+.TurnOff:      db "Déconnexion@"
+.LogOff:       db "Déconnexion@"
 
 .WhichPC:
 ; entries correspond to PLAYERSPC_* constants

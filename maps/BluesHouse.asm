@@ -65,82 +65,82 @@ DaisyScript:
 	end
 
 DaisyHelloText:
-	text "DAISY: Hi! My kid"
-	line "brother is the GYM"
+	text "Nina: Salut! Mon"
+	line "petit frère est le"
 
-	para "LEADER in VIRIDIAN"
-	line "CITY."
+	para "Champion de l'Arè-"
+	line "ne de Jadielle."
 
-	para "But he goes out"
-	line "of town so often,"
+	para "Mais il se balade"
+	line "beaucoup, ce qui"
 
-	para "it causes problems"
-	line "for the trainers."
+	para "embête pas mal de"
+	line "dresseurs."
 	done
 
 DaisyOfferGroomingText:
-	text "DAISY: Hi! Good"
-	line "timing. I'm about"
-	cont "to have some tea."
+	text "Nina: Salut! Ca"
+	line "tombe bien, j'al-"
+	cont "lais faire du thé."
 
-	para "Would you like to"
-	line "join me?"
+	para "En veux-tu?"
 
-	para "Oh, your #MON"
-	line "are a bit dirty."
+	para "Oh, tes #mon"
+	line "sont sales."
 
-	para "Would you like me"
-	line "to groom one?"
+	para "Tu veux que j'en"
+	line "bichonne un?"
 	done
 
 DaisyWhichMonText:
-	text "DAISY: Which one"
-	line "should I groom?"
+	text "Nina: Lequel dois-"
+	line "je bichonner?"
 	done
 
 DaisyAlrightText:
-	text "DAISY: OK, I'll"
-	line "get it looking"
-	cont "nice in no time."
+	text "Nina: OK, je vais"
+	line "le faire beau en"
+	cont "deux secondes."
 	done
 
 GroomedMonLooksContentText:
 	text_ram wStringBuffer3
-	text " looks"
-	line "content."
+	text " a l'air"
+	line "heureux."
 	done
 
 DaisyAllDoneText:
-	text "DAISY: There you"
-	line "go! All done."
+	text "Nina: Voilààà!"
+	line "C'est fini!"
 
-	para "See? Doesn't it"
-	line "look nice?"
+	para "Alors? Il est pas"
+	line "trop beau, hein?"
 
-	para "It's such a cute"
-	line "#MON."
+	para "Un joli petit"
+	line "#mon."
 	done
 
 DaisyAlreadyGroomedText:
-	text "DAISY: I always"
-	line "have tea around"
+	text "Nina: Je me fais"
+	line "du thé toujours à"
 
-	para "this time. Come"
-	line "join me."
+	para "cette heure. Tu"
+	line "peux rester."
 	done
 
 DaisyRefusedText:
-	text "DAISY: You don't"
-	line "want to have one"
+	text "Nina: Tu ne veux"
+	line "pas que je m'en"
 
-	para "groomed? OK, we'll"
-	line "just have tea."
+	para "occupe? OK. Un peu"
+	line "de thé, alors..."
 	done
 
 DaisyCantGroomEggText:
-	text "DAISY: Oh, sorry."
-	line "I honestly can't"
-	cont "groom an EGG."
+	text "Nina: Oh, désolée."
+	line "Je ne peux pas"
+	cont "m'occuper d'un"
+	cont "Oeuf."
 	done
 
 BluesHouse_MapEvents:

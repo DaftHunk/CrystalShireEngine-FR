@@ -37,7 +37,7 @@ _PlayerDecorationMenu:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 5, 0, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
+	menu_coords 4, 0, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
 	dw .MenuData
 	db 1 ; default option
 
@@ -60,14 +60,14 @@ _PlayerDecorationMenu:
 	dw DecoExitMenu,     .exit
 	assert_table_length NUM_DECO_CATEGORIES + 1
 
-.bed:      db "BED@"
-.carpet:   db "CARPET@"
-.plant:    db "PLANT@"
-.poster:   db "POSTER@"
-.game:     db "GAME CONSOLE@"
-.ornament: db "ORNAMENT@"
-.big_doll: db "BIG DOLL@"
-.exit:     db "EXIT@"
+.bed:      db "Lit@"
+.carpet:   db "Tapis@"
+.plant:    db "Plante@"
+.poster:   db "Poster@"
+.game:     db "Console@"
+.ornament: db "Décoration@"
+.big_doll: db "Grosse Poupée@"
+.exit:     db "Quitter@"
 
 .FindCategoriesWithOwnedDecos:
 	xor a
@@ -506,34 +506,42 @@ GetDecoName:
 	jr .getdeconame
 
 .bed:
-	call .plant
 	ld a, _BED
-	jr .getdeconame
+	jr .shared
 
 .carpet:
-	call .plant
 	ld a, _CARPET
-	jr .getdeconame
+	jr .shared
 
 .poster:
-	ld a, e
-	call .getpokename
-	ld a, _POSTER
-	jr .getdeconame
-
-.doll:
-	ld a, e
-	call .getpokename
-	ld a, _DOLL
-	jr .getdeconame
-
-.bigdoll:
 	push de
-	ld a, BIG_
+	ld a, _POSTER
 	call .getdeconame
 	pop de
 	ld a, e
-; fallthrough
+	jr .getpokename
+
+.doll:
+	push de
+	ld a, _DOLL
+	call .getdeconame
+	pop de
+	ld a, e
+	jr .getpokename
+
+.bigdoll:
+	ld a, e
+	call .getpokename
+	ld a, BIG_
+	jr .getdeconame
+
+.shared:
+	push de
+	call .getdeconame
+	pop de
+	ld a, e
+	jr .getdeconame
+
 .getpokename:
 	push bc
 	ld c, a
@@ -857,16 +865,16 @@ QueryWhichSide:
 
 DecoSideMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 13, 7
+	menu_coords 0, 0, 11, 7
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "RIGHT SIDE@"
-	db "LEFT SIDE@"
-	db "CANCEL@"
+	db "A Droite@"
+	db "A Gauche@"
+	db "Retour@"
 
 PutAwayTheDecoText:
 	text_far _PutAwayTheDecoText

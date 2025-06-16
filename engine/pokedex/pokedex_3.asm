@@ -107,11 +107,11 @@ DrawPokedexSearchResultsWindow:
 	jmp PlaceString
 
 .esults_D
-; (SEARCH R)
-	db   "ESULTS"
+; (Résultat)
+	db   " Recherche"
 	next ""
-; (### FOUN)
-	next "D!@"
+; (### TROU)
+	next "vé(s)!@"
 
 DrawDexEntryScreenRightEdge:
 	ldh a, [hBGMapAddress]

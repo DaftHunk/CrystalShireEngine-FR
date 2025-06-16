@@ -1521,27 +1521,27 @@ ManageBoxes:
 	db -1
 
 BillsPC_MenuStrings:
-	db "CANCEL@"
+	db "Annuler@"
 	; pokémon management options
-	db "WITHDRAW@"
-	db "DEPOSIT@"
-	db "STATS@"
-	db "SWITCH@"
-	db "MOVES@"
-	db "ITEM@"
-	db "RELEASE@"
+	db "Retirer@"
+	db "Stocker@"
+	db "Stats@"
+	db "Echanger@"
+	db "Capacités@"
+	db "Objets@"
+	db "Relâcher@"
 	; box options
-	db "RENAME@"
-	db "THEME@"
-	db "RELEASE@"
+	db "Renommer@"
+	db "Thème@"
+	db "Relâcher@"
 	; holding a mail
-	db "TAKE@"
-	db "READ@"
+	db "Prendre@"
+	db "Lire@"
 	; holding an item
-	db "MOVE@"
-	db "PACK@"
+	db "Déplacer@"
+	db "Sac@"
 	; doesn't hold an item
-	db "GIVE@"
+	db "Donner@"
 
 BillsPC_MenuJumptable:
 	dw DoNothing
@@ -2127,8 +2127,8 @@ BillsPC_Moves:
 	jr BillsPC_ReturnFromTransistion
 
 .CantCheckEggMoves:
-	text "You can't check"
-	line "an EGG's moves!"
+	text "Un Oeuf n'a pas"
+	line "de Capacités!"
 	prompt
 
 BillsPC_GetStorageSpace:
@@ -2445,19 +2445,19 @@ BillsPC_UpdateStorage:
 	jmp PopBCDEHL
 
 BillsPC_CantPutMailIntoPackText:
-	text "The MAIL would"
-	line "lose its message."
+	text "La Lettre perdrait"
+	line "son message."
 	prompt
 
 BillsPC_PackFullText:
-	text "The PACK is full…"
+	text "Le Sac est plein…"
 	prompt
 
 BillsPC_MovedToPackText:
-	text "Moved @"
+	text "@"
 	text_ram wStringBuffer1
-	text ""
-	line "to the PACK."
+	text "déplacé"
+	line "dans le Sac."
 	prompt
 
 BillsPC_Menu:
@@ -2520,15 +2520,15 @@ BillsPC_Item:
 .ItemIsSelected:
 	text "@"
 	text_ram wStringBuffer2
-	text " is"
-	line "selected."
+	text " est"
+	line "sélectionné."
 	done
 
 .ItCanHoldAnItem:
 	text "@"
 	text_ram wBufferMonNickname
-	text " can"
-	line "hold an item."
+	text " ne peux"
+	line "tenir d'objet."
 	done
 
 .MailMenu:
@@ -2592,8 +2592,8 @@ BillsPC_Item:
 	db -1
 
 BillsPC_EggsCantHoldItemsText:
-	text "EGGs can't hold"
-	line "items."
+	text "L'Oeuf ne peut"
+	line "tenir d'objet."
 	prompt
 
 BillsPC_CanReleaseMon:
@@ -2731,36 +2731,39 @@ BillsPC_ReleaseAll:
 	jmp CloseWindow
 
 .ReallyReleaseBox:
-	text "Really release the"
-	line "entire BOX?"
+	text "Etes-vous sûr de"
+	line "vouloir relâcher"
+	cont "toute la Boîte?"
 	done
 
 .CantRecallReleasedMons:
-	text "You can't recall"
-	line "released #MON."
-	cont "Are you sure?"
+	text "Vous ne pourrez"
+	line "retrouver un #-"
+	cont "mon relâché."
+	cont "Confirmer?"
 	done
 
 .NothingThere:
-	text "The BOX is empty."
+	text "Boîte vide."
 	prompt
 
 .NothingReleased:
-	text "You can't release"
-	line "EGGs or #MON"
-	cont "with HM moves."
+	text "Vous ne pouvez"
+	line "relâcher un Oeuf"
+	cont "ou un #mon"
+	cont "avec une CS."
 	prompt
 
 .ReleasedXMon:
-	text "Released @"
+	text "@"
 	text_decimal wTextDecimalByte, 1, 2
-	text ""
-	line "#MON."
+	text "#mon relachés."
 	prompt
 
 .TheRestWasnt:
-	text "The rest are EGGs"
-	line "or know HM moves."
+	text "Ceux restant"
+	line "sont des Oeufs"
+	cont "ou ont une CS."
 	prompt
 
 BillsPC_Release:
@@ -2815,18 +2818,20 @@ BillsPC_Release:
 	jmp BillsPC_PrintText
 
 .CantReleaseEgg:
-	text "You can't release"
-	line "an EGG!"
+	text "Vous ne pouvez"
+	line "relâcher un Oeuf!"
 	prompt
 
 .CantReleaseHMMons:
-	text "You can't release"
-	line "<PK><MN> with HM moves!"
+	text "Vous ne pouvez"
+	line "relâcher un <PK><MN>"
+	cont "avec une CS."
 	prompt
 
 .ReallyReleaseMon:
-	text "Really release"
-	line "@"
+	text "Etes-vous sûr de"
+	line "relâcher"
+	cont "@"
 	text_ram wBufferMonNickname
 	text "?"
 	done
@@ -2834,9 +2839,9 @@ BillsPC_Release:
 .WasReleasedOutside:
 	text "@"
 	text_ram wStringBuffer1
-	text " was"
-	line "released outside."
-	cont "Bye, @"
+	text " a"
+	line "été relâché!"
+	cont "Adieu, @"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
@@ -3224,31 +3229,31 @@ BillsPC_SwapStorage:
 	ret
 
 .PartyIsFull:
-	text "The party is full."
+	text "Equipe pleine."
 	prompt
 
 .BoxIsFull:
-	text "The BOX is full."
+	text "Boîte pleine."
 	prompt
 
 .IsHoldingMail:
-	text "Held MAIL must be"
-	line "removed first."
+	text "La Lettre tenue"
+	line "doit être retirée."
 	prompt
 
 .CantStoreMail:
-	text "Can't place MAIL in"
-	line "storage."
+	text "Impossible de"
+	line "stocker Lettre."
 	prompt
 
 BillsPC_LastPartyMon:
-	text "That's your last"
-	line "healthy #MON!"
+	text "C'est votre dernier"
+	line "#mon valide!"
 	prompt
 
 BillsPC_MustSaveToContinue:
-	text "Save the game to"
-	line "do this?"
+	text "Sauvegarder pour"
+	line "continuer?"
 	done
 
 BillsPC_GameSaved:

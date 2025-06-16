@@ -76,141 +76,151 @@ CeladonCityHiddenPpUp:
 	hiddenitem PP_UP, EVENT_CELADON_CITY_HIDDEN_PP_UP
 
 CeladonCityFisherText:
-	text "This POLIWRATH is"
-	line "my partner."
+	text "Ce Tartard est mon"
+	line "partenaire."
 
-	para "I wonder if it'll"
-	line "ever evolve into a"
-	cont "frog #MON."
+	para "Peut-il évoluer en"
+	line "un #mon"
+	cont "grenouille?"
 	done
 
 CeladonCityPoliwrathText:
-	text "POLIWRATH: Croak!"
+	text "Tartard: Tarr!"
 	done
 
 CeladonCityTeacher1Text:
-	text "I lost at the slot"
-	line "machines again…"
+	text "J'ai encore perdu"
+	line "aux machines à"
+	cont "sous..."
 
-	para "We girls also play"
-	line "the slots now."
+	para "Les filles aiment"
+	line "bien jouer aussi."
 
-	para "You should check"
-	line "them out too."
+	para "Tente ta chance,"
+	line "mon bouchon."
 	done
 
 CeladonCityGramps1Text:
-	text "GRIMER have been"
-	line "appearing lately."
+	text "Des Tadmorv sont"
+	line "apparus dans les"
+	cont "environs."
 
-	para "See that pond out"
-	line "in front of the"
+	para "Tu vois la mare"
+	line "devant la maison?"
 
-	para "house? GRIMER live"
-	line "there now."
+	para "Un Tadmorv y vit"
+	line "maintenant."
 
-	para "Where did they"
-	line "come from? This is"
-	cont "a serious problem…"
+	para "D'où est-ce qu'ils"
+	line "viennent tous?"
+	cont "C'est un gros"
+	cont "problème..."
 	done
 
 CeladonCityGramps2Text:
-	text "Nihihi! This GYM"
-	line "is great! Only"
+	text "Hihi! Cette Arène"
+	line "est géniale! C'est"
 
-	para "girls are allowed"
-	line "here!"
+	para "réservé aux"
+	line "filles! Youpi!"
 	done
 
 CeladonCityYoungster1Text:
-	text "Want to know a"
-	line "secret?"
+	text "Tu veux connaître"
+	line "un secret?"
 
-	para "CELADON MANSION"
-	line "has a hidden back"
-	cont "door."
+	para "Le Manoir Céladon"
+	line "a une porte cachée"
+	cont "à l'arrière."
 	done
 
 CeladonCityYoungster2Text:
-	text "They're holding an"
-	line "eating contest at"
-	cont "the restaurant."
+	text "Il y a un concours"
+	line "de bouffe au"
+	cont "restaurant."
 
-	para "Just watching them"
-	line "go at it makes me"
-	cont "feel bloated…"
+	para "Rien que de les"
+	line "regarder me donne"
+	cont "mal au coeur..."
 	done
 
 CeladonCityTeacher2Text:
-	text "CELADON DEPT.STORE"
-	line "has the biggest"
+	text "Le Centre Commer-"
+	line "cial de Céladopole"
+	cont "vend de tout."
 
-	para "and best selection"
-	line "of merchandise."
+	para "Si tu n'y trouves"
+	line "pas ce que tu veux"
 
-	para "If you can't get"
-	line "it there, you"
+	para "c'est que tu n'as"
+	line "pas de chance."
 
-	para "can't get it any-"
-	line "where."
-
-	para "Gee… I sound like"
-	line "a sales clerk."
+	para "...On dirait un"
+	line "slogan."
 	done
 
 CeladonCityLassText:
-	text "Looking at the"
-	line "ground while I was"
+	text "J'adore les grands"
+	line "immeubles!"
 
-	para "walking made me"
-	line "dizzy."
+	para "C'est vrai que le"
+	line "Centre #mon"
+
+	para "de Doublonville"
+	line "est super grand?"
+
+	para "C'est trop bien!"
+	line "J'aimerais voir un"
+
+	para "endroit pareil à"
+	line "Kanto..."
 	done
 
 CeladonCitySignText:
-	text "CELADON CITY"
+	text "Céladopole"
 
-	para "The City of"
-	line "Rainbow Dreams"
+	para "La ville aux rêves"
+	line "arc-en-ciel"
 	done
 
 CeladonGymSignText:
-	text "CELADON CITY"
-	line "#MON GYM"
-	cont "LEADER: ERIKA"
+	text "Champion d'Arène"
+	line "de Céladopole:"
+	cont "Erika"
 
-	para "The Nature-Loving"
-	line "Princess"
+	para "La princesse de"
+	line "la nature"
 	done
 
 CeladonCityDeptStoreSignText:
-	text "Find What You"
-	line "Need at CELADON"
-	cont "DEPT.STORE!"
+	text "Y'a de tout au"
+	line "Centre Commercial"
+	cont "de Céladopole!"
 	done
 
 CeladonCityMansionSignText:
-	text "CELADON MANSION"
+	text "Manoir Céladon"
 	done
 
 CeladonCityGameCornerSignText:
-	text "The Playground for"
-	line "Everybody--CELADON"
-	cont "GAME CORNER"
+	text "Des jeux pour tous"
+	line "au Casino de"
+	cont "Céladopole"
 	done
 
 CeladonCityTrainerTipsText:
-	text "TRAINER TIPS"
+	text "Astuce"
 
-	para "GUARD SPEC."
-	line "protects #MON"
+	para "Défense Spéc"
+	line "protège les #-"
 
-	para "against SPECIAL"
-	line "attacks such as"
-	cont "fire and water."
+	para "mon des attaques"
+	line "Spéciales comme le"
+	cont "feu et l'eau."
 
-	para "Get your items at"
-	line "CELADON DEPT."
-	cont "STORE!"
+	para "Achetez-en au"
+	line "Centre Commercial"
+	cont "de Céladopole!"
 	done
 
 CeladonCity_MapEvents:

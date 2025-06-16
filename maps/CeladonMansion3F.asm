@@ -76,103 +76,103 @@ CeladonMansion3FReferenceMaterial:
 	jumptext CeladonMansion3FReferenceMaterialText
 
 GameFreakGameDesignerText:
-	text "Is that right?"
+	text "Mmmmoui?"
 
-	para "I'm the GAME"
-	line "DESIGNER!"
+	para "Je suis le Desi-"
+	line "gner du Jeu!"
 
-	para "Filling up your"
-	line "#DEX is tough,"
-	cont "but don't give up!"
+	para "Continue à remplir"
+	line "ton #dex!"
 	done
 
 GameFreakGameDesignerCompletedPokedexText:
-	text "Wow! Excellent!"
-	line "You completed your"
-	cont "#DEX!"
+	text "Whoa! Super!"
+	line "Tu as complété ton"
+	cont "#dex!"
 
-	para "Congratulations!"
+	para "Formidable!"
 	done
 
 GameFreakGameDesignerPauseForDiplomaText:
-	text "…"
+	text "......."
 	done
 
 GameFreakGameDesignerAfterDiplomaText:
-	text "The GRAPHIC ARTIST"
-	line "will print out a"
-	cont "DIPLOMA for you."
+	text "L'Artiste Graphi-"
+	line "que va imprimer un"
+	cont "Diplôme pour toi."
 
-	para "You should go show"
-	line "it off."
+	para "Va te vanter, mon"
+	line "petit."
 	done
 
 GameFreakGraphicArtistText:
-	text "I'm the GRAPHIC"
-	line "ARTIST."
+	text "Je suis l'Artiste"
+	line "Graphique."
 
-	para "I drew you!"
+	para "J'ai fait ton"
+	line "dessin!"
 	done
 
 GameFreakGraphicArtistPrintDiplomaText:
-	text "I'm the GRAPHIC"
-	line "ARTIST."
+	text "Je suis l'Artiste"
+	line "Graphique."
 
-	para "Oh, you completed"
-	line "your #DEX?"
+	para "Tu as complété"
+	line "ton #dex?"
 
-	para "Want me to print"
-	line "out your DIPLOMA?"
+	para "Tu veux que j'im-"
+	line "prime ton Diplôme?"
 	done
 
 GameFreakGraphicArtistRefusedText:
-	text "Give me a shout if"
-	line "you want your"
-	cont "DIPLOMA printed."
+	text "Appelle-moi si tu"
+	line "veux que j'imprime"
+	cont "ton Diplôme."
 	done
 
 GameFreakProgrammerText:
-	text "Who, me? I'm the"
-	line "PROGRAMMER."
+	text "Moi? Je suis le"
+	line "Programmeur."
 
-	para "Play the slot"
-	line "machines!"
+	para "Joue aux machines"
+	line "à sous!"
 	done
 
 GameFreakCharacterDesignerText:
-	text "Aren't the TWINS"
-	line "adorable?"
+	text "Les Jumelles sont"
+	line "pas trop mimi?"
 
-	para "JASMINE's pretty"
-	line "too."
+	para "Jasmine est trop"
+	line "jolie, non?"
 
-	para "Oh, I love them!"
+	para "Je...les aime!"
 	done
 
 CeladonMansion3FDevRoomSignText:
 	text "GAME FREAK"
-	line "DEVELOPMENT ROOM"
+	line "Salle de"
+	cont "Développement"
 	done
 
 CeladonMansion3FDrawingText:
-	text "It's a detailed"
-	line "drawing of a"
-	cont "pretty girl."
+	text "C'est le dessin"
+	line "d'une jolie fille."
 	done
 
 CeladonMansion3FGameProgramText:
-	text "It's the game"
-	line "program. Messing"
+	text "C'est le programme"
+	line "du jeu. Si on y"
 
-	para "with it could put"
-	line "a bug in the game!"
+	para "touche, il y aura"
+	line "des bogues!"
 	done
 
 CeladonMansion3FReferenceMaterialText:
-	text "It's crammed with"
-	line "reference materi-"
-	cont "als. There's even"
-	cont "a # DOLL."
+	text "Il y a plein de"
+	line "produits dérivés."
+	cont "Il y a même une"
+	cont "# Poupée."
 	done
 
 CeladonMansion3F_MapEvents:

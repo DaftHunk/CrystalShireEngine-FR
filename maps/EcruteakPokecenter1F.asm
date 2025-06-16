@@ -92,94 +92,103 @@ EcruteakPokecenter1FPlayerMovement1:
 	step_end
 
 EcruteakPokecenter1F_BillText1:
-	text "Hi, I'm BILL. And"
-	line "who are you?"
+	text "Salut, je suis"
+	line "Léo. Et toi qui"
+	cont "es-tu?"
 
-	para "Hmm, <PLAYER>, huh?"
-	line "You've come at the"
-	cont "right time."
+	para "<PLAYER>,"
+	line "hein? Tu arrives"
+	cont "au bon moment."
 	done
 
 EcruteakPokecenter1F_BillText2:
-	text "I just finished"
-	line "adjustments on my"
-	cont "TIME CAPSULE."
+	text "Je viens de finir"
+	line "les derniers ré-"
+	cont "glages du Bloc"
+	cont "Temporel."
 
-	para "You know that"
-	line "#MON can be"
-	cont "traded, right?"
+	para "Tu sais que les"
+	line "#mon peuvent"
+	cont "être échangés?"
 
-	para "My TIME CAPSULE"
-	line "was developed to"
+	para "Mon Bloc Temporel"
+	line "a été mis"
 
-	para "enable trades with"
-	line "the past."
+	para "au point pour"
+	line "faire des échanges"
+	cont "dans le temps."
 
-	para "But you can't send"
-	line "anything that"
+	para "Mais tu ne peux"
+	line "pas envoyer des"
 
-	para "didn't exist in"
-	line "the past."
+	para "choses qui"
+	line "n'existaient pas"
+	cont "dans le passé."
 
-	para "If you did, the PC"
-	line "in the past would"
-	cont "have a breakdown."
+	para "Si tu le fais, le"
+	line "PC du passé sera"
+	cont "court-circuité."
 
-	para "So you have to"
-	line "remove anything"
+	para "Tu dois donc en-"
+	line "lever tout ce qui"
 
-	para "that wasn't around"
-	line "in the past."
+	para "n'appartient pas"
+	line "au passé."
 
-	para "Put simply, no"
-	line "sending new moves"
+	para "En clair, pas"
+	line "d'envoi de nou-"
 
-	para "or new #MON in"
-	line "the TIME CAPSULE."
+	para "velles attaques ou"
+	line "de nouveaux #-"
+	cont "mon par le Bloc"
+	cont "Temporel."
 
-	para "Don't you worry."
-	line "I'm done with the"
-	cont "adjustments."
+	para "T'en fais pas."
+	line "J'ai fait les"
+	cont "dernières modifs."
 
-	para "Tomorrow, TIME"
-	line "CAPSULES will be"
+	para "Demain, les"
+	line "Blocs Temporels"
 
-	para "running at all"
-	line "#MON CENTERS."
+	para "seront dans"
+	line "tous les Centres"
+	cont "#mon."
 
-	para "I have to hurry on"
-	line "back to GOLDENROD"
-	cont "and see my folks."
+	para "Je dois vite"
+	line "retourner à"
+	cont "Doublonville pour"
+	cont "voir mes parents."
 
-	para "Buh-bye!"
+	para "Tchao!"
 	done
 
 EcruteakPokecenter1FPokefanMText:
-	text "The way the KIMONO"
-	line "GIRLS dance is"
+	text "La façon dont les"
+	line "Kimono dansent est"
 
-	para "marvelous. Just"
-	line "like the way they"
-	cont "use their #MON."
+	para "merveilleuse."
+	line "Comme lorsqu'elles"
+	cont "utilisent leurs"
+	cont "#mon."
 	done
 
 EcruteakPokecenter1FCooltrainerFText:
-	text "MORTY, the GYM"
-	line "LEADER, is soooo"
-	cont "cool."
+	text "Mortimer, le"
+	line "Champion d'Arène"
+	cont "est trooop cool."
 
-	para "His #MON are"
-	line "really tough too."
+	para "Ses #mon sont"
+	line "bien balèzes."
 	done
 
 EcruteakPokecenter1FGymGuideText:
-	text "LAKE OF RAGE…"
+	text "Lac Colère..."
 
-	para "The appearance of"
-	line "a GYARADOS swarm…"
+	para "Là où le Léviator"
+	line "apparaît..."
 
-	para "I smell a conspir-"
-	line "acy. I know it!"
+	para "Ca sent l'em-"
+	line "brouille. Je sais!"
 	done
 
 EcruteakPokecenter1F_MapEvents:

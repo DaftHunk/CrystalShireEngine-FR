@@ -25,9 +25,9 @@ RuinsOfAlphAerodactylItemRoomAncientReplica:
 	jumptext RuinsOfAlphAerodactylItemRoomAncientReplicaText
 
 RuinsOfAlphAerodactylItemRoomAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "MON."
+	text "C'est la réplique"
+	line "d'un ancien #-"
+	cont "mon."
 	done
 
 RuinsOfAlphAerodactylItemRoom_MapEvents:

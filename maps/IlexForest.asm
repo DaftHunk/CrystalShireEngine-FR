@@ -733,202 +733,203 @@ IlexForestPlayerStepsDownMovement:
 	step_end
 
 IlexForestApprenticeIntroText:
-	text "Oh, man… My boss"
-	line "is going to be"
-	cont "steaming…"
+	text "Houlà... Mon chef"
+	line "va être super"
+	cont "furax!"
 
-	para "The FARFETCH'D"
-	line "that CUTS trees"
+	para "Le Canarticho qui"
+	line "Coupe des arbres"
 
-	para "for charcoal took"
-	line "off on me."
+	para "pour faire du"
+	line "charbon est parti."
 
-	para "I can't go looking"
-	line "for it here in the"
-	cont "ILEX FOREST."
+	para "Je peux pas le"
+	line "chercher dans le"
+	cont "Bois aux Chênes."
 
-	para "It's too big, dark"
-	line "and scary for me…"
+	para "Parce que..."
+	line "J'ai peur..."
 	done
 
 IlexForestApprenticeAfterText:
-	text "Wow! Thanks a"
-	line "whole bunch!"
+	text "Woah! Merci"
+	line "beaucoup!"
 
-	para "My boss's #MON"
-	line "won't obey me be-"
-	cont "cause I don't have"
-	cont "a BADGE."
+	para "Le #mon de mon"
+	line "chef n'obéit pas"
+	cont "parce que je n'ai"
+	cont "pas le bon Badge."
 	done
 
 Text_ItsTheMissingPokemon:
-	text "It's the missing"
-	line "#MON!"
+	text "C'est le #mon"
+	line "perdu!"
 	done
 
 Text_Kwaaaa:
-	text "FARFETCH'D: Kwaa!"
+	text "Canarticho: Kwaa!"
 	done
 
 Text_CharcoalMasterIntro:
-	text "Ah! My FARFETCH'D!"
+	text "Ah! Canarticho!"
 
-	para "You found it for"
-	line "us, kid?"
+	para "Tu nous l'as"
+	line "retrouvé?"
 
-	para "Without it, we"
-	line "wouldn't be able"
+	para "Sans lui, on ne"
+	line "peut pas Couper"
 
-	para "to CUT trees for"
-	line "charcoal."
+	para "les arbres pour"
+	line "faire du charbon."
 
-	para "Thanks, kid!"
+	para "Merci!"
 
-	para "Now, how can I"
-	line "thank you…"
+	para "Bon. Comment te"
+	line "remercier..."
 
-	para "I know! Here, take"
-	line "this."
+	para "Je sais!"
+	line "Prends ceci."
 	done
 
 Text_CharcoalMasterOutro:
-	text "That's the CUT HM."
-	line "Teach that to a"
+	text "C'est la CS Coupe."
+	line "Apprends-la à un"
 
-	para "#MON to clear"
-	line "small trees."
+	para "#mon pour cou-"
+	line "per les buissons."
 
-	para "Of course, you"
-	line "have to have the"
+	para "Il te faut le"
+	line "Badge de l'Arène"
 
-	para "GYM BADGE from"
-	line "AZALEA to use it."
+	para "d'Ecorcia pour"
+	line "l'utiliser."
 	done
 
 Text_CharcoalMasterTalkAfter:
-	text "Do you want to"
-	line "apprentice as a"
+	text "Veux-tu devenir"
+	line "pro du charbon"
+	cont "comme moi?"
 
-	para "charcoal maker"
-	line "with me?"
-
-	para "You'll be first-"
-	line "rate in ten years!"
+	para "Tu verras, c'est"
+	line "cool!"
 	done
 
 Text_HeadbuttIntro:
-	text "What am I doing?"
+	text "Ce que je fais?"
 
-	para "I'm shaking trees"
-	line "using HEADBUTT."
+	para "Je secoue les"
+	line "arbres avec le"
+	cont "Coup d'Boule."
 
-	para "It's fun. Here,"
-	line "you try it too!"
+	para "C'est marrant."
+	line "Tiens, essaie!"
 	done
 
 Text_HeadbuttOutro:
-	text "Rattle trees with"
-	line "HEADBUTT. Some-"
-	cont "times, sleeping"
-	cont "#MON fall out."
+	text "Cogne les arbres"
+	line "avec un Coup"
+	cont "s'Boule et des"
+	cont "#mon Endormis"
+	cont "tomberont parfois."
 	done
 
 Text_IlexForestLass:
-	text "Did something"
-	line "happen to the"
-	cont "forest's guardian?"
+	text "Est-il arrivé"
+	line "quelque chose au"
+	cont "gardien de la"
+	cont "forêt?"
 	done
 
 IlexForestSignpostText:
-	text "ILEX FOREST is"
-	line "so overgrown with"
+	text "Le Bois aux Chênes"
+	line "est si dense que"
 
-	para "trees that you"
-	line "can't see the sky."
+	para "les feuilles ca-"
+	line "chent le ciel."
 
-	para "Please watch out"
-	line "for items that may"
-	cont "have been dropped."
+	para "Faites attention"
+	line "aux objets laissés"
+	cont "sur le sol."
 	done
 
 Text_IlexForestShrine:
-	text "ILEX FOREST"
-	line "SHRINE…"
+	text "Autel du"
+	line "Bois aux Chênes..."
 
-	para "It's in honor of"
-	line "the forest's"
-	cont "protector…"
+	para "En l'honneur du"
+	line "protecteur de la"
+	cont "forêt..."
 	done
 
 Text_ShrineCelebiEvent:
-	text "ILEX FOREST"
-	line "SHRINE…"
+	text "Autel du"
+	line "Bois aux Chênes..."
 
-	para "It's in honor of"
-	line "the forest's"
-	cont "protector…"
+	para "C'est en l'honneur"
+	line "du gardien de la"
+	cont "forêt..."
 
-	para "Oh? What is this?"
+	para "Oh? C'est quoi ça?"
 
-	para "It's a hole."
-	line "It looks like the"
+	para "Il y a un trou."
+	line "On dirait que la"
 
-	para "GS BALL would fit"
-	line "inside it."
+	para "GS Ball peut y"
+	line "entrer."
 
-	para "Want to put the GS"
-	line "BALL here?"
+	para "Déposer la"
+	line "GS Ball?"
 	done
 
 Text_InsertGSBall:
-	text "<PLAYER> put in the"
-	line "GS BALL."
+	text "<PLAYER> dépose"
+	line "la GS Ball."
 	done
 
 Text_KurtCaughtCelebi:
-	text "Whew, wasn't that"
-	line "something!"
+	text "Alors ça!"
 
-	para "<PLAYER>, that was"
-	line "fantastic. Thanks!"
+	para "<PLAYER>, c'était"
+	line "génial. Merci!"
 
-	para "The legends about"
-	line "that SHRINE were"
-	cont "real after all."
+	para "Les légendes sur"
+	line "cet Autel étaient"
+	cont "donc vraies."
 
-	para "I feel inspired by"
-	line "what I just saw."
+	para "Tout ceci est"
+	line "fantastique."
 
-	para "It motivates me to"
-	line "make better BALLS!"
+	para "Je vais faire de"
+	line "meilleures Balls!"
 
-	para "I'm going!"
+	para "Au revoir!"
 	done
 
 BugCatcherWayneSeenText:
-	text "Don't sneak up on"
-	line "me like that!"
+	text "Ah! Tu m'as fait"
+	line "peur!"
 
-	para "You frightened a"
-	line "#MON away!"
+	para "Tu as fait fuir"
+	line "un #mon!"
 	done
 
 BugCatcherWayneBeatenText:
-	text "I hadn't seen that"
-	line "#MON before…"
+	text "Je n'avais encore"
+	line "jamais vu ce"
+	cont "#mon..."
 	done
 
 BugCatcherWayneAfterBattleText:
-	text "A #MON I've"
-	line "never seen before"
+	text "Un #mon que je"
+	line "n'avais jamais vu"
 
-	para "fell out of the"
-	line "tree when I used"
-	cont "HEADBUTT."
+	para "est tombé d'un"
+	line "arbre après avoir"
+	cont "utilisé Coup"
+	cont "s'Boule."
 
-	para "I ought to use"
-	line "HEADBUTT in other"
-	cont "places too."
+	para "Je devrais faire"
+	line "ça plus souvent."
 	done
 
 IlexForest_MapEvents:

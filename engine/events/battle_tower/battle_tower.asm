@@ -216,7 +216,7 @@ ReadBTTrainerParty:
 	ret
 
 BT_ChrisName:
-	db "CHRIS@"
+	db "Chris@"
 
 INCLUDE "data/battle_tower/unknown_levels.asm"
 
@@ -519,7 +519,9 @@ endr
 	ret
 
 String_MysteryJP:
-	db "なぞナゾ@@" ; MYSTERY
+	;db "なぞナゾ@@" ; MYSTERY
+; localization: mind above remark
+	db "Bizar@@@"
 
 BattleTowerAction_0F:
 	ldh a, [rSVBK]

@@ -18,7 +18,7 @@ DEF MG_OKAY           EQU ~MG_NOT_OKAY
 DEF MG_START_END      EQU %11111111
 
 DEF REGION_PREFIX EQU $96
-DEF REGION_CODE   EQU $90 ; USA
+DEF REGION_CODE   EQU $9a
 
 DEF MESSAGE_PREFIX EQU $5a
 
@@ -165,11 +165,10 @@ endc
 	ret
 
 .String_PressAToLink_BToCancel:
-	db   "Press A to"
-	next "link IR-Device"
-	next "Press B to"
-	next "cancel it."
-	db   "@"
+	db   "Appuyer sur A"
+	next "pour lien IR."
+	next "Appuyer sur B"
+	next "pour annuler.@"
 
 .MysteryGiftCanceledText:
 	text_far _MysteryGiftCanceledText

@@ -165,99 +165,97 @@ OlivineLighthouseJasmineLeavesRightMovement:
 	step_end
 
 JasmineCianwoodPharmacyText:
-	text "JASMINE: … This"
-	line "#MON always"
+	text "Jasmine: ... Ce"
+	line "#mon gardait la"
 
-	para "kept the sea lit"
-	line "at night."
+	para "mer éclairée toute"
+	line "la nuit."
 
-	para "…But it suddenly"
-	line "got sick… It's"
-	cont "gasping for air…"
+	para "...Mais il est"
+	line "tombé malade... Il"
+	cont "manque d'air..."
 
-	para "…I understand"
-	line "that there is a"
+	para "On dit qu'il y a"
+	line "une bonne Pharma-"
+	cont "cie à Irisia..."
 
-	para "wonderful PHARMACY"
-	line "in CIANWOOD…"
+	para "Mais c'est à l'au-"
+	line "tre bout des mers!"
 
-	para "But that's across"
-	line "the sea…"
-
-	para "And I can't leave"
-	line "AMPHY unattended…"
+	para "Et je dois m'occu-"
+	line "per de Phary..."
 	done
 
 JasmineGetSomeMedicineText:
-	text "…May I ask you to"
-	line "get some medicine"
-	cont "for me? Please?"
+	text "...Peux-tu aller"
+	line "chercher des médi-"
+	cont "caments? Pitié?"
 	done
 
 JasmineCureAmphyText:
-	text "JASMINE: …Will"
-	line "that medicine cure"
-	cont "AMPHY?"
+	text "Jasmine: ...Ce mé-"
+	line "dicament va-t-il"
+	cont "soigner Phary?"
 	done
 
 PlayerHandedSecretpotionText:
-	text "<PLAYER> handed the"
-	line "SECRETPOTION to"
-	cont "JASMINE."
+	text "<PLAYER> donne"
+	line "la PotionSecret à"
+	cont "Jasmine."
 	done
 
 JasmineDontBeOffendedText:
-	text "JASMINE: …Um,"
-	line "please don't be"
-	cont "offended…"
+	text "Jasmine: Heu..."
+	line "Le prends pas mal"
+	cont "mais..."
 
-	para "…AMPHY will not"
-	line "take anything from"
-	cont "anyone but me…"
+	para "Phary n'accepte"
+	line "que ce que JE lui"
+	cont "donne..."
 	done
 
 JasmineAmphyHowAreYouFeelingText:
-	text "JASMINE: …"
+	text "Jasmine: ..."
 
-	para "AMPHY, how are you"
-	line "feeling?"
+	para "Phary, comment te"
+	line "sens-tu?"
 	done
 
 JasmineThankYouText:
-	text "JASMINE: …Oh, I'm"
-	line "so relieved…"
+	text "Jasmine: Oh, je"
+	line "suis si soulagée!"
 
-	para "This is just so"
-	line "wonderful…"
+	para "C'est... C'est"
+	line "fantastique..."
 
-	para "Thank you so very,"
-	line "very much."
+	para "Merci beaucoup,"
+	line "mon poussin."
 
-	para "…I will return to"
-	line "the GYM…"
+	para "Je vais retourner"
+	line "à l'Arène..."
 	done
 
 JasmineISeeText:
-	text "JASMINE: …I see…"
+	text "Jasmine: Je vois."
 	done
 
 JasmineAmphyHangOnText:
-	text "…AMPHY, hang on!"
+	text "Courage, Phary!"
 	done
 
 AmphyPalPalooText:
-	text "AMPHY: …"
-	line "…Pa… paloo…"
+	text "Phary: ..."
+	line "...Pha! Phaaa..."
 	done
 
 AmphyBreathingLaboredText:
-	text "Its breathing is"
-	line "terribly labored…"
+	text "Il respire avec"
+	line "difficulté..."
 	done
 
 AmphyPaluPaluluText:
-	text "AMPHY: Palu!"
-	line "Palulu!"
+	text "Phary: Phapha!"
+	line "Phaaaaaa!"
 	done
 
 OlivineLighthouse6F_MapEvents:

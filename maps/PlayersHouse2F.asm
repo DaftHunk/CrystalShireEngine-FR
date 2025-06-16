@@ -209,23 +209,24 @@ PlayersHousePCScript:
 	end
 
 PlayersRadioText1:
-	text "PROF.OAK'S #MON"
-	line "TALK! Please tune"
-	cont "in next time!"
+	text "La Chronique <PKMN>"
+	line "du Prof.Chen!"
+	cont "Ecoutez-nous la"
+	cont "prochaine fois!"
 	done
 
 PlayersRadioText2:
-	text "#MON CHANNEL!"
+	text "Antenne #mon!"
 	done
 
 PlayersRadioText3:
-	text "This is DJ MARY,"
-	line "your co-host!"
+	text "Ici DJ Lula, la"
+	line "co-présentatrice!"
 	done
 
 PlayersRadioText4:
-	text "#MON!"
-	line "#MON CHANNEL…"
+	text "#mon!"
+	line "Antenne #mon..."
 	done
 
 PlayersHouse2F_MapEvents:

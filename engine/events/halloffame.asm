@@ -125,7 +125,7 @@ AnimateHallOfFame:
 	ret
 
 .String_NewHallOfFamer:
-	db "New Hall of Famer!@"
+	db "Nouv.Célébrité!@"
 
 GetHallOfFameParty:
 	ld hl, wHallOfFamePokemonList
@@ -382,7 +382,7 @@ _HallOfFamePC:
 	ld de, .TimeFamer
 	hlcoord 1, 2
 	rst PlaceString
-	hlcoord 2, 2
+	hlcoord 8, 2
 	ld de, wHallOfFameTempWinCount
 	lb bc, 1, 3
 	call PrintNum
@@ -405,10 +405,10 @@ _HallOfFamePC:
 	db "@"
 
 .HOFMaster:
-	db "    HOF Master!@"
+	db "Maître Célébrité!@"
 
 .TimeFamer:
-	db "    -Time Famer@"
+	db "Célèbre   fois@"
 
 LoadHOFTeam:
 	ld a, [wJumptableIndex]
@@ -527,12 +527,12 @@ DisplayHOFMon:
 
 .print_id_no
 	hlcoord 7, 16
-	ld a, "<ID>"
-	ld [hli], a
 	ld a, "№"
 	ld [hli], a
-	ld [hl], "/"
-	hlcoord 10, 16
+	ld a, "."
+	ld [hli], a
+	ld [hl], "<ID>"
+	hlcoord 11, 16
 	ld de, wTempMonID
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 5
 	jmp PrintNum
@@ -617,4 +617,4 @@ HOF_AnimatePlayerPic:
 	farjp ProfOaksPCRating
 
 .PlayTime:
-	db "PLAY TIME@"
+	db "Temps Jeu@"

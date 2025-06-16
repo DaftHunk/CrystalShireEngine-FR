@@ -367,7 +367,7 @@ TMHM_DisplayPocketItems:
 	push af
 	sub NUM_TMS
 	ld [wTempTMHM], a
-	ld a, "H"
+	ld a, "S"
 	ld [hli], a
 	ld de, wTempTMHM
 	lb bc, PRINTNUM_LEFTALIGN | 1, 2
@@ -434,7 +434,7 @@ TMHMPocket_GetCurrentLineCoord:
 	ret
 
 TMHM_CancelString:
-	db "CANCEL@"
+	db "Retour@"
 
 TMHM_GetCurrentPocketPosition:
 	ld hl, wTMsHMs

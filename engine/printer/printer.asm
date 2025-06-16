@@ -485,7 +485,7 @@ PlacePrinterStatusString:
 	ret
 
 String_PressBToCancel:
-	db "Press B to Cancel@"
+	db " B pour annuler@"
 
 PrinterStatusStringPointers:
 	dw GBPrinterString_Null ; @

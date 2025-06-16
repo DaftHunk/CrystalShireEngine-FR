@@ -19,22 +19,22 @@ BlackthornDragonSpeechHouseDratiniScript:
 	end
 
 BlackthornDragonSpeechHouseGrannyText:
-	text "A clan of trainers"
-	line "who can freely"
+	text "Un clan de dres-"
+	line "seurs commandant"
 
-	para "command dragons"
-	line "live right here in"
-	cont "BLACKTHORN."
+	para "les dragons vit"
+	line "ici à Ebenelle."
 
-	para "As a result, there"
-	line "are many legends"
+	para "C'est pour cela"
+	line "qu'il y a beaucoup"
 
-	para "about dragons in"
-	line "this town."
+	para "de légendes sur"
+	line "les dragons dans"
+	cont "cette ville."
 	done
 
 BlackthornDragonSpeechHouseDratiniText:
-	text "DRATINI: Draa!"
+	text "Minidraco: Draa!"
 	done
 
 BlackthornDragonSpeechHouse_MapEvents:

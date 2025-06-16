@@ -1665,9 +1665,9 @@ HandleScreens:
 	jmp CopyName2
 
 .Your:
-	db "Your@"
+	db "votre@"
 .Enemy:
-	db "Enemy@"
+	db "ennemi@"
 
 .LightScreenTick:
 	ld a, [de]
@@ -5520,9 +5520,9 @@ MoveInfoBox:
 	predef_jump PrintMoveType
 
 .Disabled:
-	db "Disabled!@"
+	db "Non Disp.@"
 .Type:
-	db "TYPE/@"
+	db "Type/@"
 
 .PrintPP:
 	hlcoord 5, 11
@@ -8238,7 +8238,7 @@ DisplayLinkBattleResult:
 	farcall StubbedTrainerRankings_ColosseumLosses
 	ld de, .YouLose
 .store_result
-	hlcoord 6, 8
+	hlcoord 3, 8
 	rst PlaceString
 	farcall BackupGSBallFlag
 	ld c, 200
@@ -8256,11 +8256,13 @@ DisplayLinkBattleResult:
 	jmp ClearTilemap
 
 .YouWin:
-	db "YOU WIN@"
+	db "    Gagne     @"
 .YouLose:
-	db "YOU LOSE@"
+	db "    Perdu     @"
 .Draw:
-	db "  DRAW@"
+	db "  Match Nul   @"
+.InvalidBattle:
+	db "Cbt Non Conforme@"
 
 _DisplayLinkRecord:
 	ld a, BANK(sLinkBattleStats)
@@ -8403,11 +8405,11 @@ ReadAndPrintLinkBattleRecord:
 	db "  ---  <LF>"
 	db "         -    -    -@"
 .Record:
-	db "<PLAYER>'s RECORD@"
+	db "Record de <PLAYER>@"
 .Result:
-	db "RESULT WIN LOSE DRAW@"
+	db "Res Gagne Perdu Nul@"
 .Total:
-	db "TOTAL  WIN LOSE DRAW@"
+	db "Tot Gagne Perdu Nul@"
 
 BattleEnd_HandleRoamMons:
 	ld a, [wBattleType]

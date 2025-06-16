@@ -129,217 +129,201 @@ WiseTriosRoomSageAllowsPassageMovement:
 	step_end
 
 WiseTriosRoomSage1Text:
-	text "Astounding…"
+	text "Dingue..."
 
-	para "SUICUNE, ENTEI and"
-	line "RAIKOU have arisen"
-	cont "from their sleep…"
+	para "Suicune, Entei et"
+	line "Raikou se sont"
+	cont "réveillés..."
 
-	para "Is the legend"
-	line "coming true?"
+	para "La légende est-"
+	line "elle vraie?"
 	done
 
 WiseTriosRoomSage2Text:
-	text "We train at the"
-	line "BURNED TOWER, but"
+	text "On s'entraîne à la"
+	line "Tour Cendrée mais"
 
-	para "we've never heard"
-	line "of a hole opening"
+	para "on n'a jamais vu"
+	line "de trou s'ouvrir"
 
-	para "up there before."
-	line "It must have been"
+	para "jusqu'à présent."
+	line "Quelqu'un doit en"
 
-	para "deliberately made"
-	line "by someone."
+	para "être le"
+	line "responsable."
 	done
 
 WiseTriosRoomSage3BlocksExitText:
-	text "TIN TOWER may be"
-	line "entered by those"
+	text "La Tour Ferraille"
+	line "est accessible aux"
 
-	para "bearing ECRUTEAK's"
-	line "GYM BADGE."
+	para "porteurs du Badge"
+	line "de Rosalia."
 
-	para "However, now that"
-	line "SUICUNE, RAIKOU"
+	para "Toutefois, depuis"
+	line "le réveil de"
+	cont "Suicune, Raikou"
 
-	para "and ENTEI have"
-	line "arisen, I ask you"
-
-	para "to refrain from"
-	line "entering!"
+	para "et d'Entei, je ne"
+	line "peux pas vous"
+	cont "laisser entrer!"
 	done
 
 WiseTriosRoomSage3Text:
-	text "We, the WISE TRIO,"
-	line "are the protectors"
+	text "Nous, le Trio des"
+	line "Sages, sommes les"
 
-	para "of the legendary"
-	line "#MON."
+	para "gardiens des #-"
+	line "mon légendaires."
 	done
 
 SageGakuSeenText:
-	text "Legend has it that"
-	line "upon the emergence"
+	text "La légende dit"
+	line "que la venue d'un"
 
-	para "of a trainer who"
-	line "has the ability to"
+	para "dresseur pouvant"
+	line "toucher l'âme des"
 
-	para "touch the souls of"
-	line "#MON, a #MON"
+	para "#mon, un"
+	line "#mon viendra"
 
-	para "will come forth to"
-	line "put that trainer"
+	para "mettre ce dresseur"
+	line "à l'épreuve dans"
+	cont "la Tour Ferraille."
 
-	para "to test at the TIN"
-	line "TOWER."
+	para "La légende s'est"
+	line "réalisée!"
 
-	para "The legend has"
-	line "come true!"
+	para "Le #mon"
+	line "légendaire Suicune"
+	cont "est arrivé!"
 
-	para "The legendary"
-	line "#MON SUICUNE"
-	cont "has arrived!"
-
-	para "We, the WISE TRIO,"
-	line "shall test your"
-
-	para "worthiness to go"
-	line "inside!"
+	para "Nous, le Trio des"
+	line "Sages, te mettons"
+	cont "au défi d'entrer!"
 	done
 
 SageGakuBeatenText:
-	text "Stronger than we"
-	line "thought? Perhaps…"
+	text "Trop de puissance!"
 	done
 
 SageGakuAfterBattleText:
-	text "Ah, so it is you"
-	line "who claim to have"
+	text "Tu prétends donc"
+	line "avoir vu Suicune,"
+	cont "Entei et Raikou"
+	cont "Endormis?"
 
-	para "seen SUICUNE,"
-	line "ENTEI and RAIKOU"
-	cont "while they slept?"
+	para "Incroyable!"
 
-	para "Unbelievable!"
-
-	para "Legend has it that"
-	line "they can't be seen"
-	cont "while they sleep…"
+	para "La légende dit"
+	line "bien qu'on ne peut"
+	cont "pas les voir"
+	cont "dormir..."
 	done
 
 SageMasaSeenText:
-	text "Can you be trusted"
-	line "with the truth?"
+	text "Doit-on te faire"
+	line "confiance?"
 
-	para "I must ascertain"
-	line "your worthiness."
+	para "Je dois te mettre"
+	line "à l'épreuve."
 	done
 
 SageMasaBeatenText:
-	text "…I will tell you"
-	line "the truth…"
+	text "...Je dirai la"
+	line "vérité..."
 	done
 
 SageMasaAfterBattleText:
-	text "In the past, there"
-	line "were two nine-tier"
-	cont "towers here."
+	text "Il y a longtemps,"
+	line "il y avait deux"
+	cont "tours ici."
 
-	para "The BRASS TOWER,"
-	line "which was said to"
+	para "La Tour de Cuivre,"
+	line "qui pouvait éveil-"
 
-	para "awaken #MON,"
-	line "and the TIN TOWER,"
+	para "ler les #mon,"
+	line "et la Tour Fer-"
 
-	para "where #MON were"
-	line "said to rest."
+	para "raille, où les"
+	line "#mon se"
+	cont "reposaient."
 
-	para "The view from the"
-	line "tops of the TOWERS"
+	para "La vue depuis le"
+	line "sommet des Tours"
 
-	para "must have been"
-	line "magnificent."
+	para "devait être"
+	line "magnifique."
 
-	para "At the time, an"
-	line "immense, silver-"
+	para "En ce temps-là, un"
+	line "immense #mon"
 
-	para "colored #MON"
-	line "was said to make"
+	para "argenté avait fait"
+	line "son nid en haut de"
+	cont "la Tour de Cuivre."
 
-	para "its roost atop the"
-	line "BRASS TOWER."
+	para "Toutefois..."
 
-	para "However…"
+	para "Il y a 150 ans,"
+	line "un éclair frappa"
+	cont "l'une des Tours."
 
-	para "About 150 years"
-	line "ago, a lightning"
+	para "Elle prit feu et"
+	line "brûla pendant"
+	cont "trois jours."
 
-	para "bolt struck one of"
-	line "the TOWERS."
+	para "Et puis une pluie"
+	line "violente eut"
+	cont "raison du brasier."
 
-	para "It was engulfed in"
-	line "flames that raged"
-	cont "for three days."
-
-	para "A sudden downpour"
-	line "finally put out"
-	cont "the blaze."
-
-	para "And that is how"
-	line "the BURNED TOWER"
-	cont "came to be."
+	para "Voici comment la"
+	line "Tour Cendrée est"
+	cont "née."
 	done
 
 SageKojiSeenText:
-	text "Let me see your"
-	line "power!"
+	text "Montre-moi ta"
+	line "force!"
 	done
 
 SageKojiBeatenText:
-	text "Too strong!"
-	line "Why?"
+	text "Trop de puissance!"
+	line "Pourquoi?"
 	done
 
 SageKojiAfterBattleQuestionText:
-	text "You… Are you the"
-	line "trainer who is"
-
-	para "awaited by the"
-	line "legendary #MON?"
+	text "Toi... Es-tu là"
+	line "pour les #mon"
+	cont "légendaires?"
 	done
 
 SageKojiAfterBattleSpeechText:
-	text "I see…"
+	text "Je vois..."
 
-	para "We, the WISE TRIO,"
-	line "have been given"
+	para "Nous, le Trio des"
+	line "Sages, avons le"
 
-	para "the responsibility"
-	line "of protecting the"
+	para "devoir de protéger"
+	line "les #mon légen-"
 
-	para "legendary #MON."
-	line "We are to allow"
+	para "daires. "
+	line "Nous ne laissons"
 
-	para "passage only to"
-	line "those people who"
+	para "passer que ceux"
+	line "au coeur pur."
 
-	para "possess the power"
-	line "and soul of truth."
+	para "Entre et découvre"
+	line "la Tour Ferraille."
 
-	para "Please, do go on"
-	line "and enter the TIN"
-	cont "TOWER ahead."
-
-	para "SUICUNE will put"
-	line "you to the test."
+	para "Suicune te mettra"
+	line "à l'épreuve."
 	done
 
 SageKojiAfterBattleFinalText:
-	text "Please, do go on."
+	text "Va."
 
-	para "SUICUNE will put"
-	line "you to the test."
+	para "Suicune te mettra"
+	line "à l'épreuve."
 	done
 
 WiseTriosRoom_MapEvents:

@@ -74,56 +74,52 @@ DayCareBookshelf:
 	jumpstd DifficultBookshelfScript
 
 Text_GrampsLookingForYou:
-	text "Gramps was looking"
+	text "Pépé te cherche."
 	line "for you."
 	done
 
 DayCareManText_GiveOddEgg:
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "Je suis le Type de"
+	line "la Pension."
 
-	para "Do you know about"
-	line "EGGS?"
+	para "Tu connais les"
+	line "Oeufs?"
 
-	para "I was raising"
-	line "#MON with my"
-	cont "wife, you see."
+	para "J'élevais des"
+	line "#mon avec ma"
+	cont "femme..."
 
-	para "We were shocked to"
-	line "find an EGG!"
+	para "Et puis on a trou-"
+	line "vé un Oeuf!"
 
-	para "How incredible is"
-	line "that?"
+	para "C'est pas trop"
+	line "dingue, ça?"
 
-	para "Well, wouldn't you"
-	line "like this EGG?"
-
-	para "Then fine, this is"
-	line "yours to keep!"
+	para "Bon. Tu le veux"
+	line "cet Oeuf?"
+	cont "Tu peux le garder!"
 	done
 
 DayCareText_GotOddEgg:
-	text "<PLAYER> received"
-	line "ODD EGG!"
+	text "<PLAYER> reçoit"
+	line "Oeuf Bizarre!"
 	done
 
 DayCareText_DescribeOddEgg:
-	text "I found that when"
-	line "I was caring for"
+	text "J'ai trouvé ça"
+	line "en m'occupant du"
 
-	para "someone's #MON"
-	line "before."
+	para "#mon de"
+	line "quelqu'un."
 
-	para "But the trainer"
-	line "didn't want the"
-
-	para "EGG, so I'd kept"
-	line "it around."
+	para "Mais le dresseur"
+	line "ne veut pas de"
+	cont "l'Oeuf..."
 	done
 
 DayCareText_PartyFull:
-	text "You've no room for"
-	line "this."
+	text "Tu n'as plus de"
+	line "place."
 	done
 
 DayCare_MapEvents:

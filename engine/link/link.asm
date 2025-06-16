@@ -16,12 +16,12 @@ LinkCommunications:
 	call LoadFontsBattleExtra
 	call LinkComms_LoadPleaseWaitTextboxBorderGFX
 	call WaitBGMap2
-	hlcoord 3, 8
+	hlcoord 4, 8
 	lb bc, 2, 12
 	ld d, h
 	ld e, l
 	farcall LinkTextbox2
-	hlcoord 4, 10
+	hlcoord 5, 10
 	ld de, String_PleaseWait
 	rst PlaceString
 	call SetTradeRoomBGPals
@@ -605,7 +605,7 @@ ExchangeBytes:
 	ret
 
 String_PleaseWait:
-	db "PLEASE WAIT!@"
+	db "Un moment…@"
 
 ClearLinkData:
 	ld hl, wLinkData
@@ -1921,7 +1921,7 @@ LinkTrade_TradeStatsMenu:
 	text_end
 
 .String_Stats_Trade:
-	db "STATS     TRADE@"
+	db "Stats     Echange@"
 
 .LinkAbnormalMonText:
 	text_far _LinkAbnormalMonText
@@ -2003,7 +2003,10 @@ LinkTradePlaceArrow:
 	hlcoord 6, 9
 	ld bc, SCREEN_WIDTH
 	rst AddNTimes
-	ld [hl], "▷"
+	ld [hl], $1f
+	ld bc, MON_NAME_LENGTH
+	add hl, bc
+	ld [hl], $1f
 	ret
 
 LinkEngine_FillBox:
@@ -2054,15 +2057,15 @@ LinkTrade:
 	bccoord 1, 14
 	call PrintTextboxTextAt
 	call LoadStandardMenuHeader
-	hlcoord 10, 7
-	lb bc, 3, 7
+	hlcoord 9, 7
+	lb bc, 3, 8
 	call LinkTextboxAtHL
 	ld de, String_TradeCancel
-	hlcoord 12, 8
+	hlcoord 11, 8
 	rst PlaceString
 	ld a, 8
 	ld [w2DMenuCursorInitY], a
-	ld a, 11
+	ld a, 10
 	ld [w2DMenuCursorInitX], a
 	ld a, 1
 	ld [w2DMenuNumCols], a
@@ -2394,19 +2397,19 @@ InitTradeMenuDisplay_Delay:
 	jmp InitTradeMenuDisplay
 
 String_TradeCancel:
-	db   "TRADE"
-	next "CANCEL@"
+	db   "Echange"
+	next "Annuler@"
 
 LinkAskTradeForText:
 	text_far _LinkAskTradeForText
 	text_end
 
 String_TradeCompleted:
-	db   "Trade completed!@"
+	db   "Echange Terminé!@"
 
 String_TooBadTheTradeWasCanceled:
-	db   "Too bad! The trade"
-	next "was canceled!@"
+	db   "Dommage! L'échange"
+	next "est annulé!@"
 
 LinkTextboxAtHL:
 	ld d, h

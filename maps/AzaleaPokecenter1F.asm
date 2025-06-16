@@ -26,40 +26,46 @@ AzaleaPokecenter1FPokefanFScript:
 	jumptextfaceplayer AzaleaPokecenter1FPokefanFText
 
 AzaleaPokecenter1FGentlemanText:
-	text "Do your #MON"
-	line "know HM moves?"
+	text "Est-ce que ton"
+	line "#mon connait"
+	cont "des CS?"
 
-	para "Those moves can"
-	line "be used even if"
+	para "Ces actions"
+	line "peuvent être réa-"
 
-	para "your #MON has"
-	line "fainted."
+	para "lisées même si le"
+	line "#mon est"
+	cont "évanoui."
 	done
 
 AzaleaPokecenter1FFishingGuruText:
-	text "BILL's PC can"
-	line "store up to 20"
-	cont "#MON per BOX."
+	text "Le PC de Léo peut"
+	line "garder jusqu'à 20"
+	cont "#mon par Boîte."
 	done
 
 AzaleaPokecenter1FPokefanFText:
-	text "Do you know about"
-	line "APRICORNS?"
+	text "Connais-tu les"
+	line "Noigrumes?"
 
-	para "Crack one open,"
-	line "hollow it out and"
+	para "Ouvres-en un,"
+	line "vide-le et"
 
-	para "fit it with a"
-	line "special device."
+	para "remplis-le avec un"
+	line "appareil spécial."
 
-	para "Then you can catch"
-	line "#MON with it."
+	para "Tu pourras alors"
+	line "t'en servir pour"
+	cont "attraper des"
+	cont "#mon."
 
-	para "Before # BALLS"
-	line "were invented,"
+	para "Avant que les"
+	line "# Balls ne"
 
-	para "everyone used"
-	line "APRICORNS."
+	para "soient inventées"
+	line "tout le monde"
+	cont "utilisait les"
+	cont "Noigrumes."
 	done
 
 AzaleaPokecenter1F_MapEvents:

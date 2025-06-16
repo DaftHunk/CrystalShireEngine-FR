@@ -700,7 +700,7 @@ DayCare_InitBreeding:
 	ret
 
 .String_EGG:
-	db "EGG@"
+	db "Oeuf@"
 
 Daycare_CheckAlternateOffspring:
 	; returns [wCurPartySpecies] in a, unless that species may give birth to an alternate species (e.g., gender variant)

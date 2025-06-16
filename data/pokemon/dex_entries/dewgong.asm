@@ -1,10 +1,11 @@
-	db "SEA LION@" ; species name
-	dw 507, 2650 ; height, weight
+	db "Otarie@" ; species name
+	db 17 ; height
+	dw 1200 ; weight
 
-	db   "It sleeps under"
-	next "shallow ocean"
-	next "waters during the"
+	db   "Il dort dans"
+	next "l'océan le jour et"
+	next "va chasser la nuit"
 
-	page "day, then looks"
-	next "for food at night"
-	next "when it's cold.@"
+	page "lorsqu'il fait"
+	next "bien froid."
+	next "@"

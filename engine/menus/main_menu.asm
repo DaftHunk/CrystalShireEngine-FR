@@ -52,10 +52,10 @@ MainMenu:
 
 .Strings:
 ; entries correspond to MAINMENUITEM_* constants
-	db "CONTINUE@"
-	db "NEW GAME@"
-	db "OPTION@"
-	db "MYSTERY GIFT@"
+	db "Continuer@"
+	db "Nouveau Jeu@"
+	db "Options@"
+	db "Cadeau Mystère@"
 .Jumptable:
 ; entries correspond to MAINMENUITEM_* constants
 	dw MainMenu_Continue
@@ -220,7 +220,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	jmp PlaceString
 
 .TimeNotSetString:
-	db "TIME NOT SET@"
+	db "Régler Horloge@"
 
 .PrintDayOfWeek:
 	push de
@@ -237,15 +237,15 @@ MainMenu_PrintCurrentTimeAndDay:
 	jmp PlaceString
 
 .Days:
-	db "SUN@"
-	db "MON@"
-	db "TUES@"
-	db "WEDNES@"
-	db "THURS@"
-	db "FRI@"
-	db "SATUR@"
+	db "Dimanche@"
+	db "Lundi@"
+	db "Mardi@"
+	db "Mercredi@"
+	db "Jeudi@"
+	db "Vendredi@"
+	db "Samedi@"
 .Day:
-	db "DAY@"
+	db "@"
 
 ClearTilemapEtc:
 	xor a

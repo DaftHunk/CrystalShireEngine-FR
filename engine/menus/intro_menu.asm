@@ -24,16 +24,16 @@ PrintDayOfWeek:
 	jmp PlaceString
 
 .Days:
-	db "SUN@"
-	db "MON@"
-	db "TUES@"
-	db "WEDNES@"
-	db "THURS@"
-	db "FRI@"
-	db "SATUR@"
+	db "Dimanche@"
+	db "Lundi@"
+	db "Mardi@"
+	db "Mercredi@"
+	db "Jeudi@"
+	db "Vendredi@"
+	db "Samedi@"
 
 .Day:
-	db "DAY@"
+	db "@"
 
 NewGame_ClearTilemapEtc:
 	xor a
@@ -222,15 +222,15 @@ endc
 
 InitializeMagikarpHouse:
 	ld hl, wBestMagikarpLengthFeet
-	ld a, $3
+	ld a, $4
 	ld [hli], a
-	ld a, $6
+	ld a, $1d
 	ld [hli], a
 	ld de, .Ralph
 	jmp CopyName2
 
 .Ralph:
-	db "RALPH@"
+	db "Lazare@"
 
 InitializeNPCNames:
 	ld hl, .Rival
@@ -253,9 +253,9 @@ InitializeNPCNames:
 	jmp CopyBytes
 
 .Rival:  db "???@"
-.Red:    db "RED@"
-.Green:  db "GREEN@"
-.Mom:    db "MOM@"
+.Red:    db "Red@"
+.Green:  db "Green@"
+.Mom:    db "Maman@"
 
 InitializeWorld:
 	call ShrinkPlayer
@@ -389,15 +389,15 @@ DisplaySaveInfoOnContinue:
 	call CheckRTCStatus
 	and RTC_RESET
 	jr z, .clock_ok
-	lb de, 4, 8
+	lb de, 2, 8
 	jr DisplayContinueDataWithRTCError
 
 .clock_ok
-	lb de, 4, 8
+	lb de, 2, 8
 	jr DisplayNormalContinueData
 
 DisplaySaveInfoOnSave:
-	lb de, 4, 0
+	lb de, 2, 0
 ; fallthrough
 DisplayNormalContinueData:
 	call Continue_LoadMenuHeader
@@ -429,46 +429,46 @@ Continue_LoadMenuHeader:
 
 .MenuHeader_Dex:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 15, 9
+	menu_coords 0, 0, 17, 9
 	dw .MenuData_Dex
 	db 1 ; default option
 
 .MenuData_Dex:
 	db 0 ; flags
 	db 4 ; items
-	db "PLAYER@"
-	db "BADGES@"
-	db "#DEX@"
-	db "TIME@"
+	db "Joueur@"
+	db "Badges@"
+	db "#dex@"
+	db "Durée Jeu@"
 
 .MenuHeader_NoDex:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 15, 9
+	menu_coords 0, 0, 17, 9
 	dw .MenuData_NoDex
 	db 1 ; default option
 
 .MenuData_NoDex:
 	db 0 ; flags
 	db 4 ; items
-	db "PLAYER <PLAYER>@"
-	db "BADGES@"
+	db "Joueur@"
+	db "Badges@"
 	db " @"
-	db "TIME@"
+	db "Durée Jeu@"
 
 Continue_DisplayBadgesDexPlayerName:
 	call MenuBoxCoord2Tile
 	push hl
-	decoord 13, 4, 0
+	decoord 15, 4, 0
 	add hl, de
 	call Continue_DisplayBadgeCount
 	pop hl
 	push hl
-	decoord 12, 6, 0
+	decoord 14, 6, 0
 	add hl, de
 	call Continue_DisplayPokedexNumCaught
 	pop hl
 	push hl
-	decoord 8, 2, 0
+	decoord 10, 2, 0
 	add hl, de
 	ld de, .Player
 	rst PlaceString
@@ -479,12 +479,12 @@ Continue_DisplayBadgesDexPlayerName:
 	db "<PLAYER>@"
 
 Continue_PrintGameTime:
-	decoord 9, 8, 0
+	decoord 11, 8, 0
 	add hl, de
 	jr Continue_DisplayGameTime
 
 Continue_UnknownGameTime:
-	decoord 9, 8, 0
+	decoord 11, 8, 0
 	add hl, de
 	ld de, .three_question_marks
 	jmp PlaceString
@@ -693,9 +693,9 @@ NamePlayer:
 	jmp InitName
 
 .Chris:
-	db "CHRIS@@@@@@"
+	db "Chris@@@@@@"
 .Kris:
-	db "KRIS@@@@@@@"
+	db "Christy@@@@"
 
 StorePlayerName:
 	ld a, "@"

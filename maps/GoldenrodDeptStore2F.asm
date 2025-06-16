@@ -40,41 +40,42 @@ GoldenrodDeptStore2FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore2FYoungsterText:
-	text "#GEAR can store"
-	line "up to ten phone"
-	cont "numbers."
+	text "Le #matos"
+	line "peut enregistrer"
+	cont "jusqu'à dix"
+	cont "numéros."
 
-	para "It's hard to de-"
-	line "cide which numbers"
-	cont "to keep."
+	para "C'est difficile de"
+	line "décider quel"
+	cont "numéro garder."
 	done
 
 GoldenrodDeptStore2FCooltrainerFText:
-	text "I got my ABRA at"
-	line "the GAME CORNER."
+	text "J'ai eu mon Abra"
+	line "au Casino."
 
-	para "Now it's my best"
-	line "partner."
+	para "Maintenant, c'est"
+	line "mon meilleur ami."
 	done
 
 GoldenrodDeptStore2FGentlemanText:
-	text "This DEPT.STORE"
-	line "makes me realize"
+	text "Ce Centre Commer-"
+	line "cial montre que"
 
-	para "that GOLDENROD is"
-	line "a big city."
+	para "Doublonville est"
+	line "une grande ville."
 
-	para "The selection here"
-	line "is unmatched any-"
-	cont "where else."
+	para "La marchandise est"
+	line "la meilleure de"
+	cont "la région."
 	done
 
 GoldenrodDeptStore2FDirectoryText:
-	text "Your Travel"
-	line "Companion"
+	text "Votre compagnon de"
+	line "voyage"
 
-	para "2F TRAINER'S"
-	line "   MARKET"
+	para "1er  Boutique"
+	line "     Dresseur"
 	done
 
 GoldenrodDeptStore2F_MapEvents:

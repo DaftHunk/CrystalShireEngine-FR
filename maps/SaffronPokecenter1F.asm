@@ -35,55 +35,54 @@ SaffronPokecenter1FYoungsterScript:
 	jumptextfaceplayer SaffronPokecenter1FYoungsterText
 
 SaffronPokecenter1FTeacherText:
-	text "What are JOHTO's"
-	line "#MON CENTERS"
-	cont "like?"
+	text "Comment sont les"
+	line "Centres #mon"
+	cont "de Johto?"
 
-	para "…Oh, I see. So"
-	line "they're not much"
+	para "...Je vois."
+	line "Ils sont comme"
+	cont "ceux de Kanto."
 
-	para "different from the"
-	line "ones in KANTO."
-
-	para "I can go to JOHTO"
-	line "without worrying,"
-	cont "then!"
+	para "Je peux aller à"
+	line "Johto sans crainte"
+	cont "dans ce cas!"
 	done
 
 SaffronPokecenter1FFisherText:
-	text "I just happened to"
-	line "come through ROCK"
+	text "Je viens de tra-"
+	line "verser la Grotte."
 
-	para "TUNNEL. There was"
-	line "some commotion at"
-	cont "the POWER PLANT."
+	para "Il y avait du gra-"
+	line "buge à la Centrale"
+	cont "je crois..."
 	done
 
 SaffronPokecenter1FFisherReturnedMachinePartText:
-	text "Caves collapse"
-	line "easily."
+	text "Les cavernes s'ef-"
+	line "fondrent facile-"
+	cont "ment."
 
-	para "Several caves have"
-	line "disappeared in the"
+	para "Plusieurs ont dis-"
+	line "paru au cours des"
 
-	para "past few years,"
-	line "like the one out-"
-	cont "side CERULEAN."
+	para "années. Tout comme"
+	line "celle près"
+	cont "d'Azuria."
 
-	para "As a pro HIKER,"
-	line "that's common"
-	cont "knowledge."
+	para "Et ouais. Seul un"
+	line "pro d'la montagne"
+	cont "sait tout ça."
 	done
 
 SaffronPokecenter1FYoungsterText:
-	text "SILPH CO.'s HEAD"
-	line "OFFICE and the"
+	text "Les Bureaux de la"
+	line "Sylphe SARL et la"
 
-	para "MAGNET TRAIN STA-"
-	line "TION--they're the"
+	para "Station du Train"
+	line "Magnet sont les"
 
-	para "places to see in"
-	line "SAFFRON."
+	para "choses à voir à"
+	line "Safrania."
 	done
 
 SaffronPokecenter1F_MapEvents:

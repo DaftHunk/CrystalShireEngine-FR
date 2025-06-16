@@ -28,24 +28,24 @@ CeladonDeptStore4FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 CeladonDeptStore4FSuperNerdText:
-	text "I'm here to buy"
-	line "SURF MAIL to send"
-	cont "to my girlfriend."
+	text "Je vais acheter"
+	line "une Letr.Surf pour"
+	cont "l'envoyer à ma"
+	cont "copine."
 	done
 
 CeladonDeptStore4FYoungsterText:
-	text "This is the only"
-	line "place where you"
-
-	para "can buy LOVELY"
-	line "MAIL."
+	text "On ne trouve des"
+	line "Letr.Charmant"
+	cont "qu'ici."
 	done
 
 CeladonDeptStore4FDirectoryText:
-	text "Express Yourself"
-	line "With Gifts!"
+	text "Offrir, c'est"
+	line "merveilleux!"
 
-	para "4F: WISEMAN GIFTS"
+	para "3ème: Cadeaux du"
+	line "      Sage"
 	done
 
 CeladonDeptStore4F_MapEvents:

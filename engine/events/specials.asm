@@ -76,7 +76,7 @@ NameRival:
 	jmp InitName
 
 .DefaultName:
-	db "SILVER@"
+	db "Argent@"
 
 NameRater:
 	farjp _NameRater

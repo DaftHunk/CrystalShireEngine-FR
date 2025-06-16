@@ -1,10 +1,11 @@
-	db "POISON PIN@" ; species name
-	dw 104, 150 ; height, weight
+	db "Vénépic@" ; species name
+	db 4 ; height
+	dw 70 ; weight
 
-	db   "Small and very"
-	next "docile, it pro-"
-	next "tects itself with"
+	db   "Petit et docile,"
+	next "il se protège avec"
+	next "sa minuscule corne"
 
-	page "its small, poison-"
-	next "ous horn when"
-	next "attacked.@"
+	page "Empoisonnée lors-"
+	next "qu'il est attaqué."
+	next "@"

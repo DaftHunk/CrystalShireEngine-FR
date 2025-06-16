@@ -182,51 +182,50 @@ StartMenu::
 	dw StartMenu_Pokegear, .PokegearString, .PokegearDesc
 	dw StartMenu_Quit,     .QuitString,     .QuitDesc
 
-.PokedexString:  db "#DEX@"
-.PartyString:    db "#MON@"
-.PackString:     db "PACK@"
+.PokedexString:  db "#dex@"
+.PartyString:    db "#mon@"
+.PackString:     db "Sac@"
 .StatusString:   db "<PLAYER>@"
-.SaveString:     db "SAVE@"
-.OptionString:   db "OPTION@"
-.ExitString:     db "EXIT@"
-.PokegearString: db "<POKE>GEAR@"
-.QuitString:     db "QUIT@"
+.SaveString:     db "Sauver@"
+.OptionString:   db "Options@"
+.ExitString:     db "Retour@"
+.PokegearString: db "<POKE>matos@"
+.QuitString:     db "Fermer@"
 
 .PokedexDesc:
-	db   "#MON"
-	next "database@"
+	db   "Index"
+	next "#mon@"
 
 .PartyDesc:
-	db   "Party <PKMN>"
-	next "status@"
+	db   "Statut"
+	next "Equipe <PKMN>@"
 
 .PackDesc:
-	db   "Contains"
-	next "items@"
+	db   "Contient"
+	next "objets@"
 
 .PokegearDesc:
-	db   "Trainer's"
-	next "key device@"
+	db   "Objets-clé"
+	next "dresseur@"
 
 .StatusDesc:
-	db   "Your own"
-	next "status@"
+	db   "Votre"
+	next "statut@"
 
 .SaveDesc:
-	db   "Save your"
-	next "progress@"
+	db   "Sauver la"
+	next "partie@"
 
 .OptionDesc:
-	db   "Change"
-	next "settings@"
+	db   "Changer"
+	next "paramètres@"
 
 .ExitDesc:
-	db   "Close this"
+	db   "Fermer ce"
 	next "menu@"
 
 .QuitDesc:
-	db   "Quit and"
-	next "be judged.@"
+	db   "Quitter@"
 
 .OpenMenu:
 	ld a, [wMenuSelection]

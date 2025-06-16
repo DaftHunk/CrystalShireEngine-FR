@@ -1,10 +1,11 @@
-	db "FLAME@" ; species name
-	dw 607, 1320 ; height, weight
+	db "Flamme@" ; species name
+	db 20 ; height
+	dw 600 ; weight
 
-	db   "Legendary bird"
-	next "#MON. It is"
-	next "said to migrate"
+	db   "#mon oiseau"
+	next "légendaire."
+	next "Il migre du"
 
-	page "from the south"
-	next "along with the"
-	next "spring.@"
+	page "sud au printemps."
+	next ""
+	next "@"

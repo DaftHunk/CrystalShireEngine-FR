@@ -239,7 +239,7 @@ TrainerCard_PrintTopHalfOfCard:
 	hlcoord 2, 4
 	ld de, .ID_No
 	call TrainerCardSetup_PlaceTilemapString
-	hlcoord 7, 2
+	hlcoord 2, 2
 	ld de, wPlayerName
 	rst PlaceString
 	hlcoord 5, 4
@@ -260,9 +260,9 @@ TrainerCard_PrintTopHalfOfCard:
 	predef_jump PlaceGraphic
 
 .Name_Money:
-	db   "NAME/"
+	db   ""
 	next ""
-	next "MONEY@"
+	next "Arg.@"
 
 .ID_No:
 	db $27, $28, -1 ; ID NO
@@ -303,11 +303,14 @@ TrainerCard_Page1_PrintDexCaught_GameTime:
 	jmp ClearBox
 
 .Dex_PlayTime:
-	db   "#DEX"
-	next "PLAY TIME@"
+	db   "#dex"
+	next "Durée Jeu@"
+
+.Unused: ; unreferenced
+	db "@"
 
 .Badges:
-	db "  BADGES▶@"
+	db "  Badges▶@"
 
 .StatusTilemap:
 	db $29, $2a, $2b, $2c, $2d, -1
