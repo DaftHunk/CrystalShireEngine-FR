@@ -72,7 +72,7 @@ WiltonHaventFoundAnythingText:
 
 WiltonNotBitingText:
 	text "Pfff..."
-	line "Ca mord plus."
+	line "Ça mord plus."
 
 	para "Pas comme vers"
 	line "@"

@@ -30,7 +30,7 @@ Route2NuggetHouseFisherText:
 	text "Hé! J'suis content"
 	line "de te voir."
 
-	para "Ca fait longtemps"
+	para "Ça fait longtemps"
 	line "qu'on ne m'a pas"
 	cont "rendu visite."
 

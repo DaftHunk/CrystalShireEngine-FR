@@ -25,7 +25,7 @@ ReenaNumberAcceptedText:
 	text "Ne te vante pas"
 	line "trop!"
 
-	para "Ca donne des"
+	para "Ça donne des"
 	line "boutons!"
 	done
 

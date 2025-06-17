@@ -230,7 +230,7 @@ SwimmermMathewAfterBattleText:
 	line "aux Tourb'Iles..."
 
 	para "Il y fait noir!"
-	line "Ca c'est sûr!"
+	line "Ça c'est sûr!"
 	done
 
 SwimmerfKayleeSeenText:
@@ -265,7 +265,7 @@ SwimmerfSusieBeatenText:
 	done
 
 SwimmerfSusieAfterBattleText:
-	text "Ca fait quel effet"
+	text "Ça fait quel effet"
 	line "de monter sur un"
 	cont "#mon?"
 	done
@@ -326,7 +326,7 @@ SwimmerfWendyAfterBattleText:
 	cont "temps."
 
 	para "C'est beau mais..."
-	line "Ca fait peur."
+	line "Ça fait peur."
 	done
 
 Route41_MapEvents:

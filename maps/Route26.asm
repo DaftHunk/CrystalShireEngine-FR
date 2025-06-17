@@ -341,7 +341,7 @@ CooltrainerfBeth1SeenText:
 	line "il combattait pour"
 	cont "sa vie..."
 
-	para "Ca me faisait de"
+	para "Ça me faisait de"
 	line "la peine pour ses"
 	cont "#mon."
 	done
@@ -392,7 +392,7 @@ FisherScottSeenText:
 
 FisherScottBeatenText:
 	text "Heu..."
-	line "Ca compte pas!"
+	line "Ça compte pas!"
 	done
 
 FisherScottAfterBattleText:

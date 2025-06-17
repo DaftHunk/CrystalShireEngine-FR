@@ -156,7 +156,7 @@ ViridianGymGuideWinText:
 	text "Fiiou! Alors toi,"
 	line "t'es cool!"
 
-	para "Ca c'était du"
+	para "Ça c'était du"
 	line "combat!"
 
 	para "J'en ai les larmes"

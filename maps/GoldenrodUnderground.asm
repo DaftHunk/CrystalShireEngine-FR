@@ -494,7 +494,7 @@ PokemaniacDonaldSeenText:
 
 PokemaniacDonaldBeatenText:
 	text "Graah! Perdu!"
-	line "Ca craint!"
+	line "Ça craint!"
 	done
 
 PokemaniacDonaldAfterBattleText:
@@ -553,7 +553,7 @@ GoldenrodUndergroundOlderHaircutBrotherWatchItBecomeBeautifulText:
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherAllDoneText:
-	text "Ca y est! Fini!"
+	text "Ça y est! Fini!"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherThatsAShameText:

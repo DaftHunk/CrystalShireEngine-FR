@@ -473,7 +473,7 @@ Route36NationalParkGateOfficer1AskToParticipateText:
 	text "On est @"
 	text_ram wStringBuffer3
 	text "."
-	line "Ca veut dire que"
+	line "Ça veut dire que"
 
 	para "le Concours de"
 	line "Capture d'Insecte"

@@ -213,7 +213,7 @@ SaffronCityLass2Text:
 	line "notre ville à la"
 	cont "radio."
 
-	para "Ca fait plaisir."
+	para "Ça fait plaisir."
 	line "C'est pas tous les"
 	cont "jours."
 	done

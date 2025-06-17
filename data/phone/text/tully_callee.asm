@@ -59,9 +59,9 @@ TullyGreetNiteText:
 	done
 
 TullyGenericText:
-	text "Ca va ton"
+	text "Ça va ton"
 	line "p'tit voyage?"
 
 	para "Moi la pêche..."
-	line "Ca marche!"
+	line "Ça marche!"
 	done

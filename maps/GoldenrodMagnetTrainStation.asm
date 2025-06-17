@@ -112,7 +112,7 @@ GoldenrodMagnetTrainStationOfficerTheTrainHasntComeInText:
 	cont "passagers sur mon"
 	cont "dos!"
 
-	para "Ca ne marchera"
+	para "Ça ne marchera"
 	line "pas!"
 	done
 

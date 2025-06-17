@@ -911,16 +911,16 @@ ButItFailedText:
 	prompt
 
 ItFailedText:
-	text "Ca ne marche pas!"
+	text "Ça ne marche pas!"
 	prompt
 
 DidntAffect1Text:
-	text "Ca n'affecte pas"
+	text "Ça n'affecte pas"
 	line "<TARGET>!"
 	prompt
 
 DidntAffect2Text:
-	text "Ca n'affecte pas"
+	text "Ça n'affecte pas"
 	line "<TARGET>!"
 	prompt
 

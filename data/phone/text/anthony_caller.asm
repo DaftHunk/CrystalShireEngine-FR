@@ -49,7 +49,7 @@ AnthonyLostAMonText:
 
 	para "faut pas les"
 	line "regarder..."
-	cont "Ca fait trop mal!"
+	cont "Ça fait trop mal!"
 	done
 
 AnthonyBattleRematchText:

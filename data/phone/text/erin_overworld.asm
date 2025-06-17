@@ -57,7 +57,7 @@ ErinPackFullText:
 ErinRematchGiftText:
 	text "Encore perdu?!"
 
-	para "Ca fait combien de"
+	para "Ça fait combien de"
 	line "fois maintenant?"
 
 	para "En tout cas, merci"

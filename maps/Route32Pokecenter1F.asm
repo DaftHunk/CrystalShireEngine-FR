@@ -80,7 +80,7 @@ Route32Pokecenter1FFishingGuruText_No:
 
 Route32Pokecenter1FFishingGuruText_After:
 	text "Yo."
-	line "Ca mord?"
+	line "Ça mord?"
 	done
 
 Route32Pokecenter1FCooltrainerFText:

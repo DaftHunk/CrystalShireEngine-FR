@@ -188,7 +188,7 @@ MahoganyTownGrampsText_ClearedRocketHideout:
 	line "revenus au Lac"
 	cont "Colère."
 
-	para "Ca devrait faire"
+	para "Ça devrait faire"
 	line "plaisir aux"
 	cont "pêcheurs du coin."
 	done

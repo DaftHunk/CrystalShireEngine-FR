@@ -100,7 +100,7 @@ SproutTower1FStatueText:
 	text "Une statue de"
 	line "#mon..."
 
-	para "Ca a l'air cher"
+	para "Ça a l'air cher"
 	line "et raffiné."
 	done
 

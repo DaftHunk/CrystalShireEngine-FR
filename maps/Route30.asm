@@ -402,7 +402,7 @@ YoungsterJoeyText_GiveHPUpAfterBattle:
 	line "Je dois te donner"
 	cont "ça."
 
-	para "Ca améliore quel-"
+	para "Ça améliore quel-"
 	line "que chose..."
 
 	para "Me demande pas"

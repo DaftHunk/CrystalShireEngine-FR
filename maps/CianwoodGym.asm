@@ -176,7 +176,7 @@ ChuckIntroText3:
 	cont "fort?"
 
 	para "De quoi?"
-	line "Ca n'a rien à voir"
+	line "Ça n'a rien à voir"
 
 	para "avec les #mon?"
 	line "Je sais!"
@@ -221,7 +221,7 @@ ChuckExplainBadgeText:
 ChuckExplainTMText:
 	text "C'est Dynamopoing."
 
-	para "Ca ne touche pas"
+	para "Ça ne touche pas"
 	line "toujours mais"
 
 	para "lorsque le coup"

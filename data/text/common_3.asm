@@ -633,7 +633,7 @@ _MartSellPriceText::
 	text_decimal hMoneyTemp, 3, 6
 	text "¥."
 
-	para "Ca te va?"
+	para "Ça te va?"
 	done
 
 _MartWelcomeText::
@@ -1352,7 +1352,7 @@ _SentTrophyHomeText::
 	prompt
 
 _ItemLooksBitterText::
-	text "Ca a l'air amer..."
+	text "Ça a l'air amer..."
 	prompt
 
 _ItemCantUseOnEggText::
@@ -1368,12 +1368,12 @@ _ItemOakWarningText::
 	prompt
 
 _ItemBelongsToSomeoneElseText::
-	text "Ca appartient à"
+	text "Ça appartient à"
 	line "quelqu'un d'autre!"
 	prompt
 
 _ItemWontHaveEffectText::
-	text "Ca n'a aucun"
+	text "Ça n'a aucun"
 	line "effet."
 	prompt
 

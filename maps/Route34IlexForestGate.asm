@@ -91,7 +91,7 @@ Route34IlexForestGateTeacherText:
 	text "Oh! Tu fais"
 	line "un #dex?"
 
-	para "Ca doit être dur"
+	para "Ça doit être dur"
 	line "quand les #mon"
 
 	para "ne veulent pas"
@@ -132,7 +132,7 @@ Route34IlexForestGateLassText:
 	line "depuis la nuit des"
 	cont "temps."
 
-	para "Ca doit être"
+	para "Ça doit être"
 	line "un #mon de"
 	cont "type Plante."
 	done

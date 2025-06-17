@@ -232,7 +232,7 @@ ChucksWifeChubbyText:
 	cont "doit donc encore"
 	cont "s'entraîner!"
 
-	para "Ca tombe bien!"
+	para "Ça tombe bien!"
 	line "Il est un peu gros"
 	cont "en ce moment."
 	done

@@ -41,7 +41,7 @@ RalphLostAMonText:
 	done
 
 RalphBattleRematchText:
-	text "Ca te dit un"
+	text "Ça te dit un"
 	line "combat contre moi?"
 
 	para "Bien!"

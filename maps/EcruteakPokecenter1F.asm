@@ -187,7 +187,7 @@ EcruteakPokecenter1FGymGuideText:
 	para "Là où le Léviator"
 	line "apparaît..."
 
-	para "Ca sent l'em-"
+	para "Ça sent l'em-"
 	line "brouille. Je sais!"
 	done
 

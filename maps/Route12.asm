@@ -86,7 +86,7 @@ FisherMartinAfterBattleText:
 	done
 
 FisherStephenSeenText:
-	text "Ca c'est le pied!"
+	text "Ça c'est le pied!"
 	line "Pêcher en écoutant"
 	cont "la radio, c'est"
 	cont "super pépère."

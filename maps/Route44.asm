@@ -464,7 +464,7 @@ CooltrainermAllenAfterBattleText:
 CooltrainerfCybilSeenText:
 	text "T'as l'air fort."
 
-	para "Ca te dirait un"
+	para "Ça te dirait un"
 	line "p'tit challenge?"
 	done
 

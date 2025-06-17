@@ -41,7 +41,7 @@ ToddGreetDayText:
 	text "."
 
 	para "<PLAY_G>?"
-	line "Ca va?"
+	line "Ça va?"
 	done
 
 ToddGreetNiteText:

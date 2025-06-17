@@ -357,7 +357,7 @@ _LookGiantDecoText::
 
 _MomHiHowAreYouText::
 	text "Salut, <PLAYER>!"
-	line "Ca va bien?"
+	line "Ça va bien?"
 	prompt
 
 _MomFoundAnItemText::
@@ -372,7 +372,7 @@ _MomBoughtWithYourMoneyText::
 
 _MomItsInPCText::
 	text "C'est dans ton PC."
-	line "Ca va te plaire!"
+	line "Ça va te plaire!"
 	done
 
 _MomFoundADollText::

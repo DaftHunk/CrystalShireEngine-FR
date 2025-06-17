@@ -96,7 +96,7 @@ BugCatcherRobAfterBattleText:
 	done
 
 BugCatcherEdSeenText:
-	text "Ca pique pas de se"
+	text "Ça pique pas de se"
 	line "balader en short"
 
 	para "dans les hautes"

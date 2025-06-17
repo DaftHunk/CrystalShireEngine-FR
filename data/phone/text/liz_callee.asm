@@ -13,7 +13,7 @@ LizAnswerPhoneDayText:
 	line "à l'appareil."
 
 	para "Oh, <PLAY_G>."
-	line "Ca va?"
+	line "Ça va?"
 	done
 
 LizAnswerPhoneNiteText:
@@ -42,7 +42,7 @@ LizGreetDayText:
 	para "C'est @"
 	text_ram wStringBuffer3
 	text "."
-	line "Ca va bien?"
+	line "Ça va bien?"
 	done
 
 LizGreetNiteText:

@@ -245,7 +245,7 @@ SantosGaveGiftText:
 	line "type Spectre"
 	cont "sont plus fortes."
 
-	para "Ca va t'effrayer,"
+	para "Ça va t'effrayer,"
 	line "tu verras..."
 	done
 

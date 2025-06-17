@@ -50,7 +50,7 @@ CelebrityText1:
 
 	para "En échange je te"
 	line "donne ceci."
-	cont "Ca marche?"
+	cont "Ça marche?"
 	done
 
 CelebrityText2:

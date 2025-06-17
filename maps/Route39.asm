@@ -188,7 +188,7 @@ SailorEugeneSeenText:
 	text "Je reviens de"
 	line "Oliville."
 
-	para "Ca te dit un p'tit"
+	para "Ça te dit un p'tit"
 	line "combat #mon?"
 	done
 

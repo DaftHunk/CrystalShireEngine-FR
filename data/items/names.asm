@@ -132,10 +132,10 @@ ItemNames::
 	li "TERU-SAMA"    ; 0082
 	li "TERU-SAMA"    ; 0083
 	li "CendreSacrée" ; 0084
-	li "Letr Fleur"   ; 0085
+	li "Letr.Fleur"   ; 0085
 	li "TERU-SAMA"    ; 0086
 	li "BalleLumière" ; 0087
-	li "Coffre Nml"   ; 0088
+	li "Coffre Nml."   ; 0088
 	li "Coffre Luxe"  ; 0089
 	li "PierreSoleil" ; 008A
 	li "Ruban à Pois" ; 008B
@@ -146,15 +146,15 @@ ItemNames::
 	li "TERU-SAMA"    ; 0090
 	li "TERU-SAMA"    ; 0091
 	li "Morc. Brique" ; 0092
-	li "Letr Surf"    ; 0093
-	li "LetrBleuCiel" ; 0094
-	li "LetrPortrait" ; 0095
-	li "LetrCharm."   ; 0096
-	li "Letr Evoli"   ; 0097
-	li "Letr Morph"   ; 0098
-	li "LetrCielBleu" ; 0099
-	li "Letr Musique" ; 009A
-	li "Letr Mirage"  ; 009B
+	li "Letr.Surf"    ; 0093
+	li "Letr.BleCiel" ; 0094
+	li "Letr.Portrai" ; 0095
+	li "Letr.Charm."   ; 0096
+	li "Letr.Evoli"   ; 0097
+	li "Letr.Morph"   ; 0098
+	li "Letr.CielBle" ; 0099
+	li "Letr.Musique" ; 009A
+	li "Letr.Mirage"  ; 009B
 	li "TERU-SAMA"    ; 009C
 	li "TERU-SAMA"    ; 009D
 	li "TERU-SAMA"    ; 009E

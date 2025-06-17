@@ -279,7 +279,7 @@ LancesRoomMaryOhNoOakText:
 
 LancesRoomOakCongratulationsText:
 	text "Chen: Ah, <PLAY_G>!"
-	line "Ca faisait bien"
+	line "Ça faisait bien"
 	cont "longtemps."
 
 	para "Tu as changé, ma"

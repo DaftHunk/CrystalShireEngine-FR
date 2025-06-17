@@ -3,7 +3,7 @@ MomPhoneGreetingText:
 
 	para "Oh, salut,"
 	line "<PLAYER>!"
-	cont "Ca bosse dur?"
+	cont "Ça bosse dur?"
 	done
 
 MomPhoneLandmarkText:
@@ -62,7 +62,7 @@ MomOtherAreaText:
 	done
 
 MomDeterminedText:
-	text "Ca a l'air vrai-"
+	text "Ça a l'air vrai-"
 	line "ment coriace."
 
 	para "Mais <PLAYER>, je"

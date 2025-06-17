@@ -267,7 +267,7 @@ CeladonGameCornerLighterText:
 CeladonGameCornerSodaCanText:
 	text "Une boîte de soda!"
 
-	para "Ca doit être à"
+	para "Ça doit être à"
 	line "quelqu'un..."
 
 	para "Hein? C'est vide!"

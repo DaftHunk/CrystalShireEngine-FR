@@ -181,7 +181,7 @@ PokemaniacEthanAfterBattleText:
 	done
 
 HikerNolandSeenText:
-	text "Ca va?"
+	text "Ça va?"
 	line "Alors...COMBAT!"
 	done
 

@@ -43,7 +43,7 @@ OfferGoodRodText:
 	line "mer... C'est"
 	cont "qu'on peut pêcher!"
 
-	para "Ca fait 30 ans que"
+	para "Ça fait 30 ans que"
 	line "je pêche ici mon"
 	cont "bouchon."
 
@@ -82,7 +82,7 @@ DontWantGoodRodText:
 HaveGoodRodText:
 	text "Comment vont les"
 	line "affaires..."
-	cont "Ca roule?"
+	cont "Ça roule?"
 	done
 
 OlivineGoodRodHouse_MapEvents:

@@ -242,7 +242,7 @@ Route25MistyDateText:
 	para "toi? Tu nous as"
 	line "dérangés!"
 
-	para "Ca se voyait pas"
+	para "Ça se voyait pas"
 	line "que j'avais un"
 	cont "rencard?"
 
@@ -290,7 +290,7 @@ SchoolboyDudleyAfterBattleText:
 
 LassEllenSeenText:
 	text "J'suis en deuz."
-	line "Ca va barder!"
+	line "Ça va barder!"
 	done
 
 LassEllenBeatenText:
@@ -347,7 +347,7 @@ CamperLloydAfterBattleText:
 LassShannonSeenText:
 	text "Dernier rempart!"
 	line "Autant te dire..."
-	cont "Ca va être dur!"
+	cont "Ça va être dur!"
 	done
 
 LassShannonBeatenText:
@@ -400,7 +400,7 @@ CooltrainermKevinSeenText:
 	para "voudrais tenter ma"
 	line "chance."
 
-	para "Ca te dit?"
+	para "Ça te dit?"
 	line "Alors c'est parti."
 	done
 

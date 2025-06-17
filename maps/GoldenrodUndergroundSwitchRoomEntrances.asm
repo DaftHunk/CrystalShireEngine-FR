@@ -684,7 +684,7 @@ UndergroundRivalBeforeText:
 	line "chance."
 
 	para "Mais cette fois..."
-	line "Ca va saigner!"
+	line "Ça va saigner!"
 	done
 
 UndergroundRivalWinText:

@@ -30,7 +30,7 @@ CianwoodPhotoStudioFishingGuruText_Question:
 	line "ils sont choux tes"
 	cont "#mon."
 
-	para "Ca te dirait une"
+	para "Ça te dirait une"
 	line "petite photo en"
 	cont "souvenir?"
 	done

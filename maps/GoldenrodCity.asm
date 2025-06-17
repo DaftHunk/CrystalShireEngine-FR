@@ -496,11 +496,11 @@ GoldenrodCityMoveTutorAskTeachAMoveText:
 	line "à tes #mon de"
 	cont "super capacités."
 
-	para "Ca t'intéresse?"
+	para "Ça t'intéresse?"
 	done
 
 GoldenrodCityMoveTutorAsk4000CoinsOkayText:
-	text "Ca te coûtera"
+	text "Ça te coûtera"
 	line "4000 Jetons. OK?"
 	done
 

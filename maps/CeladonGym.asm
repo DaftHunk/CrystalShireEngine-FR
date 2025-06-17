@@ -183,7 +183,7 @@ ErikaAfterBattleText:
 	done
 
 LassMichelleSeenText:
-	text "Ca t'étonne une"
+	text "Ça t'étonne une"
 	line "Arène remplie"
 	cont "de filles?"
 	done

@@ -971,10 +971,10 @@ BattleTowerRoomMenu2_UpdateYesNoMenu:
 	ret
 
 String_11a2cf:
-	db "YES@"
+	db "Oui@"
 
 String_11a2d3:
-	db "NO@"
+	db "Non@"
 
 MenuHeader_11a2de:
 	db MENU_BACKUP_TILES ; flags

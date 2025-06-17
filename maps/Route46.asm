@@ -188,7 +188,7 @@ CamperTedSeenText:
 	text "Moi aussi j'ai des"
 	line "#mon!"
 
-	para "Ca te dit un bon"
+	para "Ça te dit un bon"
 	line "combat?"
 	done
 

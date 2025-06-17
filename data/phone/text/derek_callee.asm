@@ -2,21 +2,21 @@ DerekAnswerPhoneText:
 	text "<PLAY_G>?"
 
 	para "Bonjour pika."
-	line "Ca va pika?"
+	line "Ça va pika?"
 	done
 
 DerekAnswerPhoneDayText:
 	text "<PLAY_G>?"
 
 	para "Bonjour pika."
-	line "Ca va pika?"
+	line "Ça va pika?"
 	done
 
 DerekAnswerPhoneNiteText:
 	text "<PLAY_G>?"
 
 	para "Bonsoir pika."
-	line "Ca va pika?"
+	line "Ça va pika?"
 	done
 
 DerekGreetText:

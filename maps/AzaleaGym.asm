@@ -352,7 +352,7 @@ AzaleaGymGuideText:
 	line "de #mon sont"
 	cont "vastes."
 
-	para "Ca risque d'être"
+	para "Ça risque d'être"
 	line "difficile sans mes"
 	cont "conseils."
 

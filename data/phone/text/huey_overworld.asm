@@ -10,7 +10,7 @@ HueyAskNumber1Text:
 	line "j'aurai fait des"
 
 	para "progrès..."
-	line "Ca marche?"
+	line "Ça marche?"
 	done
 
 HueyAskNumber2Text:
@@ -21,7 +21,7 @@ HueyAskNumber2Text:
 	line "j'aurai fait des"
 
 	para "progrès..."
-	line "Ca marche?"
+	line "Ça marche?"
 	done
 
 HueyNumberAcceptedText:

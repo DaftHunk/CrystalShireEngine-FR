@@ -32,7 +32,7 @@ GavenGreetText:
 	para "C'est @"
 	text_ram wStringBuffer3
 	text "."
-	line "Ca va?"
+	line "Ça va?"
 	done
 
 GavenGreetDayText:
@@ -42,7 +42,7 @@ GavenGreetDayText:
 	para "C'est @"
 	text_ram wStringBuffer3
 	text "."
-	line "Ca va?"
+	line "Ça va?"
 	done
 
 GavenGreetNiteText:
@@ -52,7 +52,7 @@ GavenGreetNiteText:
 	para "C'est @"
 	text_ram wStringBuffer3
 	text "."
-	line "Ca va?"
+	line "Ça va?"
 	done
 
 GavenGenericText:

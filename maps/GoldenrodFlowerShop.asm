@@ -82,7 +82,7 @@ GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
 	line "a absolument tenu"
 	cont "à aller le voir..."
 
-	para "Ca m'inquiète..."
+	para "Ça m'inquiète..."
 	line "N'est-ce pas"
 	cont "dangereux?"
 	done

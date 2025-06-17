@@ -397,7 +397,7 @@ FisherMarvinSeenText:
 	line "pas bon."
 
 	para "On va s'battre."
-	line "Ca va me détendre!"
+	line "Ça va me détendre!"
 	done
 
 FisherMarvinBeatenText:

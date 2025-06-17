@@ -195,7 +195,7 @@ WhitneyBeforeText:
 	line "super-super"
 	cont "mignons pas vrai?"
 
-	para "Ca te dirait de te"
+	para "Ça te dirait de te"
 	line "bastonner un peu?"
 	cont "Je préfère te"
 	cont "prévenir, je suis"

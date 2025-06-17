@@ -102,7 +102,7 @@ CooltrainermNickAfterBattleText:
 
 CooltrainerfGwenSeenText:
 	text "Je m'entraîne."
-	line "Ca te tente?"
+	line "Ça te tente?"
 	done
 
 CooltrainerfGwenBeatenText:

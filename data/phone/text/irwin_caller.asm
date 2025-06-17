@@ -159,7 +159,7 @@ IrwinMtSilverGossipText:
 	text "On parle de toi"
 	line "partout."
 
-	para "Ca me fait de la"
+	para "Ça me fait de la"
 	line "peine, <PLAY_G>."
 
 	para "Comment as-tu pu"
@@ -207,7 +207,7 @@ IrwinMarshBadgeGossipText:
 	para "Tu fais des"
 	line "ravages à Kanto!"
 
-	para "Ca doit être trop"
+	para "Ça doit être trop"
 	line "mortel!"
 
 	para "Je t'aime!"
@@ -231,7 +231,7 @@ IrwinGoodMatchText:
 	done
 
 IrwinSoMuchToChatAboutText:
-	text "Ca va?"
+	text "Ça va?"
 
 	para "Tu fais quoi?"
 
@@ -243,7 +243,7 @@ IrwinSoMuchToChatAboutText:
 	para "Tu as beaucoup"
 	line "d'argent?"
 
-	para "Ca va ta mère?"
+	para "Ça va ta mère?"
 
 	para "T'as beaucoup"
 	line "de #mon?"

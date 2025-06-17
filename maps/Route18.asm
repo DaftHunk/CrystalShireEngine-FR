@@ -45,7 +45,7 @@ BirdKeeperBorisBeatenText:
 	done
 
 BirdKeeperBorisAfterBattleText:
-	text "Ca te fait quoi"
+	text "Ça te fait quoi"
 	line "d'être balèze?"
 	cont "C'est sympa?"
 	done

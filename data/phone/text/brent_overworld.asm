@@ -2,8 +2,8 @@ BrentAskNumber1Text:
 	text "Au fait..."
 	line "T'es #maniac?"
 
-	para "Ca se voit."
-	line "Ca crève les yeux."
+	para "Ça se voit."
+	line "Ça crève les yeux."
 
 	para "Mais t'en sais pas"
 	line "assez!"

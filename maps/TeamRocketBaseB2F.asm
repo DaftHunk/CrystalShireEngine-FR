@@ -612,7 +612,7 @@ RocketBaseBossWinText:
 	text "Pfff. C'est vrai"
 	line "que t'es balèze."
 
-	para "Ca craint."
+	para "Ça craint."
 
 	para "Si tu venais à la"
 	line "Team Rocket, tu"

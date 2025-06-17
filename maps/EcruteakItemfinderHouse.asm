@@ -93,7 +93,7 @@ ItemfinderExplanationText:
 	line "par terre près de"
 	cont "toi."
 
-	para "Ca ne te montre"
+	para "Ça ne te montre"
 	line "pas l'endroit"
 
 	para "exact mais c'est"

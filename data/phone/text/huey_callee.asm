@@ -4,7 +4,7 @@ HueyAnswerPhoneText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "Ca boume,"
+	para "Ça boume,"
 	line "<PLAYER>?"
 	done
 
@@ -14,7 +14,7 @@ HueyAnswerPhoneDayText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "Ca boume,"
+	para "Ça boume,"
 	line "<PLAYER>?"
 	done
 
@@ -24,7 +24,7 @@ HueyAnswerPhoneNiteText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "Ca boume,"
+	para "Ça boume,"
 	line "<PLAYER>?"
 	done
 
@@ -35,7 +35,7 @@ HueyGreetText:
 	para "C'est @"
 	text_ram wStringBuffer3
 	text "!"
-	line "Ca va-t-y?"
+	line "Ça va-t-y?"
 	done
 
 HueyGreetDayText:
@@ -45,7 +45,7 @@ HueyGreetDayText:
 	para "C'est @"
 	text_ram wStringBuffer3
 	text "!"
-	line "Ca va-t-y?"
+	line "Ça va-t-y?"
 	done
 
 HueyGreetNiteText:
@@ -55,5 +55,5 @@ HueyGreetNiteText:
 	para "C'est @"
 	text_ram wStringBuffer3
 	text "!"
-	line "Ca va-t-y?"
+	line "Ça va-t-y?"
 	done

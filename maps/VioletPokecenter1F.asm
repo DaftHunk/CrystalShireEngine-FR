@@ -105,7 +105,7 @@ MovementData_AideFinishesLeavingPokecenter:
 
 VioletPokecenterElmsAideFavorText:
 	text "<PLAY_G>!"
-	line "Ca faisait long-"
+	line "Ça faisait long-"
 
 	para "temps. Le Prof."
 	line "Orme m'a demandé"
@@ -170,7 +170,7 @@ VioletPokecenter1FGameboyKidText:
 	done
 
 VioletPokecenter1FGentlemanText:
-	text "Ca fait plus ou"
+	text "Ça fait plus ou"
 	line "moins trois ans."
 
 	para "La Team Rocket"

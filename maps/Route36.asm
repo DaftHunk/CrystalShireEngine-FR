@@ -441,7 +441,7 @@ FloriaText1:
 	line "il s'est mis à"
 	cont "sauter!"
 
-	para "Ca doit être un"
+	para "Ça doit être un"
 	line "#mon."
 
 	para "Asperge-le à ton"

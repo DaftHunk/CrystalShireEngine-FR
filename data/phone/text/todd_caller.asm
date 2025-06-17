@@ -40,7 +40,7 @@ ToddBattleRematchText:
 	text "Tu as dû faire des"
 	line "progrès, non?"
 
-	para "Ca te dirait de me"
+	para "Ça te dirait de me"
 	line "montrer tout ça en"
 	cont "combat?"
 
@@ -55,7 +55,7 @@ ToddHangUpText:
 	done
 
 ToddDepartmentStoreBargainSaleText:
-	text "Ca y est!"
+	text "Ça y est!"
 	line "Enfin!"
 
 	para "Le Centre Commer-"

@@ -47,10 +47,10 @@ WadeLostAMonText:
 	done
 
 WadeBattleRematchText:
-	text "Ca te dit un"
+	text "Ça te dit un"
 	line "petit combat?"
 
-	para "Ca ne se passera"
+	para "Ça ne se passera"
 	line "pas comme la"
 	cont "dernière fois!"
 

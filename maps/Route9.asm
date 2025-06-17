@@ -133,7 +133,7 @@ CamperSidBeatenText:
 	done
 
 CamperSidAfterBattleText:
-	text "Ca va pour cette"
+	text "Ça va pour cette"
 	line "fois. Je te laisse"
 	cont "gagner. File!"
 	done

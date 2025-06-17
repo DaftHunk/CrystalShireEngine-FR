@@ -486,7 +486,7 @@ CooltrainerfKellyAfterBattleText:
 	line "attaques puissan-"
 	cont "tes."
 
-	para "Ca ne me fait pas"
+	para "Ça ne me fait pas"
 	line "plaisir de faire"
 	cont "mal aux #mon."
 	done

@@ -41,7 +41,7 @@ LizBattleRematchText:
 	line "temps libre?"
 
 	para "Moi, j'en ai trop."
-	line "Ca te dit un"
+	line "Ça te dit un"
 	cont "combat?"
 
 	para "J'attends vers"
@@ -55,7 +55,7 @@ LizBattleRematchText:
 
 LizWrongNumberText:
 	text "Allô Germaine?"
-	line "Ca va? C'est Liz."
+	line "Ça va? C'est Liz."
 
 	para "Qu'est-ce que tu"
 	line "deviens?"

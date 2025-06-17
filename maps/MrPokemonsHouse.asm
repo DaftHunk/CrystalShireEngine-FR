@@ -292,7 +292,7 @@ MrPokemonsHouse_OakText1:
 	para "On peut te faire"
 	line "confiance."
 
-	para "Ca te dirait de me"
+	para "Ça te dirait de me"
 	line "rendre service?"
 
 	para "Regarde ça: c'est"

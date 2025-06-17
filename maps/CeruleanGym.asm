@@ -298,7 +298,7 @@ SwimmerfDianaAfterBattleText:
 
 SwimmerfBrianaSeenText:
 	text "Je nage trop bien."
-	line "Ca t'énerve?"
+	line "Ça t'énerve?"
 	done
 
 SwimmerfBrianaBeatenText:

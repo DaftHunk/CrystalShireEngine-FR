@@ -89,7 +89,7 @@ CeladonDeptStore6FVendingMachine:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "Eau Fraiche  {d:CELADONDEPTSTORE6F_FRESH_WATER_PRICE}¥@"
+	db "Eau Fraîche  {d:CELADONDEPTSTORE6F_FRESH_WATER_PRICE}¥@"
 	db "Soda Cool    {d:CELADONDEPTSTORE6F_SODA_POP_PRICE}¥@"
 	db "Limonade     {d:CELADONDEPTSTORE6F_LEMONADE_PRICE}¥@"
 	db "Retour@"

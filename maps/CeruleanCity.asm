@@ -165,7 +165,7 @@ CeruleanCityCooltrainerMText2:
 	line "tous les #mon"
 	cont "différents?"
 
-	para "Ca doit pas être"
+	para "Ça doit pas être"
 	line "super facile..."
 	cont "Mais ça doit être"
 	cont "rigolo, non?"

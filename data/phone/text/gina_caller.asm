@@ -25,12 +25,12 @@ GinaLostAMonText:
 	text_ram wStringBuffer4
 	text "."
 
-	para "Ca devient un peu"
+	para "Ça devient un peu"
 	line "agaçant..."
 	done
 
 GinaBattleRematchText:
-	text "Ca te dirait de"
+	text "Ça te dirait de"
 	line "t'entraîner avec"
 	cont "moi?"
 

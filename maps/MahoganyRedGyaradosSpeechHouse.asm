@@ -49,7 +49,7 @@ MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower:
 	text "J'ai entendu des"
 	line "rires à la radio."
 
-	para "Ca donne la chair"
+	para "Ça donne la chair"
 	line "de poule!"
 	done
 

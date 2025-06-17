@@ -114,7 +114,7 @@ FarmerMText_SickCow:
 	done
 
 FarmerMText_BuyMilk:
-	text "Ca te dit du bon"
+	text "Ça te dit du bon"
 	line "Lait Meumeu?"
 
 	para "C'est ma fierté et"

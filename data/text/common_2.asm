@@ -80,7 +80,7 @@ _NameRaterEggText::
 	done
 
 _NameRaterSameNameText::
-	text "Ca ressemble un"
+	text "Ça ressemble un"
 	line "peu à l'ancien..."
 
 	para "Mais c'est mieux"
@@ -476,7 +476,7 @@ _AskRockSmashText::
 
 _RodBiteText::
 	text "Oh!"
-	line "Ca mord!"
+	line "Ça mord!"
 	prompt
 
 _RodNothingText::

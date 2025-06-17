@@ -66,7 +66,7 @@ UnionCaveB1FBoulder:
 	jumpstd StrengthBoulderScript
 
 HikerPhillipSeenText:
-	text "Ca fait longtemps"
+	text "Ça fait longtemps"
 	line "que je n'ai pas eu"
 	cont "de compagnie."
 

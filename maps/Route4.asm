@@ -78,7 +78,7 @@ PicnickerHopeSeenText:
 	text "Je vais gagner,"
 	line "je le sens."
 
-	para "Ca va être ta fête"
+	para "Ça va être ta fête"
 	line "tu vas voir!"
 	done
 

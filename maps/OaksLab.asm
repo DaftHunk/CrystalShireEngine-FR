@@ -88,7 +88,7 @@ OakWelcomeKantoText:
 
 OakLabDexCheckText:
 	text "Et ton #dex?"
-	line "Ca avance?"
+	line "Ça avance?"
 
 	para "Voyons ça..."
 	done
@@ -233,7 +233,7 @@ OaksLabPCText:
 
 	para "Prof.Chen, comment"
 	line "ça va bien?"
-	cont "Ca bosse dur?"
+	cont "Ça bosse dur?"
 
 	para "Moi je bosse comme"
 	line "un barbare."

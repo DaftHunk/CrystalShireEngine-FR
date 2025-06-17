@@ -25,7 +25,7 @@ VermilionMartSuperNerdText:
 	line "n'est plus à"
 	cont "Kanto."
 
-	para "Ca pour une"
+	para "Ça pour une"
 	line "nouvelle..."
 	done
 

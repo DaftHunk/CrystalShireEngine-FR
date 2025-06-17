@@ -117,7 +117,7 @@ FirebreatherLyleAfterBattleText:
 	text "Le feu c'est nul"
 	line "sur l'eau, non?"
 
-	para "Ca change rien?"
+	para "Ça change rien?"
 	line "Vraiment?"
 	done
 

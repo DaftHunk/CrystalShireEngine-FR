@@ -273,7 +273,7 @@ LakeOfRageLanceIntroText:
 	para "On peut dire que"
 	line "tu as du talent."
 
-	para "Ca te dirait de"
+	para "Ça te dirait de"
 	line "me donner un coup"
 	cont "de main?"
 	done

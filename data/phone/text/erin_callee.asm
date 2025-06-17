@@ -43,7 +43,7 @@ ErinGreetDayText:
 	para "C'est @"
 	text_ram wStringBuffer3
 	text "!"
-	line "Ca bosse dur?"
+	line "Ça bosse dur?"
 	done
 
 ErinGreetNiteText:

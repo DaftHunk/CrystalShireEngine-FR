@@ -180,7 +180,7 @@ Binoculars2Text:
 	para "Un #mon crache"
 	line "des feuilles!"
 
-	para "Ca me donne envie"
+	para "Ça me donne envie"
 	line "de combattre!"
 	done
 

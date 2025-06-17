@@ -518,7 +518,7 @@ Movement_Route32CooltrainerMReset2:
 
 Route32CooltrainerMText_WhatsTheHurry:
 	text "Hop! Hop!"
-	line "Ca urge ou quoi?"
+	line "Ça urge ou quoi?"
 	done
 
 Route32CooltrainerMText_AideIsWaiting:

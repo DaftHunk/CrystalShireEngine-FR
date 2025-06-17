@@ -85,7 +85,7 @@ SwimmerfLoriAfterBattleText:
 	done
 
 SwimmermCameronSeenText:
-	text "Ca doit être"
+	text "Ça doit être"
 	line "impossible de"
 
 	para "nager jusqu'à"

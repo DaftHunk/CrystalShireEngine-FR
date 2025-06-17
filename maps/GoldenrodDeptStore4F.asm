@@ -74,7 +74,7 @@ GoldenrodDeptStore4FGameboyKidText:
 	done
 
 GoldenrodDeptStore4FDirectoryText:
-	text "Ca fait du bien"
+	text "Ça fait du bien"
 	line "par où ça passe!"
 
 	para "3ème Pharmacie"

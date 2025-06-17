@@ -200,7 +200,7 @@ GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
 	line "siiiii lourd!"
 
 	para "Oh! As-tu un truc"
-	line "du nom de Letr"
+	line "du nom de Letr."
 	cont "Evoli?"
 
 	para "Ma fille en veut"

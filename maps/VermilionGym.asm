@@ -242,7 +242,7 @@ VermilionGymGuideWinText:
 	text "Fouii! C'était une"
 	line "sacrée rencontre!"
 
-	para "Ca m'a tout"
+	para "Ça m'a tout"
 	line "retourné."
 	done
 

@@ -35,7 +35,7 @@ JackGreetText:
 	para "C'est @"
 	text_ram wStringBuffer3
 	text "."
-	line "Ca va bien?"
+	line "Ça va bien?"
 	done
 
 JackGreetDayText:
@@ -58,7 +58,7 @@ JackGreetNiteText:
 	done
 
 JackGenericText:
-	text "Ca va tes"
+	text "Ça va tes"
 	line "#mon?"
 
 	para "Mon @"

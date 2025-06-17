@@ -360,7 +360,7 @@ Text_Route31DescribeNightmare:
 	line "endormi."
 
 	para "Ooooh..."
-	line "Ca fait peur, non?"
+	line "Ça fait peur, non?"
 
 	para "Moi j'aime pas les"
 	line "cauchemars, alors."

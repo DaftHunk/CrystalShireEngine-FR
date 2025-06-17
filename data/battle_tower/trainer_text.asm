@@ -117,7 +117,7 @@ _BTWinM8Text:
 
 _BTGreetingM9Text:
 	text "C'est à moi."
-	line "Ca va être dur."
+	line "Ça va être dur."
 	done
 
 _BTLossM9Text:
@@ -179,7 +179,7 @@ _BTWinM12Text:
 	done
 
 _BTGreetingM13Text:
-	text "Ca va être ta fête"
+	text "Ça va être ta fête"
 	line "aujourd'hui."
 	done
 
@@ -405,11 +405,11 @@ _BTWinF2Text:
 	done
 
 _BTGreetingF3Text:
-	text "Ca va chauffer!"
+	text "Ça va chauffer!"
 	done
 
 _BTLossF3Text:
-	text "Ca va trop vite"
+	text "Ça va trop vite"
 	line "pour toi?"
 	done
 
@@ -429,7 +429,7 @@ _BTLossF4Text:
 	done
 
 _BTWinF4Text:
-	text "Ca va mieux?"
+	text "Ça va mieux?"
 	done
 
 _BTGreetingF5Text:

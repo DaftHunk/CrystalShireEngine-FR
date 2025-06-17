@@ -144,30 +144,29 @@
 	charmap "└",         $be
 	charmap "┘",         $bf
 
-	charmap "à",         $c0
-	charmap "è",         $c1
-	charmap "é",         $c2
-	charmap "ä",         $c3
-	charmap "ö",         $c4
-	charmap "ü",         $c5
-	charmap "ë",         $c6
-	charmap "ï",         $c7
-	charmap "â",         $c8
-	charmap "ô",         $c9
-	charmap "û",         $ca
-	charmap "ê",         $cb
-	charmap "î",         $cc
-	charmap "ù",         $cd
-	charmap "′",         $ce
-	charmap "″",         $cf
+	charmap "“",         $ca ; opening quote
+	charmap "”",         $cb ; closing quote
+	charmap "Ç",         $cc
+	charmap "ê",         $cd
+	charmap "î",         $ce
+	charmap "ù",         $cf
 
 	charmap "ç",         $d0
-	charmap "■",         $d7 ; gfx/font/black.2bpp
-	charmap "▲",         $d8 ; gfx/font/up_arrow.png
-	charmap "☎",        $d9 ; gfx/font/phone_icon.2bpp
+	charmap "à",         $d1
+	charmap "è",         $d2
+	charmap "é",         $d3
+	charmap "ä",         $d4
+	charmap "ö",         $d5
+	charmap "ü",         $d6
+	charmap "ë",         $d7
+	charmap "ï",         $d8
+	charmap "â",         $d9
+	charmap "ô",         $da
+	charmap "û",         $db
 
-	charmap "“",         $dd ; opening quote
-	charmap "”",         $de ; closing quote
+	charmap "■",         $dc ; gfx/font/black.2bpp
+	charmap "▲",         $dd ; gfx/font/up_arrow.png
+	charmap "☎",        $de ; gfx/font/phone_icon.2bpp
 	charmap "←",         $df
 
 	charmap "'",         $e0

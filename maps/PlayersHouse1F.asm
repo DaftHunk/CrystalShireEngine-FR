@@ -308,7 +308,7 @@ SoWhatWasProfElmsErrandText:
 
 	para "..."
 
-	para "Ca a l'air"
+	para "Ça a l'air"
 	line "difficile."
 
 	para "Mais c'est impor-"
@@ -380,7 +380,7 @@ PlayersHouse1FFridgeText:
 	line "qui se trame"
 	cont "dans le frigo..."
 
-	para "De l'Eau Fraiche"
+	para "De l'Eau Fraîche"
 	line "et de la bonne"
 	cont "Limonade!"
 	done
@@ -392,7 +392,7 @@ PlayersHouse1FTVText:
 	para "Boit Frais à"
 	line "Saint-Tropez..."
 
-	para "Ca a l'air trop"
+	para "Ça a l'air trop"
 	line "fort!"
 	done
 

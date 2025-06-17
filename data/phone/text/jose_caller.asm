@@ -5,7 +5,7 @@ JoseMonsStickHasADeliciousAromaText:
 	text_start
 	cont "sent super bon."
 
-	para "Ca me donne faim!"
+	para "Ça me donne faim!"
 	done
 
 JoseDefeatedMonText:

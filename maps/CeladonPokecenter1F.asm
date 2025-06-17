@@ -98,7 +98,7 @@ CeladonEusineText1:
 	line "dans ma ville"
 	cont "natale."
 
-	para "Ca faisait bien"
+	para "Ça faisait bien"
 	line "longtemps."
 	done
 

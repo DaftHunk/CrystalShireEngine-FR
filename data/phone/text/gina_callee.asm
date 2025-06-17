@@ -15,7 +15,7 @@ GinaAnswerPhoneDayText:
 	text "…"
 
 	para "Oh, <PLAY_G>!"
-	line "Ca va?"
+	line "Ça va?"
 	done
 
 GinaAnswerPhoneNiteText:

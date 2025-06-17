@@ -291,7 +291,7 @@ GruntF1BeatenText:
 GruntF1AfterBattleText:
 	text "Les Queues de"
 	line "Ramoloss?"
-	cont "Ca repousse vite!"
+	cont "Ça repousse vite!"
 
 	para "Alors on peut les"
 	line "vendre, non?"

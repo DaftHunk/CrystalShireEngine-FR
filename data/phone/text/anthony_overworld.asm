@@ -6,7 +6,7 @@ AnthonyAskNumber1Text:
 	line "chemins et dans"
 	cont "les grottes."
 
-	para "Ca m'arrive de"
+	para "Ça m'arrive de"
 	line "voir des #mon"
 	cont "rares."
 
@@ -50,7 +50,7 @@ AnthonyPhoneFullText:
 	done
 
 AnthonyRematchText:
-	text "Ca marche!"
+	text "Ça marche!"
 
 	para "Moi et mes #mon"
 	line "sommes prêts!"

@@ -65,7 +65,7 @@ WadeGenericText:
 	para "Mes #mon ont"
 	line "trop d'énergie."
 
-	para "Ca devient un"
+	para "Ça devient un"
 	line "sacré problème."
 
 	para "Parmi eux,"
@@ -74,6 +74,6 @@ WadeGenericText:
 	text " est"
 	cont "le plus coriace."
 
-	para "Ca commence à me"
+	para "Ça commence à me"
 	line "fatiguer."
 	done

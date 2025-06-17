@@ -36,7 +36,7 @@ VanceNumberDeclinedText:
 	line "fans des oiseaux,"
 	cont "c'est bien..."
 
-	para "Ca te tente?"
+	para "Ça te tente?"
 	done
 
 VancePhoneFullText:

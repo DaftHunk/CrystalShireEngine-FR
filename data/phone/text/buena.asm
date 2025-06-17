@@ -77,7 +77,7 @@ BuenaPhoneNiteText:
 BuenaPhoneRocketText:
 	text "Salut, <PLAY_G>!"
 
-	para "Ca va bien?"
+	para "Ça va bien?"
 
 	para "Ecoute..."
 	line "C'est important!"
@@ -170,7 +170,7 @@ BuenaPhoneStressedFromWorkText:
 	para "Hein? Combien je"
 	line "pèse?"
 
-	para "Ca se demande pas,"
+	para "Ça se demande pas,"
 	line "ça!"
 
 	para "Lula pèse..."
@@ -216,7 +216,7 @@ BuenaPhoneGotAColdText:
 	para "L'ébizion ba"
 	line "cobencer."
 
-	para "Ca va ma boix?"
+	para "Ça va ma boix?"
 
 	para "A blus dard!"
 	line "Z'édait Buena!"
@@ -316,7 +316,7 @@ BuenaPhoneWhenDoYouRelaxText:
 	line "studio après mon"
 
 	para "émission."
-	line "Ca me relaxe"
+	line "Ça me relaxe"
 	cont "complètement..."
 
 	para "<……> <……> <……>"
@@ -352,7 +352,7 @@ BuenaPhoneStarterPokemonText:
 	para "que Lula a attrapé"
 	line "est un Soporifik?"
 
-	para "Ca lui ressemble"
+	para "Ça lui ressemble"
 	line "vachement, non?"
 
 	para "Comme son #mon"

@@ -52,7 +52,7 @@ PharmacistGiveSecretpotionText:
 
 	para "J'ai pigé!"
 
-	para "Ca devrait faire"
+	para "Ça devrait faire"
 	line "l'affaire."
 	done
 

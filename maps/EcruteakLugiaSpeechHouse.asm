@@ -17,7 +17,7 @@ LugiaSpeechHouseRadio:
 	jumpstd Radio2Script
 
 EcruteakLugiaSpeechHouseGrampsText:
-	text "Ca s'est passé"
+	text "Ça s'est passé"
 	line "lorsque j'étais"
 	cont "jeune."
 

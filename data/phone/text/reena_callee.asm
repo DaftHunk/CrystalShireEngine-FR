@@ -5,7 +5,7 @@ ReenaAnswerPhoneText:
 	text "…"
 
 	para "Bonjour <PLAYER>."
-	line "Ca gaze?"
+	line "Ça gaze?"
 	done
 
 ReenaAnswerPhoneDayText:
@@ -15,7 +15,7 @@ ReenaAnswerPhoneDayText:
 	text "…"
 
 	para "Bonjour <PLAYER>."
-	line "Ca gaze?"
+	line "Ça gaze?"
 	done
 
 ReenaAnswerPhoneNiteText:
@@ -25,7 +25,7 @@ ReenaAnswerPhoneNiteText:
 	text "…"
 
 	para "Bonjour <PLAYER>."
-	line "Ca gaze?"
+	line "Ça gaze?"
 	done
 
 ReenaGreetText:

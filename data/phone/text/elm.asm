@@ -116,7 +116,7 @@ ElmPhoneDiscoveredPokerusText:
 	cont "qu'il infecte"
 	cont "d'autres #mon."
 
-	para "Ca n'a pas l'air"
+	para "Ça n'a pas l'air"
 	line "de faire quoi que"
 
 	para "ce soit, et ça"
@@ -176,7 +176,7 @@ ElmPhoneRadioTowerRocketTakeoverText:
 	line "peut-être de"
 	cont "retour."
 
-	para "Ca paraît dingue,"
+	para "Ça paraît dingue,"
 	line "quand même!"
 	done
 
@@ -194,7 +194,7 @@ ElmPhoneGiftText:
 
 ElmPhoneGotAholdOfSomethingNeatText:
 	text "<PLAY_G>?"
-	line "Ca va bien?"
+	line "Ça va bien?"
 
 	para "J'ai un truc"
 	line "terrible."

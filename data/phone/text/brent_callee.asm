@@ -30,7 +30,7 @@ BrentAnswerPhoneNiteText:
 
 BrentGreetText:
 	text "Salut, <PLAYER>."
-	line "Ca va bien?"
+	line "Ça va bien?"
 
 	para "C'est moi!"
 	line "@"
@@ -40,7 +40,7 @@ BrentGreetText:
 
 BrentGreetDayText:
 	text "Salut, <PLAYER>."
-	line "Ca va bien?"
+	line "Ça va bien?"
 
 	para "C'est moi!"
 	line "@"
@@ -50,7 +50,7 @@ BrentGreetDayText:
 
 BrentGreetNiteText:
 	text "Salut, <PLAYER>."
-	line "Ca va bien?"
+	line "Ça va bien?"
 
 	para "C'est moi!"
 	line "@"

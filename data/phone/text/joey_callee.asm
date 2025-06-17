@@ -4,7 +4,7 @@ JoeyAnswerPhoneText:
 	text "!"
 
 	para "Oh, <PLAYER>?"
-	line "Ca va?"
+	line "Ça va?"
 	done
 
 JoeyAnswerPhoneDayText:
@@ -13,7 +13,7 @@ JoeyAnswerPhoneDayText:
 	text "!"
 
 	para "Oh, <PLAYER>?"
-	line "Ca va?"
+	line "Ça va?"
 	done
 
 JoeyAnswerPhoneNiteText:
@@ -22,12 +22,12 @@ JoeyAnswerPhoneNiteText:
 	text "!"
 
 	para "Oh, <PLAYER>?"
-	line "Ca va?"
+	line "Ça va?"
 	done
 
 JoeyGreetText:
 	text "Yo, <PLAYER>!"
-	line "Ca boume?"
+	line "Ça boume?"
 
 	para "C'est @"
 	text_ram wStringBuffer3
@@ -37,7 +37,7 @@ JoeyGreetText:
 
 JoeyGreetDayText:
 	text "Yo, <PLAYER>!"
-	line "Ca boume?"
+	line "Ça boume?"
 
 	para "C'est @"
 	text_ram wStringBuffer3
@@ -47,7 +47,7 @@ JoeyGreetDayText:
 
 JoeyGreetNiteText:
 	text "Yo, <PLAYER>!"
-	line "Ca boume?"
+	line "Ça boume?"
 
 	para "C'est @"
 	text_ram wStringBuffer3
