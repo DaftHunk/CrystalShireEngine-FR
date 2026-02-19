@@ -6,7 +6,9 @@
 	charmap "<PLAY_G>",  $14 ; "<PLAYER>くん" or "<PLAYER>ちゃん"; same as "<PLAYER>" in English
 	charmap "<MOBILE>",  $15
 	charmap "<CR>",      $16
-	charmap "<BSP>",     $1f ; breakable space (usually " ", or "<LF>" on the Town Map)
+	charmap "<1D>",      $1d
+	charmap "<1E>",      $1e
+	charmap "<BSP>",     $1f ; soft linebreak
 	charmap "<LF>",      $22
 	charmap "<POKE>",    $24 ; "<PO><KE>"
 	charmap "<WBR>",     $25 ; word-break opportunity (usually skipped, or "<LF>" on the Town Map)
@@ -36,19 +38,38 @@
 	charmap "<ROCKET>",  $5e ; "ROCKET"
 	charmap "<DEXEND>",  $5f
 
+; Actual characters (from gfx/font/font_extra.png)
+
+	charmap "<BOLD_A>",  $60 ; unused
+	charmap "<BOLD_B>",  $61 ; unused
+	charmap "<BOLD_C>",  $62 ; unused
+	charmap "<BOLD_D>",  $63 ; unused
+	charmap "<BOLD_E>",  $64 ; unused
+	charmap "<BOLD_F>",  $65 ; unused
+	charmap "<BOLD_G>",  $66 ; unused
+	charmap "<BOLD_H>",  $67 ; unused
+	charmap "<BOLD_I>",  $68 ; unused
+	charmap "<BOLD_V>",  $69
+	charmap "<BOLD_S>",  $6a
+	charmap "<BOLD_L>",  $6b ; unused
+	charmap "<BOLD_M>",  $6c ; unused
+	charmap "<COLON>",   $6d ; colon with tinier dots than ":"
+	charmap "ぃ",        $6e ; hiragana small i, unused
+	charmap "ぅ",        $6f ; hiragana small u, unused
+	charmap "·",         $74 ; middle dot, unused
+	charmap "…",         $75 ; ellipsis
+	charmap " ",         $7f
+
 ; Actual characters (from gfx/font/font_battle_extra.png)
 
 	charmap "<LV>",      $6e
-
 	charmap "<DO>",      $70 ; hiragana small do, unused
 	charmap "◀",         $71
-	charmap "『",         $72 ; Japanese opening quote, unused
+	charmap "『",        $72 ; Japanese opening quote, unused
 	charmap "<ID>",      $73
 	charmap "№",         $74
 
 ; Actual characters (from other graphics files)
-
-	charmap " ",         $7f ; gfx/frames/space.png
 
 	; needed for StatsScreen_PlaceShinyIcon and PrintPartyMonPage1
 	charmap "⁂",         $3f ; gfx/stats/stats_tiles.png, tile 14
@@ -123,54 +144,54 @@
 	charmap "└",         $be
 	charmap "┘",         $bf
 
-	charmap "′",         $ce
-	charmap "″",         $cf
+	charmap "“",         $ca ; opening quote
+	charmap "”",         $cb ; closing quote
+	charmap "Ç",         $cc
+	charmap "ê",         $cd
+	charmap "î",         $ce
+	charmap "ù",         $cf
 
-	charmap "'d",        $d0
-	charmap "'l",        $d1
-	charmap "'m",        $d2
-	charmap "'r",        $d3
-	charmap "'s",        $d4
-	charmap "'t",        $d5
-	charmap "'v",        $d6
+	charmap "ç",         $d0
+	charmap "à",         $d1
+	charmap "è",         $d2
+	charmap "é",         $d3
+	charmap "ä",         $d4
+	charmap "ö",         $d5
+	charmap "ü",         $d6
+	charmap "ë",         $d7
+	charmap "ï",         $d8
+	charmap "â",         $d9
+	charmap "ô",         $da
+	charmap "û",         $db
 
-	charmap "■",         $d7
-	charmap "▲",         $d8
-	charmap "☎",        $d9
-	charmap "<BOLD_V>",  $da
-	charmap "<BOLD_S>",  $db
-	charmap "<COLON>",   $dc ; colon with tinier dots than ":"
-	charmap "“",         $dd ; opening quote
-	charmap "”",         $de ; closing quote
-
+	charmap "■",         $dc ; gfx/font/black.2bpp
+	charmap "▲",         $dd ; gfx/font/up_arrow.png
+	charmap "☎",        $de ; gfx/font/phone_icon.2bpp
 	charmap "←",         $df
+
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
 	charmap "<MN>",      $e2
 	charmap "-",         $e3
-
 	charmap "<PO>",      $e4
 	charmap "<KE>",      $e5
-
 	charmap "?",         $e6
 	charmap "!",         $e7
 	charmap ".",         $e8
-	charmap "<DOT>",     $e8 ; decimal point; same as "."
 	charmap "&",         $e9
-
-	charmap "é",         $ea
+	charmap "+",         $ea
 	charmap "→",         $eb
 	charmap "▷",         $ec
 	charmap "▶",         $ed
 	charmap "▼",         $ee
 	charmap "♂",         $ef
+
 	charmap "¥",         $f0 ; Poké Dollar sign
 	charmap "×",         $f1
-	charmap "…",         $f2 ; ellipsis
+	charmap "<DOT>",     $f2 ; decimal point; same as "." in English
 	charmap "/",         $f3
 	charmap ",",         $f4
 	charmap "♀",         $f5
-
 	charmap "0",         $f6
 	charmap "1",         $f7
 	charmap "2",         $f8

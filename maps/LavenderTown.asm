@@ -45,62 +45,62 @@ LavenderMartSignText:
 	jumpstd MartSignScript
 
 LavenderTownPokefanMText:
-	text "That's quite some"
-	line "building, eh?"
+	text "Quel bâtiment,"
+	line "hein?"
 
-	para "It's KANTO's RADIO"
-	line "TOWER."
+	para "C'est la Tour"
+	line "Radio de Kanto."
 	done
 
 LavenderTownTeacherText:
-	text "KANTO has many"
-	line "good radio shows."
+	text "Kanto a beaucoup"
+	line "d'émissions radio."
 	done
 
 LavenderTownGrampsText:
-	text "People come from"
-	line "all over to pay"
+	text "Les gens viennent"
+	line "de loin pour sa-"
 
-	para "their respects to"
-	line "the departed souls"
-	cont "of #MON."
+	para "luer le départ des"
+	line "âmes des pauvres"
+	cont "#mon."
 	done
 
 LavenderTownYoungsterText:
-	text "You need a #"
-	line "FLUTE to wake"
-	cont "sleeping #MON."
+	text "Il faut une #"
+	line "Flûte pour réveil-"
+	cont "ler un #mon."
 
-	para "Every trainer has"
-	line "to know that!"
+	para "Tout le monde sait"
+	line "ça, voyons!"
 	done
 
 LavenderTownSignText:
-	text "LAVENDER TOWN"
+	text "Lavanville"
 
-	para "The Noble Purple"
-	line "Town"
+	para "La ville d'un"
+	line "pourpre royal"
 	done
 
 KantoRadioStationSignText:
-	text "KANTO RADIO"
-	line "STATION"
+	text "Station de Radio"
+	line "de Kanto"
 
-	para "Your Favorite"
-	line "Programs On-Air"
-	cont "Around the Clock!"
+	para "Vos émissions"
+	line "favorites!"
 	done
 
 VolunteerPokemonHouseSignText:
-	text "LAVENDER VOLUNTEER"
-	line "#MON HOUSE"
+	text "Benevolat de"
+	line "Lavanville"
 	done
 
 SoulHouseSignText:
-	text "SOUL HOUSE"
+	text "Maison des Ames"
 
-	para "May the Souls of"
-	line "#MON Rest Easy"
+	para "Que les âmes des"
+	line "#mon reposent"
+	cont "en paix"
 	done
 
 LavenderTown_MapEvents:

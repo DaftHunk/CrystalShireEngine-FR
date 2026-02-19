@@ -152,10 +152,10 @@ GoldenrodGameCornerTMVendorMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "TM25    5500@"
-	db "TM14    5500@"
-	db "TM38    5500@"
-	db "CANCEL@"
+	db "CT25    5500@"
+	db "CT14    5500@"
+	db "CT38    5500@"
+	db "Retour@"
 
 GoldenrodGameCornerPrizeMonVendorScript:
 	faceplayer
@@ -238,10 +238,10 @@ GoldenrodGameCornerPrizeMonVendorScript:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "ABRA        100@"
-	db "CUBONE      800@"
-	db "WOBBUFFET  1500@"
-	db "CANCEL@"
+	db "Abra        100@"
+	db "Osselait    800@"
+	db "Qulbutoke  1500@"
+	db "Retour@"
 
 GoldenrodGameCornerPharmacistScript:
 	faceplayer
@@ -320,125 +320,134 @@ GoldenrodGameCornerCardFlipMachineScript:
 	end
 
 GoldenrodGameCornerPrizeVendorIntroText:
-	text "Welcome!"
+	text "Bienvenue!"
 
-	para "We exchange your"
-	line "game coins for"
-	cont "fabulous prizes!"
+	para "On échange les"
+	line "Jetons contre de"
+	cont "fabuleux prix!"
 	done
 
 GoldenrodGameCornerPrizeVendorWhichPrizeText:
-	text "Which prize would"
-	line "you like?"
+	text "Quel prix désires-"
+	line "tu?"
 	done
 
 GoldenrodGameCornerPrizeVendorConfirmPrizeText:
 	text_ram wStringBuffer3
 	text "."
-	line "Is that right?"
+	line "C'est bien ça?"
 	done
 
 GoldenrodGameCornerPrizeVendorHereYouGoText:
-	text "Here you go!"
+	text "Allez hop!"
 	done
 
 GoldenrodGameCornerPrizeVendorNeedMoreCoinsText:
-	text "Sorry! You need"
-	line "more coins."
+	text "Désolé! Il faut"
+	line "plus de Jetons."
 	done
 
 GoldenrodGameCornerPrizeVendorNoMoreRoomText:
-	text "Sorry. You can't"
-	line "carry any more."
+	text "Oups! Tu ne peux"
+	line "plus rien"
+	cont "transporter."
 	done
 
 GoldenrodGameCornerPrizeVendorQuitText:
-	text "OK. Please save"
-	line "your coins and"
-	cont "come again!"
+	text "OK. Economise"
+	line "tes Jetons et"
+	cont "reviens plus tard!"
 	done
 
 GoldenrodGameCornerPrizeVendorNoCoinCaseText:
-	text "Oh? You don't have"
-	line "a COIN CASE."
+	text "Oh? Tu n'as pas"
+	line "de Boîte Jeton."
 	done
 
 GoldenrodGameCornerPharmacistText:
-	text "I always play this"
-	line "slot machine. It"
+	text "Je joue tout le"
+	line "temps à cette"
 
-	para "pays out more than"
-	line "others, I think."
+	para "machine. Elle me"
+	line "fait plus gagner"
+	cont "que les autres."
+	cont "Enfin, je crois!"
 	done
 
 GoldenrodGameCornerPokefanM1Text:
-	text "I just love this"
-	line "new slot machine."
+	text "J'aime trop cette"
+	line "nouvelle machine."
 
-	para "It's more of a"
-	line "challenge than the"
-	cont "ones in CELADON."
+	para "Y'a beaucoup plus"
+	line "de suspense qu'"
+	cont "avec celles de"
+	cont "Céladopole."
 	done
 
 GoldenrodGameCornerCooltrainerMText:
-	text "Life is a gamble."
-	line "I'm going to flip"
-	cont "cards till I drop!"
+	text "Dans la vie tout"
+	line "est question de"
+	cont "chance!"
+	cont "Moi j'en ai pas."
+	cont "Et alors?"
 	done
 
 GoldenrodGameCornerPokefanFText:
-	text "Card flip…"
+	text "Et hop les cartes!"
 
-	para "I prefer it over"
-	line "the slots because"
+	para "Je préfère ça aux"
+	line "machines..."
 
-	para "it's easier to"
-	line "figure the odds."
+	para "C'est plus facile"
+	line "de gagner."
 
-	para "But the payout is"
-	line "much lower."
+	para "Mais les gains"
+	line "sont plus faibles."
 	done
 
 GoldenrodGameCornerCooltrainerFText:
-	text "I won't quit until"
-	line "I win!"
+	text "Tant que je"
+	line "perds..."
+	cont "Je reste!"
 	done
 
 GoldenrodGameCornerGentlemanText:
-	text "I taught BLIZZARD"
-	line "to my #MON."
+	text "J'ai appris"
+	line "Blizzard à mon"
+	cont "#mon."
 
-	para "It was hard to get"
-	line "enough coins for"
+	para "J'ai eu du mal à"
+	line "récolter assez de"
 
-	para "it, but it was"
-	line "worth it."
+	para "Jetons mais ça"
+	line "valait le coup."
 	done
 
 GoldenrodGameCornerPokefanM2Text:
-	text "I couldn't win at"
-	line "the slots, and I"
+	text "Je n'arrivais pas"
+	line "à gagner aux"
 
-	para "blew it on card"
-	line "flipping…"
+	para "machines alors"
+	line "j'ai essayé les"
+	cont "cartes."
 
-	para "I got so furious,"
-	line "I tossed out my"
+	para "Mais y'a rien à"
+	line "faire. Quand t'es"
 
-	para "COIN CASE in the"
-	line "UNDERGROUND."
+	para "nul, t'es nul!!"
+	line "J'ai jeté ma Boîte"
+	cont "Jeton dans le"
+	cont "Souterrain."
 	done
 
 MoveTutorInsideText:
-	text "Wahahah! The coins"
-	line "keep rolling in!"
+	text "Wahahah! Encore"
+	line "des Jetons!"
 	done
 
 GoldenrodGameCornerLeftTheirDrinkText:
-	text "Someone left their"
-	line "drink."
-
-	para "It smells sweet."
+	text "Quelqu'un a oublié"
+	line "sa boisson."
 	done
 
 GoldenrodGameCorner_MapEvents:

@@ -186,166 +186,165 @@ RuinsOfAlphResearchCenterLeavesPlayerMovement:
 	step_end
 
 RuinsOfAlphResearchCenterModifiedDexText:
-	text "Done!"
+	text "Fini!"
 
-	para "I modified your"
-	line "#DEX."
+	para "J'ai modifié ton"
+	line "#dex."
 
-	para "I added an"
-	line "optional #DEX"
+	para "J'ai incorporé un"
+	line "autre #dex"
 
-	para "to store UNOWN"
-	line "data."
+	para "pour enregistrer"
+	line "les données de"
 
-	para "It records them in"
-	line "the sequence that"
-	cont "they were caught."
+	para "Zarbi dans l'ordre"
+	line "où ses formes"
+	cont "seront capturées."
 	done
 
 RuinsOfAlphResearchCenterDexUpgradedText:
-	text "<PLAYER>'s #DEX"
-	line "was upgraded."
+	text "Le #dex de"
+	line "<PLAYER> est"
+	cont "amélioré!"
 	done
 
 RuinsOfAlphResearchCenterScientist3Text:
-	text "The UNOWN you"
-	line "catch will all be"
-	cont "recorded."
+	text "Les Zarbi capturés"
+	line "seront tous enre-"
+	cont "gistrés."
 
-	para "Check to see how"
-	line "many kinds exist."
+	para "Découvrez-les"
+	line "tous!"
 	done
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
-	text "You caught all the"
-	line "UNOWN variations?"
+	text "Tu as attrapé tous"
+	line "les types de"
+	cont "Zarbi?"
 
-	para "That's a great"
-	line "achievement!"
+	para "Mais c'est super,"
+	line "mon bouchon!"
 
-	para "I've set up the"
-	line "printer here for"
-	cont "handling UNOWN."
+	para "J'ai préparé l'im-"
+	line "primante pour les"
+	cont "données de Zarbi."
 
-	para "Feel free to use"
-	line "it anytime."
+	para "Tu peux l'utiliser"
+	line "quand tu veux."
 	done
 
 RuinsOfAlphResearchCenterScientist1Text:
-	text "The RUINS are"
-	line "about 1500 years"
-	cont "old."
+	text "Les Ruines sont"
+	line "vieilles d'environ"
+	cont "1500 ans."
 
-	para "But it's not known"
-	line "why they were"
-	cont "built--or by whom."
+	para "Personne ne sait"
+	line "qui a pu les"
+	cont "construire..."
+	cont "Ni dans quel but."
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_GotUnownDex:
-	text "I wonder how many"
-	line "kinds of #MON"
-	cont "are in the RUINS?"
+	text "Combien y a-t-il"
+	line "de #mon diffé-"
+	cont "rents dans les"
+	cont "Ruines?"
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_UnownAppeared:
-	text "#MON appeared"
-	line "in the RUINS?"
+	text "Des #mon sont"
+	line "apparus dans les"
+	cont "Ruines?"
 
-	para "That's incredible"
-	line "news!"
+	para "Bah ça pour une"
+	line "nouvelle!"
 
-	para "We'll need to"
-	line "investigate this."
+	para "Il faut tout de"
+	line "suite y aller!"
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:
-	text "Our investigation,"
-	line "with your help, is"
+	text "Grâce à ton aide,"
+	line "notre enquête sur"
 
-	para "giving us insight"
-	line "into the RUINS."
+	para "les Ruines donne"
+	line "enfin des"
+	cont "résultats."
 
-	para "The RUINS appear"
-	line "to have been built"
+	para "Les Ruines sem-"
+	line "blent être un re-"
 
-	para "as a habitat for"
-	line "#MON."
+	para "fuge pour les"
+	line "#mon."
 	done
 
 RuinsOfAlphResearchCenterScientist2Text:
-	text "There are odd pat-"
-	line "terns drawn on the"
+	text "Il y a des figures"
+	line "étranges sur les"
+	cont "murs des Ruines."
 
-	para "walls of the"
-	line "RUINS."
-
-	para "They must be the"
-	line "keys for unravel-"
-	cont "ing the mystery"
-	cont "of the RUINS."
+	para "Elles doivent être"
+	line "la clé du mystère"
+	cont "des Ruines."
 	done
 
 RuinsOfAlphResearchCenterScientist2Text_UnownAppeared:
-	text "The strange #-"
-	line "MON you saw in the"
-	cont "RUINS?"
+	text "Les étranges #-"
+	line "mon des Ruines?"
 
-	para "They appear to be"
-	line "very much like the"
+	para "Ils semblent être"
+	line "proches des figu-"
+	cont "res sur les murs."
 
-	para "drawings on the"
-	line "walls there."
+	para "Hmmm..."
 
-	para "Hmm…"
-
-	para "That must mean"
-	line "there are many"
-	cont "kinds of them…"
+	para "Cela veut dire"
+	line "qu'il y en a un"
+	cont "grand nombre..."
 	done
 
 RuinsOfAlphResearchCenterScientist2Text_GotAllUnown:
-	text "Why did those"
-	line "ancient patterns"
+	text "Comment ces drôles"
+	line "de figures ont pu"
+	cont "apparaître?"
+	cont "C'est dingue!"
 
-	para "appear on the wall"
-	line "now?"
-
-	para "The mystery"
-	line "deepens…"
+	para "J'y comprends"
+	line "rien..."
 	done
 
 RuinsOfAlphResearchCenterComputerText:
-	text "RUINS OF ALPH"
+	text "Ruines d'Alpha"
 
 	para "Exploration"
-	line "Year 10"
+	line "Année 10"
 	done
 
 RuinsOfAlphResearchCenterComputerText_GotAllUnown:
-	text "Mystery #MON"
-	line "Name: UNOWN"
+	text "#mon Mystère"
+	line "Nom: Zarbi"
 
-	para "A total of {d:NUM_UNOWN}"
-	line "kinds found."
+	para "Un total de 26"
+	line "types découverts."
 	done
 
 RuinsOfAlphResearchCenterPrinterText_DoesntWork:
-	text "This doesn't seem"
-	line "to work yet."
+	text "Cela n'a pas l'air"
+	line "de marcher pour"
+	cont "l'instant..."
 	done
 
 RuinsOfAlphResearchCenterUnownPrinterText:
-	text "UNOWN may be"
-	line "printed out."
+	text "Zarbi peut être"
+	line "imprimé."
 	done
 
 RuinsOfAlphResearchCenterAcademicBooksText:
-	text "There are many"
-	line "academic books."
+	text "Il y a beaucoup de"
+	line "livres de science."
 
-	para "Ancient Ruins…"
-	line "Mysteries of the"
-	cont "Ancients…"
+	para "Anciennes ruines."
+	line "Antiques mystères."
 	done
 
 RuinsOfAlphResearchCenter_MapEvents:

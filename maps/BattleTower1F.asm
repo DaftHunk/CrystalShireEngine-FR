@@ -273,78 +273,87 @@ MovementData_BattleTowerBattleRoomPlayerTurnsToFaceNextOpponent:
 	step_end
 
 Text_BattleTowerWelcomesYou:
-	text "BATTLE TOWER"
-	line "welcomes you!"
+	text "Bienvenue à la"
+	line "Tour de Combat!"
 
-	para "I could show you"
-	line "to a BATTLE ROOM."
+	para "Je peux vous faire"
+	line "accéder à une"
+	cont "Salle de Combat."
 	done
 
 Text_WantToGoIntoABattleRoom:
-	text "Want to go into a"
-	line "BATTLE ROOM?"
+	text "Voulez-vous aller"
+	line "dans une Salle"
+	cont "de Combat?"
 	done
 
 Text_RightThisWayToYourBattleRoom:
-	text "Right this way to"
+	text "Par ici..."
 	line "your BATTLE ROOM."
 	done
 
 Text_BattleTowerIntroduction_2:
-	text "BATTLE TOWER is a"
-	line "facility made for"
-	cont "#MON battles."
+	text "La Tour de Combat"
+	line "a été construite"
+	cont "pour les matches"
+	cont "de #mon."
 
-	para "Countless #MON"
-	line "trainers gather"
+	para "Divers dresseurs"
+	line "viennent s'y af-"
 
-	para "from all over to"
-	line "hold battles in"
+	para "fronter dans les"
+	line "Salles de Combat"
+	cont "spéciales."
 
-	para "specially designed"
-	line "BATTLE ROOMS."
+	para "Il existe beaucoup"
+	line "de SalleS diffé-"
+	cont "rentes."
 
-	para "There are many"
-	line "BATTLE ROOMS in"
-	cont "the BATTLE TOWER."
+	para "Chaque Salle ren-"
+	line "ferme 7 dresseurs."
 
-	para "Each ROOM holds"
-	line "seven trainers."
+	para "Il faut tous les"
+	line "battre pour gagner"
+	cont "un prix."
 
-	para "Beat them all, and"
-	line "win a prize."
+	para "Pour arrêter une"
+	line "session, il faut"
 
-	para "To interrupt a"
-	line "session, you must"
+	para "Sauver. Dans le"
+	line "cas contraire, on"
 
-	para "SAVE. If not, you"
-	line "won't be able to"
+	para "ne peut pas re-"
+	line "prendre le défi"
+	cont "d'une Salle."
 
-	para "resume your ROOM"
-	line "challenge."
-
-	para ""
 	done
 
 Text_ThanksForVisiting:
-	text "Thanks for"
-	line "visiting!"
+	text "Merci et à"
+	line "bientôt!"
 	done
 
 Text_CongratulationsYouveBeatenAllTheTrainers:
-	text "Congratulations!"
+	text "Félicitations!"
 
-	para "You've beaten all"
-	line "the trainers!"
+	para "Vous avez battu"
+	line "tous les dres-"
+	cont "seurs!"
 
-	para "For that, you get"
-	line "this great prize!"
+	para "Votre prouesse"
+	line "sera notée,"
+
+	para "<PLAYER>. Vous"
+	line "avez une chance"
+
+	para "d'être Champion"
+	line "de Salle."
 
 	para ""
 	done
 
 Text_PlayerGotFive:
-	text "<PLAYER> got five"
+	text "<PLAYER> gagne 5"
 	line "@"
 	text_ram wStringBuffer4
 	text "!@"
@@ -353,146 +362,151 @@ Text_PlayerGotFive:
 	text_end
 
 Text_YourPackIsStuffedFull:
-	text "Oops, your PACK is"
-	line "stuffed full."
+	text "Oups! Le Sac est"
+	line "plein."
 
-	para "Please make room"
-	line "and come back."
+	para "Il faut faire de"
+	line "la place!"
 	done
 
 Text_WeHopeToServeYouAgain:
-	text "We hope to serve"
-	line "you again."
+	text "A bientôt,"
+	line "j'espère."
 	done
 
 Text_PleaseStepThisWay:
-	text "Please step this"
-	line "way."
+	text "Par ici."
 	done
 
 Text_WouldYouLikeToHearAboutTheBattleTower:
-	text "Would you like to"
-	line "hear about the"
-	cont "BATTLE TOWER?"
+	text "Voulez-vous tout"
+	line "savoir sur la Tour"
+	cont "de Combat?"
 	done
 
 Text_ReadBattleTowerRules:
-	text "BATTLE TOWER rules"
-	line "are written here."
+	text "Les règles de la"
+	line "Tour de Combat"
 
-	para "Read the rules?"
+	para "Lire?"
 	done
 
 Text_BattleTowerRules:
-	text "Three #MON may"
-	line "enter battles."
+	text "3 #mon peuvent"
+	line "participer."
 
-	para "All three must be"
-	line "different."
+	para "Les 3 doivent être"
+	line "différents."
 
-	para "The items they"
-	line "hold must also be"
-	cont "different."
+	para "Les objets tenus"
+	line "doivent être aussi"
+	cont "différents."
 
-	para "Certain #MON"
-	line "may also have"
+	para "Certains #mon"
+	line "peuvent avoir des"
 
-	para "level restrictions"
-	line "placed on them."
+	para "restrictions de"
+	line "niveau."
 	done
 
 Text_BattleTower_LeftWithoutSaving:
-	text "Excuse me!"
-	line "You didn't SAVE"
+	text "Excusez-moi!"
+	line "Vous n'avez pas"
+	cont "Sauvé avant de"
+	cont "quitter la Salle"
+	cont "de Combat."
 
-	para "before exiting"
-	line "the BATTLE ROOM."
-
-	para "I'm awfully sorry,"
-	line "but your challenge"
-
-	para "will be declared"
-	line "invalid."
+	para "Votre défi ne sera"
+	line "donc pas pris en"
+	cont "compte."
 	done
 
 Text_YourMonWillBeHealedToFullHealth:
-	text "Your #MON will"
-	line "be healed to full"
-	cont "health."
+	text "Nous allons soi-"
+	line "gner vos #mon."
 	done
 
 Text_NextUpOpponentNo:
-	text "Next up, opponent"
-	line "no.@"
+	text "Prochain adversai-"
+	line "re, le no.@"
 	text_ram wStringBuffer3
-	text ". Ready?"
+	text ". OK?"
 	done
 
 Text_SaveBeforeEnteringBattleRoom:
-	text "Before entering"
-	line "the BATTLE ROOM,"
+	text "Avant d'entrer"
+	line "dans une Salle de"
 
-	para "your progress will"
-	line "be saved."
+	para "Combat, la partie"
+	line "sera Sauvée."
 	done
 
 Text_SaveAndEndTheSession:
-	text "SAVE and end the"
-	line "session?"
+	text "Sauver et arrêter"
+	line "la session?"
+	done
+
+Text_SaveBeforeReentry:
+	text "Votre progression"
+	line "sera Sauvée avant"
+
+	para "de retourner dans"
+	line "la dernière Salle."
 	done
 
 Text_CancelYourBattleRoomChallenge:
-	text "Cancel your BATTLE"
-	line "ROOM challenge?"
+	text "Annuler le défi"
+	line "des Salles de"
+	cont "Combat?"
 	done
 
 Text_WeveBeenWaitingForYou:
-	text "We've been waiting"
-	line "for you. This way"
+	text "Nous vous atten-"
+	line "dions. Par ici"
+
+	para "pour une Salle de"
+	line "Combat."
 
 	para "to a BATTLE ROOM,"
 	line "please."
 	done
 
 Text_BattleTowerYoungster:
-	text "Destroyed by the"
-	line "first opponent in"
-
-	para "no time at all…"
-	line "I'm no good…"
+	text "Détruit par le"
+	line "premier adversai-"
+	cont "re... Je suis nul!"
 	done
 
 Text_BattleTowerCooltrainerF:
-	text "There are lots of"
-	line "BATTLE ROOMS, but"
-
-	para "I'm going to win"
-	line "them all!"
+	text "Il y a plein de"
+	line "Salles de Combat!"
+	cont "Mais je vais"
+	cont "gagner!"
 	done
 
 Text_BattleTowerGranny:
-	text "It's a grueling"
-	line "task, not being"
+	text "C'est difficile de"
+	line "se passer d'objets"
 
-	para "able to use items"
-	line "in battle."
+	para "pendant les"
+	line "combats..."
 
-	para "Making your"
-	line "#MON hold items"
-
-	para "is the key to"
-	line "winning battles."
+	para "Faire tenir un ob-"
+	line "jet à son #mon"
+	cont "ça aide..."
 	done
 
 Text_BattleTowerBugCatcher:
-	text "I'm trying to see"
-	line "how far I can go"
+	text "J'essaie de voir"
+	line "jusqu'où on peut"
 
-	para "using just bug"
-	line "#MON."
+	para "aller en n'utili-"
+	line "sant que des"
+	cont "#mon Insecte."
 
-	para "Don't let there be"
-	line "any fire #MON…"
+	para "Du moment qu'il"
+	line "n'y a pas de"
+	cont "#mon de feu..."
 	done
 
 BattleTower1F_MapEvents:

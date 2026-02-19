@@ -26,10 +26,10 @@ BuenasPasswordTable:
                 dw PIKACHU, RATTATA, GEODUDE
 .Pokemon2:      db BUENA_MON,    10
                 dw HOOTHOOT, SPINARAK, DROWZEE
-.JohtoTowns:    db BUENA_STRING, 16, "NEW BARK TOWN@", "CHERRYGROVE CITY@", "AZALEA TOWN@"
-.Types:         db BUENA_STRING,  6, "FLYING@", "BUG@", "GRASS@"
+.JohtoTowns:    db BUENA_STRING, 16, "Bourg Geon@", "Ville Griotte@", "Ecorcia@"
+.Types:         db BUENA_STRING,  6, "Vol@", "Insecte@", "Plante@"
 .Moves:         db BUENA_MOVE,   12
                 dw TACKLE, GROWL, MUD_SLAP
 .XItems:        db BUENA_ITEM,   12
                 dw X_ATTACK, X_DEFEND, X_SPEED
-.RadioStations: db BUENA_STRING, 13, "#MON Talk@", "#MON Music@", "Lucky Channel@"
+.RadioStations: db BUENA_STRING, 13, "Chronique<PKMN> Chen@", "Musique #mon@", "Antenne Chance@"

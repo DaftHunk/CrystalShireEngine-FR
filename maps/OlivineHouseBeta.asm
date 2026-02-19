@@ -25,16 +25,16 @@ OlivineHouseBetaBookshelf2:
 	jumpstd MagazineBookshelfScript
 
 OlivineHouseBetaTeacherText:
-	text "When my #MON"
-	line "got sick, the"
+	text "Lorsque mes #-"
+	line "mon sont malades,"
 
-	para "PHARMACIST in"
-	line "ECRUTEAK made some"
-	cont "medicine for me."
+	para "le Pharmacien"
+	line "d'Irisia me fait"
+	cont "des médicaments."
 	done
 
 OlivineHouseBetaRhydonText:
-	text "RHYDON: Gugooh!"
+	text "Rhinoféros: Feros!"
 	done
 
 OlivineHouseBeta_MapEvents:

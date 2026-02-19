@@ -187,96 +187,100 @@ NewBarkTown_RivalReturnsToTheShadowsMovement:
 	step_end
 
 Text_GearIsImpressive:
-	text "Wow, your #GEAR"
-	line "is impressive!"
+	text "Oh! Ton #matos"
+	line "est balèze!"
 
-	para "Did your mom get"
-	line "it for you?"
+	para "C'est ta mère qui"
+	line "l'a acheté?"
 	done
 
 Text_WaitPlayer:
-	text "Wait, <PLAY_G>!"
+	text "Attends, <PLAY_G>!"
 	done
 
 Text_WhatDoYouThinkYoureDoing:
-	text "What do you think"
-	line "you're doing?"
+	text "On peut savoir ce"
+	line "que tu fabriques?"
 	done
 
 Text_ItsDangerousToGoAlone:
-	text "It's dangerous to"
-	line "go out without a"
-	cont "#MON!"
+	text "C'est dangereux de"
+	line "sortir sans un"
+	cont "#mon!"
 
-	para "Wild #MON"
-	line "jump out of the"
+	para "Des #mon sauva-"
+	line "ges sortent des"
 
-	para "grass on the way"
-	line "to the next town."
+	para "herbes sur la rou-"
+	line "te de la prochaine"
+	cont "ville."
 	done
 
 Text_YourMonIsAdorable:
-	text "Oh! Your #MON"
-	line "is adorable!"
-	cont "I wish I had one!"
+	text "Oh! Ton #mon"
+	line "est adorable!"
+	cont "Je veux le même!"
 	done
 
 Text_TellMomIfLeaving:
-	text "Hi, <PLAY_G>!"
-	line "Leaving again?"
+	text "Salut <PLAY_G>!"
+	line "Tu pars déjà?"
 
-	para "You should tell"
-	line "your mom if you"
-	cont "are leaving."
+	para "Tu devrais préve-"
+	line "nir ta petite"
+	cont "maman."
 	done
 
 Text_CallMomOnGear:
-	text "Call your mom on"
-	line "your #GEAR to"
+	text "Appelle ta maman"
+	line "avec ton #-"
+	cont "matos et donne-lui"
 
-	para "let her know how"
-	line "you're doing."
+	para "de tes nouvelles."
 	done
 
 Text_ElmDiscoveredNewMon:
 	text "Yo, <PLAYER>!"
 
-	para "I hear PROF.ELM"
-	line "discovered some"
-	cont "new #MON."
+	para "Il paraît que le"
+	line "Prof.Orme a décou-"
+	cont "vert de nouveaux"
+	cont "#mon."
 	done
 
 NewBarkTownRivalText1:
-	text "<……>"
+	text "................"
 
-	para "So this is the"
-	line "famous ELM #MON"
-	cont "LAB…"
+	para "Voici donc le cé-"
+	line "lèbre Labo #mon"
+	cont "du Prof.Orme..."
 	done
 
 NewBarkTownRivalText2:
-	text "…What are you"
-	line "staring at?"
+	text "...Mais kess-tu"
+	line "mates?"
 	done
 
 NewBarkTownSignText:
-	text "NEW BARK TOWN"
+	text "Bourg Geon"
 
-	para "The Town Where the"
-	line "Winds of a New"
-	cont "Beginning Blow"
+	para "La ville où"
+	line "souffle le vent"
+	cont "d'une nouvelle vie"
 	done
 
 NewBarkTownPlayersHouseSignText:
-	text "<PLAYER>'s House"
+	text "Maison de <PLAYER>"
 	done
 
 NewBarkTownElmsLabSignText:
-	text "ELM #MON LAB"
+	text "Labo #mon du"
+	line "Prof.Orme"
 	done
 
 NewBarkTownElmsHouseSignText:
-	text "ELM'S HOUSE"
+	text "Maison du"
+	line "Prof.Orme"
 	done
 
 NewBarkTown_MapEvents:

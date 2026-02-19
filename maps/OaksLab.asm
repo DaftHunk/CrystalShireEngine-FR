@@ -75,180 +75,178 @@ OaksLabPC:
 	jumptext OaksLabPCText
 
 OakWelcomeKantoText:
-	text "OAK: Ah, <PLAY_G>!"
-	line "It's good of you"
+	text "Chen: Ah, <PLAY_G>!"
+	line "Merci d'avoir vo-"
 
-	para "to come all this"
-	line "way to KANTO."
+	para "yagé jusqu'à"
+	line "Kanto."
 
-	para "What do you think"
-	line "of the trainers"
-
-	para "out here?"
-	line "Pretty tough, huh?"
+	para "Que penses-tu des"
+	line "dresseurs du coin?"
+	cont "Plutôt forts, non?"
 	done
 
 OakLabDexCheckText:
-	text "How is your #-"
-	line "DEX coming?"
+	text "Et ton #dex?"
+	line "Ça avance?"
 
-	para "Let's see…"
+	para "Voyons ça..."
 	done
 
 OakLabGoodbyeText:
-	text "If you're in the"
-	line "area, I hope you"
-	cont "come visit again."
+	text "N'hésite pas à"
+	line "passer si tu es"
+	cont "dans la région."
 	done
 
 OakOpenMtSilverText:
-	text "OAK: Wow! That's"
-	line "excellent!"
+	text "Chen: Woah!"
+	line "C'est génial, ça!"
 
-	para "You collected the"
-	line "BADGES of GYMS in"
-	cont "KANTO. Well done!"
+	para "Tu as gagné les"
+	line "Badges de Kanto!"
+	cont "Bravo!"
 
-	para "I was right in my"
-	line "assessment of you."
+	para "J'ai bien fait de"
+	line "te faire confian-"
+	cont "ce."
 
-	para "Tell you what,"
-	line "<PLAY_G>. I'll make"
+	para "Dans ce cas,"
+	line "<PLAY_G>, je vais"
 
-	para "arrangements so"
-	line "that you can go to"
-	cont "MT.SILVER."
+	para "faire en sorte que"
+	line "tu puisses aller"
+	cont "au Mont Argent."
 
-	para "MT.SILVER is a big"
-	line "mountain that is"
+	para "Le Mont Argent est"
+	line "une montagne où"
 
-	para "home to many wild"
-	line "#MON."
+	para "vivent beaucoup de"
+	line "#mon sauvages."
 
-	para "It's too dangerous"
-	line "for your average"
+	para "Cet endroit est"
+	line "trop dangereux"
 
-	para "trainer, so it's"
-	line "off limits. But"
+	para "pour le dresseur"
+	line "lambda, mais nous"
 
-	para "we can make an"
-	line "exception in your"
-	cont "case, <PLAY_G>."
+	para "pouvons faire une"
+	line "exception pour"
+	cont "toi, <PLAY_G>."
 
-	para "Go up to INDIGO"
-	line "PLATEAU. You can"
+	para "Va au Plateau"
+	line "Indigo. Tu pourras"
 
-	para "reach MT.SILVER"
-	line "from there."
+	para "accéder ensuite au"
+	line "Mont Argent."
 	done
 
 OakNoKantoBadgesText:
-	text "OAK: Hmm? You're"
-	line "not collecting"
-	cont "KANTO GYM BADGES?"
+	text "Chen: Hmm? Tu ne"
+	line "collectionnes pas"
+	cont "les Badges des"
+	cont "Arènes de Kanto?"
 
-	para "The GYM LEADERS in"
-	line "KANTO are as tough"
+	para "Les Champions"
+	line "d'Arène de Kanto"
 
-	para "as any you battled"
-	line "in JOHTO."
+	para "sont aussi forts"
+	line "que ceux de Johto."
 
-	para "I recommend that"
-	line "you challenge"
-	cont "them."
+	para "Je te conseille de"
+	line "les affronter."
 	done
 
 OakYesKantoBadgesText:
-	text "OAK: Ah, you're"
-	line "collecting KANTO"
-	cont "GYM BADGES."
+	text "Chen: Tu"
+	line "collectionnes les"
+	cont "Badges de Kanto."
 
-	para "I imagine that"
-	line "it's hard, but the"
+	para "Cela doit être"
+	line "difficile, mais tu"
 
-	para "experience is sure"
-	line "to help you."
+	para "as beaucoup"
+	line "d'expérience à"
+	cont "présent."
 
-	para "Come see me when"
-	line "you get them all."
+	para "Viens me voir si"
+	line "tu les as tous."
 
-	para "I'll have a gift"
-	line "for you."
+	para "J'aurai un cadeau"
+	line "pour toi."
 
-	para "Keep trying hard,"
+	para "Bonne chance,"
 	line "<PLAY_G>!"
 	done
 
 OaksAssistant1Text:
-	text "The PROF's #MON"
-	line "TALK radio program"
+	text "La Chronique <PKMN>"
+	line "du Prof à la radio"
 
-	para "isn't aired here"
-	line "in KANTO."
+	para "ne passe pas ici,"
+	line "à Kanto."
 
-	para "It's a shame--I'd"
-	line "like to hear it."
+	para "C'est bête..."
+	line "Je l'aime tant."
 	done
 
 OaksAssistant2Text:
-	text "Thanks to your"
-	line "work on the #-"
-	cont "DEX, the PROF's"
+	text "Grâce à ton tra-"
+	line "vail sur le #-"
+	cont "dex, les recher-"
 
-	para "research is coming"
-	line "along great."
+	para "ches du Prof ont"
+	line "bien progressé."
 	done
 
 OaksAssistant3Text:
-	text "Don't tell anyone,"
-	line "but PROF.OAK'S"
+	text "Ne le répète pas,"
+	line "mais la Chronique"
 
-	para "#MON TALK isn't"
-	line "a live broadcast."
+	para "#mon du Prof."
+	line "Chen n'est pas en"
+	cont "direct."
 	done
 
 OaksLabPoster1Text:
-	text "Press START to"
-	line "open the MENU."
+	text "Appuyer sur Start"
+	line "pour le Menu."
 	done
 
 OaksLabPoster2Text:
-	text "The SAVE option is"
-	line "on the MENU."
+	text "L'option Sauver"
+	line "est sur le Menu."
 
-	para "Use it in a timely"
-	line "manner."
+	para "Utilise-la assez"
+	line "souvent."
 	done
 
 OaksLabTrashcanText:
-	text "There's nothing in"
-	line "here…"
+	text "Il n'y a rien ici."
 	done
 
 OaksLabPCText:
-	text "There's an e-mail"
-	line "message on the PC."
+	text "Il y a un e-mail"
+	line "sur le PC."
 
 	para "…"
 
-	para "PROF.OAK, how is"
-	line "your research"
-	cont "coming along?"
+	para "Prof.Chen, comment"
+	line "ça va bien?"
+	cont "Ça bosse dur?"
 
-	para "I'm still plugging"
-	line "away."
+	para "Moi je bosse comme"
+	line "un barbare."
 
-	para "I heard rumors"
-	line "that <PLAY_G> is"
+	para "On raconte que"
+	line "<PLAY_G> est une"
+	cont "vraie terreur..."
 
-	para "getting quite a"
-	line "reputation."
+	para "Et dire que c'est"
+	line "grâce à nous."
 
-	para "I'm delighted to"
-	line "hear that."
-
-	para "ELM in NEW BARK"
-	line "TOWN 8-)"
+	para "Orme du Bourg Geon"
+	line "8-)"
 	done
 
 OaksLab_MapEvents:

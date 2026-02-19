@@ -20,4 +20,4 @@ PlaceWaitingText::
 	jmp DelayFrames
 
 .Waiting:
-	db "Waiting...!@"
+	db "Un moment…!@"

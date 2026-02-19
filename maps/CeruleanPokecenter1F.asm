@@ -18,29 +18,30 @@ CeruleanPokecenter1FGymGuideScript:
 	jumptextfaceplayer CeruleanPokecenter1FGymGuideText
 
 CeruleanPokecenter1FSuperNerdText:
-	text "For battles, I'd"
-	line "much rather use"
+	text "Pour les combats,"
+	line "je préfère utili-"
 
-	para "#MON I've been"
-	line "raising, even if"
+	para "ser des #mon"
+	line "que j'ai entraînés"
 
-	para "they're weaker"
+	para "plutôt que des"
+	line "#mon plus forts"
+	cont "que je viens"
+	cont "d'attraper."
 	line "than some newly"
 	cont "caught #MON."
 	done
 
 CeruleanPokecenter1FGymGuideText:
-	text "The MAGNET TRAIN"
-	line "travels at over"
+	text "Le Train Magnet"
+	line "fait du 550!"
 
-	para "340 mph. It goes"
-	line "between KANTO and"
+	para "Il va de Kanto"
+	line "à Johto en un"
+	cont "rien de temps."
 
-	para "JOHTO in almost no"
-	line "time at all."
-
-	para "It really makes"
-	line "JOHTO accessible."
+	para "Aller à Johto est"
+	line "alors très facile."
 	done
 
 CeruleanPokecenter1F_MapEvents:

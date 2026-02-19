@@ -469,229 +469,246 @@ KurtsHouseKurtGoAroundPlayerThenExitHouseMovement:
 	step_end
 
 KurtsHouseKurtMakingBallsMustWaitText:
-	text "Hm? Who are you?"
+	text "Hum? Qui es-tu?"
 
-	para "<PLAYER>, eh? You"
-	line "want me to make"
-	cont "some BALLS?"
+	para "<PLAYER>? Tu"
+	line "voudrais que je"
+	cont "fabrique quelques"
+	cont "Balls?"
 
-	para "Sorry, but that'll"
-	line "have to wait."
+	para "Désolé mais ça"
+	line "devra attendre."
 
-	para "Do you know TEAM"
-	line "ROCKET? Ah, don't"
+	para "Connais-tu la Team"
+	line "Rocket? Je vais"
 
-	para "worry. I'll tell"
-	line "you anyhow."
+	para "t'en toucher deux"
+	line "mots."
 
-	para "TEAM ROCKET's an"
-	line "evil gang that"
+	para "La Team Rocket est"
+	line "plus redoutée que"
 
-	para "uses #MON for"
-	line "their dirty work."
+	para "la peste! Ils"
+	line "utilisent les"
+	cont "#mon à des"
+	cont "fins crapuleuses."
 
-	para "They're supposed"
-	line "to have disbanded"
-	cont "three years ago."
+	para "Ils ont cessé d'o-"
+	line "pérer il y a de ça"
+	cont "trois ans."
 
-	para "Anyway, they're at"
-	line "the WELL, cutting"
+	para "Mais ils sont de"
+	line "retour et frappent"
 
-	para "off SLOWPOKETAILS"
-	line "for sale!"
+	para "de plus belle en"
+	line "coupant les"
+	cont "QueueRamolos pour"
+	cont "les revendre!"
 
-	para "So I'm going to"
-	line "go give them a"
-	cont "lesson in pain!"
+	para "Je m'en vais donc"
+	line "leur montrer de"
+	cont "quel bois je me"
+	cont "chauffe, moi!"
 
-	para "Hang on, SLOWPOKE!"
-	line "Old KURT is on his"
-	cont "way!"
+	para "Tenez bon les"
+	line "petits Ramoloss!"
+	cont "Le bon vieux"
+	cont "Fargas arrive à"
+	cont "la rescousse!"
 	done
 
 KurtsHouseKurtHonoredToMakeBallsText:
-	text "KURT: Hi, <PLAYER>!"
+	text "Fargas: Salut,"
+	line "<PLAYER>!"
 
-	para "You handled your-"
-	line "self like a real"
-	cont "hero at the WELL."
+	para "Tu as bien combat-"
+	line "tu au Puits!"
 
-	para "I like your style!"
+	para "J'apprécie ton"
+	line "style!"
 
-	para "I would be honored"
-	line "to make BALLS for"
+	para "Je serais honoré"
+	line "que tu acceptes"
+	cont "mes Balls."
 
-	para "a trainer like"
-	line "you."
-
-	para "This is all I have"
-	line "now, but take it."
+	para "C'est tout ce que"
+	line "j'ai pour le"
+	cont "moment, cadeau!"
 	done
 
 KurtsHouseKurtBallsFromApricornsText:
-	text "KURT: I make BALLS"
-	line "from APRICORNS."
+	text "Fargas: Je fais"
+	line "des Balls à partir"
+	cont "des Noigrumes."
 
-	para "Collect them from"
-	line "trees and bring"
-	cont "'em to me."
+	para "Décroches-en"
+	line "des arbres et"
+	cont "rapporte-les moi."
 
-	para "I'll make BALLS"
-	line "out of them."
+	para "Je fabriquerai"
+	line "alors des Balls."
 	done
 
 KurtsHouseKurtAskYouHaveAnApricornText:
-	text "KURT: You have an"
-	line "APRICORN for me?"
+	text "Fargas: As-tu un"
+	line "Noigrume pour moi?"
 
-	para "Fine! I'll turn it"
-	line "into a BALL."
+	para "Excellent! Je vais"
+	line "en faire une Ball."
 	done
 
 KurtsHouseKurtItWillTakeADayText:
-	text "KURT: It'll take a"
-	line "day to make you a"
+	text "Fargas: Ca va"
+	line "prendre la journée"
 
-	para "BALL. Come back"
-	line "for it later."
+	para "pour te faire une"
+	line "Ball. Reviens plus"
+	cont "tard."
 	done
 
 KurtsHouseKurtThatsALetdownText:
-	text "KURT: Oh…"
-	line "That's a letdown."
+	text "Fargas: Oh,oh...!"
+	line "Quel dommage."
 	done
 
 KurtsHouseKurtDontBotherMeText:
-	text "KURT: I'm working!"
-	line "Don't bother me!"
+	text "Fargas: Je bosse!"
+	line "Qu'on me laisse"
+	cont "tranquille!"
 	done
 
 KurtsHouseKurtJustFinishedYourBallText:
-	text "KURT: Ah, <PLAYER>!"
-	line "I just finished"
-	cont "your BALL. Here!"
+	text "Fargas: Ah,"
+	line "<PLAYER>! Je viens"
+	cont "de finir ta Ball!"
+	cont "Tiens!"
 	done
 
 KurtsHouseKurtTurnedOutGreatText:
-	text "KURT: That turned"
-	line "out great."
+	text "Fargas: Je suis"
+	line "content du résul-"
+	cont "tat."
 
-	para "Try catching"
-	line "#MON with it."
+	para "Va attraper"
+	line "des #mon!"
 	done
 
 KurtsHouseKurtGranddaughterHelpingWorkFasterText:
-	text "KURT: Now that my"
-	line "granddaughter is"
+	text "Fargas: Avec"
+	line "l'aide de ma"
 
-	para "helping me, I can"
-	line "work much faster."
+	para "petite-fille, je"
+	line "travaille plus"
+	cont "vite."
 	done
 
 KurtsHouseKurtWhatIsThatText:
-	text "Wh-what is that?"
+	text "C'est quoi donc?"
 
-	para "I've never seen"
-	line "one before."
+	para "Je n'avais jamais"
+	line "vu ça."
 
-	para "It looks a lot"
-	line "like a # BALL,"
+	para "On dirait bien une"
+	line "# Ball, mais"
 
-	para "but it appears to"
-	line "be something else."
+	para "ça doit être autre"
+	line "chose."
 
-	para "Let me check it"
-	line "for you."
+	para "Je vais regarder"
+	line "ça."
 	done
 
 KurtsHouseKurtImCheckingItNowText:
-	text "I'm checking it"
-	line "now."
+	text "Je fais mes"
+	line "recherches."
 	done
 
 KurtsHouseKurtAhHaISeeText:
-	text "Ah-ha! I see!"
-	line "So…"
+	text "Ah-ha! Je vois!"
+	line "Donc..."
 	done
 
 KurtsHouseKurtThisBallStartedToShakeText:
 	text "<PLAYER>!"
 
-	para "This BALL started"
-	line "to shake while I"
-	cont "was checking it."
+	para "La Ball s'est mise"
+	line "à bouger quand je"
+	cont "la regardais."
 
-	para "There must be"
-	line "something to this!"
+	para "Y'a du mystère"
+	line "dans l'air!"
 	done
 
 KurtsGranddaughterSlowpokeGoneText:
-	text "The SLOWPOKE are"
-	line "gone… Were they"
+	text "Les Ramoloss sont"
+	line "partis... Ont-ils"
 
-	para "taken away by bad"
-	line "people?"
+	para "été enlevés par de"
+	line "vilains gredins?"
 	done
 
 KurtsGranddaughterLonelyText:
-	text "Grandpa's gone…"
-	line "I'm so lonely…"
+	text "Pépé a filé..."
+	line "Je suis si seule!"
 	done
 
 KurtsGranddaughterSlowpokeBackText:
-	text "The SLOWPOKE my"
-	line "dad gave me came"
+	text "Le Ramoloss que"
+	line "mon pôpa m'a"
 
-	para "back! Its TAIL is"
-	line "growing back too!"
+	para "donné est de"
+	line "retour! Et sa"
+	cont "Queue a repoussé!"
 	done
 
 KurtsGranddaughterDadText:
-	text "Dad works at SILPH"
-	line "where he studies"
-	cont "# BALLS."
+	text "Pôpa travaille à"
+	line "la Sylphe SARL où"
+	cont "il étudie les"
+	cont "# Balls."
 
-	para "I have to stay"
-	line "home with Grandpa"
-	cont "and SLOWPOKE."
+	para "Je dois rester à"
+	line "la maison avec mon"
+	cont "pépé et mon"
+	cont "Ramoloss."
 	done
 
 KurtsGranddaughterHelpText:
-	text "I get to help"
-	line "Grandpa now!"
+	text "J'aide mon joli"
+	line "petit pépé!"
 
-	para "We'll make good"
-	line "BALLS for you, so"
-	cont "please wait!"
+	para "On va en faire des"
+	line "belles Balls pour"
+	cont "ta fraise!"
 	done
 
 KurtsGranddaughterFunText:
-	text "It's fun to make"
-	line "BALLS!"
+	text "C'est rigolo de"
+	line "faire des Balls!"
 	done
 
 KurtsGranddaughterGSBallText:
-	text "Grandpa's checking"
-	line "a BALL right now."
+	text "Pépé examine une"
+	line "Ball."
 
-	para "So I'm waiting"
-	line "till he's done."
+	para "Alors moi..."
+	line "J'attends."
 	done
 
 KurtsHouseSlowpokeText:
-	text "SLOWPOKE: …"
-	line "Yawn?"
+	text "Ramoloss: ...."
+	line "...(baille)..."
 	done
 
 KurtsHouseOakPhotoText:
-	text "…A young PROF."
-	line "OAK?"
+	text "...Un jeune Prof."
+	line "Chen?"
 	done
 
 KurtsHouseCelebiStatueText:
-	text "It's a statue of"
-	line "the forest's pro-"
-	cont "tector."
+	text "C'est une statue"
+	line "du protecteur de"
+	cont "la forêt."
 	done
 
 KurtsHouse_MapEvents:

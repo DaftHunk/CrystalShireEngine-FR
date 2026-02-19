@@ -1,404 +1,415 @@
 NurseMornText:
-	text "Good morning!"
-	line "Welcome to our"
-	cont "#MON CENTER."
+	text "Bien le bonjour!"
+	line "Bienvenue au"
+	cont "Centre #mon."
 	done
 
 NurseDayText:
-	text "Hello!"
-	line "Welcome to our"
-	cont "#MON CENTER."
+	text "Salut!"
+	line "Bienvenue au"
+	cont "Centre #mon."
 	done
 
 NurseEveText:
-	text "Good evening!"
-	line "Welcome to our"
-	cont "#MON CENTER."
+	text "Bonsoir!"
+	line "Bienvenue au"
+	cont "Centre #mon."
 	done
 
 NurseNiteText:
-	text "Good evening!"
-	line "You're out late."
+	text "Bonsoir oiseau"
+	line "de nuit!"
 
-	para "Welcome to our"
-	line "#MON CENTER."
+	para "Bienvenue au"
+	line "Centre #mon."
 	done
 
 PokeComNurseMornText:
-	text "Good morning!"
+	text "Bonjour!"
 
-	para "This is the #-"
-	line "MON COMMUNICATION"
+	para "Voici le Centre de"
+	line "Communication"
 
-	para "CENTER--or the"
-	line "#COM CENTER."
+	para "#mon... Ou"
+	line "Centre #com."
 	done
 
 PokeComNurseDayText:
-	text "Hello!"
+	text "Bonjour!"
 
-	para "This is the #-"
-	line "MON COMMUNICATION"
+	para "Voici le Centre de"
+	line "Communication"
 
-	para "CENTER--or the"
-	line "#COM CENTER."
+	para "#mon... Ou"
+	line "Centre #com."
 	done
 
 PokeComNurseEveText:
-	text "Good evening."
+	text "Bonsoir!"
 
-	para "This is the #-"
-	line "MON COMMUNICATION"
+	para "Voici le Centre de"
+	line "Communication"
 
-	para "CENTER--or the"
-	line "#COM CENTER."
+	para "#mon... Ou"
+	line "Centre #com."
 	done
 
 PokeComNurseNiteText:
-	text "Good to see you"
-	line "working so late."
+	text "Vous êtes debout"
+	line "bien tard!"
 
-	para "This is the #-"
-	line "MON COMMUNICATION"
+	para "Voici le Centre de"
+	line "Communication"
 
-	para "CENTER--or the"
-	line "#COM CENTER."
+	para "#mon... Ou"
+	line "Centre #com."
 	done
 
 NurseAskHealText:
-	text "We can heal your"
-	line "#MON to perfect"
-	cont "health."
+	text "Nous pouvons"
+	line "soigner vos"
+	cont "#mon."
 
-	para "Shall we heal your"
-	line "#MON?"
+	para "Voulez-vous les"
+	line "soigner?"
 	done
 
 NurseTakePokemonText:
-	text "OK, may I see your"
-	line "#MON?"
+	text "OK, puis-je voir"
+	line "vos #mon?"
 	done
 
 NurseReturnPokemonText:
-	text "Thank you for"
-	line "waiting."
+	text "Merci d'avoir"
+	line "attendu."
 
-	para "Your #MON are"
-	line "fully healed."
+	para "Vos #mon sont"
+	line "en super forme."
 	done
 
 NurseGoodbyeText:
-	text "We hope to see you"
-	line "again."
+	text "Encore merci et"
+	line "à bientôt!"
 	done
 
 ; not used
-	text "We hope to see you"
-	line "again."
+	text "Encore merci et"
+	line "à bientôt!"
 	done
 
 NursePokerusText:
-	text "Your #MON"
-	line "appear to be"
+	text "On dirait que de"
+	line "petites formes de"
 
-	para "infected by tiny"
-	line "life forms."
+	para "vie sont collées à"
+	line "vos #mon."
 
-	para "Your #MON are"
-	line "healthy and seem"
-	cont "to be fine."
+	para "Vos #mon sont"
+	line "apparemment en"
+	cont "bonne santé."
 
-	para "But we can't tell"
-	line "you anything more"
+	para "Mais on ne peut"
+	line "pas vous en dire"
 
-	para "at a #MON"
-	line "CENTER."
+	para "plus dans un"
+	line "Centre #mon."
 	done
 
 PokeComNursePokerusText:
-	text "Your #MON"
-	line "appear to be"
+	text "On dirait que de"
+	line "petites formes de"
 
-	para "infected by tiny"
-	line "life forms."
+	para "vie sont collées à"
+	line "vos #mon."
 
-	para "Your #MON are"
-	line "healthy and seem"
-	cont "to be fine."
+	para "Vos #mon sont"
+	line "apparemment en"
+	cont "bonne santé."
 
-	para "But we can't tell"
-	line "you anything more."
+	para "Mais on ne peut"
+	line "pas vous en dire"
+	cont "plus..."
 	done
 
 DifficultBookshelfText:
-	text "It's full of"
-	line "difficult books."
+	text "C'est rempli de"
+	line "livres compliqués."
 	done
 
 PictureBookshelfText:
-	text "A whole collection"
-	line "of #MON picture"
-	cont "books!"
+	text "Une collection de"
+	line "livres d'images"
+	cont "#mon!"
 	done
 
 MagazineBookshelfText:
-	text "#MON magazines…"
-	line "#MON PAL,"
+	text "Magazines #mon…"
+	line "Stylo #mon,"
 
-	para "#MON HANDBOOK,"
-	line "#MON GRAPH…"
+	para "Cahier #mon,"
+	line "Graph #mon..."
 	done
 
 TeamRocketOathText:
-	text "TEAM ROCKET OATH"
+	text "Serment Rocket"
 
-	para "Steal #MON for"
-	line "profit!"
+	para "Voler les #mon"
+	line "pour le pognon!"
 
-	para "Exploit #MON"
-	line "for profit!"
+	para "Exploiter les"
+	line "#mon pour le"
+	cont "pognon!"
 
-	para "All #MON exist"
-	line "for the glory of"
-	cont "TEAM ROCKET!"
+	para "Les #mon aident"
+	line "à la gloire de la"
+	cont "Team Rocket!"
 	done
 
 IncenseBurnerText:
-	text "What is this?"
+	text "C'est quoi donc?"
 
-	para "Oh, it's an"
-	line "incense burner!"
+	para "Oh, c'est un"
+	line "Brûleur d'encens!"
 	done
 
 MerchandiseShelfText:
-	text "Lots of #MON"
-	line "merchandise!"
+	text "Tout plein de"
+	line "trucs #mon!"
 	done
 
 LookTownMapText:
-	text "It's the TOWN MAP."
+	text "C'est la Carte."
 	done
 
 WindowText:
-	text "My reflection!"
-	line "Lookin' good!"
+	text "Oh..."
+	line "Que c'est beau!"
 	done
 
 TVText:
-	text "It's a TV."
+	text "C'est la TV."
 	done
 
 HomepageText:
-	text "#MON JOURNAL"
+	text "Journal #mon:"
 	line "HOME PAGE…"
 
-	para "It hasn't been"
-	line "updated…"
+	para "Ce n'est pas"
+	line "mis à jour…"
 	done
 
 ; not used
-	text "#MON RADIO!"
+	text "#mon Radio!"
 
-	para "Call in with your"
-	line "requests now!"
+	para "Appelez-nous et"
+	line "faites passer un"
+	cont "tube!"
 	done
 
 TrashCanText:
-	text "There's nothing in"
-	line "here…"
+	text "Il n'y a rien"
+	line "là-dedans…"
 	done
 
 ; not used
-	text "A #MON may be"
-	line "able to move this."
+	text "Un #mon"
+	line "pourrait sûrement"
+	cont "déplacer ça."
 	done
 
 ; not used
-	text "Maybe a #MON"
-	line "can break this."
+	text "Un #mon"
+	line "pourrait peut-être"
+	cont "casser ça."
 	done
 
 PokecenterSignText:
-	text "Heal Your #MON!"
-	line "#MON CENTER"
+	text "Soignez donc vos"
+	line "#mon au... "
+	cont "Centre #mon!!!"
 	done
 
 MartSignText:
-	text "For All Your"
-	line "#MON Needs"
+	text "Pour tout acheter,"
+	line "pour tout trouver:"
 
-	para "#MON MART"
+	para "Boutique #mon!"
 	done
 
 ContestResults_ReadyToJudgeText:
-	text "We will now judge"
-	line "the #MON you've"
-	cont "caught."
+	text "On va maintenant"
+	line "juger vos #mon"
+	cont "capturés."
 
 	para "<……>"
 	line "<……>"
 
-	para "We have chosen the"
-	line "winners!"
+	para "Nous avons choisi"
+	line "les vainqueurs!"
 
-	para "Are you ready for"
-	line "this?"
+	para "Vous êtes prêts?"
 	done
 
 ContestResults_PlayerWonAPrizeText:
-	text "<PLAYER>, the No.@"
+	text "Le No. @"
 	text_ram wStringBuffer3
 	text_start
-	line "finisher, wins"
+	line "<PLAYER> gagne:"
 	cont "@"
 	text_ram wStringBuffer4
 	text "!"
 	done
 
 ReceivedItemText:
-	text "<PLAYER> received"
+	text "<PLAYER> reçoit"
 	line "@"
 	text_ram wStringBuffer4
 	text "."
 	done
 
 ContestResults_JoinUsNextTimeText:
-	text "Please join us for"
-	line "the next Contest!"
+	text "A la prochaine"
+	line "pour un autre"
+	cont "concours!"
 	done
 
 ContestResults_ConsolationPrizeText:
-	text "Everyone else gets"
-	line "a BERRY as a con-"
-	cont "solation prize!"
+	text "Tout le monde"
+	line "gagne une Baie en"
+	cont "lot de"
+	cont "consolation!"
 	done
 
 ContestResults_DidNotWinText:
-	text "We hope you do"
-	line "better next time."
+	text "Faites mieux la"
+	line "prochaine fois."
 	done
 
 ContestResults_ReturnPartyText:
-	text "We'll return the"
-	line "#MON we kept"
+	text "Voici les #mon"
+	line "que nous gardions"
 
-	para "for you."
-	line "Here you go!"
+	para "pour vous."
+	line "Merci bien!"
 	done
 
 ContestResults_PartyFullText:
-	text "Your party's full,"
-	line "so the #MON was"
+	text "Equipe pleine! Le"
+	line "#mon est envoyé"
 
-	para "sent to your BOX"
-	line "in BILL's PC."
+	para "dans la Boîte du"
+	line "PC de Léo."
 	done
 
 GymStatue_CityGymText:
 	text_ram wStringBuffer3
 	text_start
-	line "#MON GYM"
+	line "Arène #mon"
 	done
 
 GymStatue_WinningTrainersText:
-	text "LEADER: @"
+	text "Champion:"
+	line "@"
 	text_ram wStringBuffer4
 	text_start
-	para "WINNING TRAINERS:"
-	line "<PLAYER>"
+	para "Dresseurs"
+	line "Vainqueurs:"
+	cont "<PLAYER>"
 	done
 
 CoinVendor_WelcomeText:
-	text "Welcome to the"
-	line "GAME CORNER."
+	text "Bienvenue au"
+	line "Casino."
 	done
 
 CoinVendor_NoCoinCaseText:
-	text "Do you need game"
-	line "coins?"
+	text "Voulez-vous des"
+	line "Jetons?"
 
-	para "Oh, you don't have"
-	line "a COIN CASE for"
-	cont "your coins."
+	para "Mais...! Vous"
+	line "n'avez pas de"
+	cont "Boîte Jeton!"
 	done
 
 CoinVendor_IntroText:
-	text "Do you need some"
-	line "game coins?"
+	text "Voulez-vous des"
+	line "Jetons?"
 
-	para "It costs ¥1000 for"
-	line "50 coins. Do you"
-	cont "want some?"
+	para "C'est 1000¥ pour"
+	line "50 Jetons. Ca vous"
+	cont "tente toujours?"
 	done
 
 CoinVendor_Buy50CoinsText:
-	text "Thank you!"
-	line "Here are 50 coins."
+	text "Merci!"
+	line "Voici 50 Jetons."
 	done
 
 CoinVendor_Buy500CoinsText:
-	text "Thank you! Here"
-	line "are 500 coins."
+	text "Merci! Voici"
+	line "500 Jetons."
 	done
 
 CoinVendor_NotEnoughMoneyText:
-	text "You don't have"
-	line "enough money."
+	text "Vous n'avez pas"
+	line "assez de sous."
 	done
 
 CoinVendor_CoinCaseFullText:
-	text "Whoops! Your COIN"
-	line "CASE is full."
+	text "Houlà! Votre Boîte"
+	line "Jeton est pleine."
 	done
 
 CoinVendor_CancelText:
-	text "No coins for you?"
-	line "Come again!"
+	text "Pas de Jetons?"
+	line "Alors à bientôt!"
 	done
 
 BugContestPrizeNoRoomText:
-	text "Oh? Your PACK is"
-	line "full."
+	text "Votre Sac"
+	line "est plein!!!"
 
-	para "We'll keep this"
-	line "for you today, so"
+	para "Nous allons garder"
+	line "ceci pour vous."
 
-	para "come back when you"
-	line "make room for it."
+	para "Faites de la place"
+	line "et revenez."
 	done
 
 HappinessText3:
-	text "Wow! You and your"
-	line "#MON are really"
-	cont "close!"
+	text "Woah! Toi et ton"
+	line "#mon êtes"
+	cont "super proches!"
 	done
 
 HappinessText2:
-	text "#MON get more"
-	line "friendly if you"
+	text "Les #mon de-"
+	line "viennent plus ami-"
 
-	para "spend time with"
-	line "them."
+	para "caux en passant du"
+	line "temps avec eux."
 	done
 
 HappinessText1:
-	text "You haven't tamed"
-	line "your #MON."
+	text "Tu n'as pas"
+	line "apprivoisé ton"
+	cont "#mon."
 
-	para "If you aren't"
-	line "nice, it'll pout."
+	para "Si tu n'es pas"
+	line "sympa, il fera la"
+	cont "tête."
 	done
 
 RegisteredNumber1Text:
-	text "<PLAYER> registered"
-	line "@"
+	text "<PLAYER> enregistre"
+	line "le No. de @"
 	text_ram wStringBuffer3
-	text "'s number."
+	text "."
 	done
 
 RegisteredNumber2Text:
-	text "<PLAYER> registered"
-	line "@"
+	text "<PLAYER> enregistre"
+	line "le No. de @"
 	text_ram wStringBuffer3
-	text "'s number."
+	text "."
 	done

@@ -197,20 +197,20 @@ endc
 	jmp DelayFrames
 
 AlphRuinsStampString:
-	db " ALPH RUINS STAMP@"
+	db "Tampon Ruin. Alpha@"
 
 UnownDexDoWhatString:
-	db "Do what?@"
+	db "Que faire?@"
 
 UnownDexMenuString:
-	db   UNOWNSTAMP_BOLD_A, " PRINT"
-	next UNOWNSTAMP_BOLD_B, " CANCEL"
-	next "← PREVIOUS"
-	next "→ NEXT"
+	db   UNOWNSTAMP_BOLD_A, " Imprimer"
+	next UNOWNSTAMP_BOLD_B, " Annuler"
+	next "← Retour"
+	next "→ Suite"
 	db   "@"
 
 UnownDexVacantString:
-	db "VACANT@"
+	db "  Vide@"
 
 UnownDexATile:
 INCBIN "gfx/printer/bold_a.1bpp"

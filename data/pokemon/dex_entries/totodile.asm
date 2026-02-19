@@ -1,10 +1,11 @@
-	db "BIG JAW@" ; species name
-	dw 200, 210 ; height, weight
+	db "Mâchoire@" ; species name
+	db 6 ; height
+	dw 95 ; weight
 
-	db   "This rough critter"
-	next "chomps at any"
-	next "moving object it"
+	db   "Cet petit teigneux"
+	next "mâchouille tout ce"
+	next "qui lui passe sous"
 
-	page "sees. Turning your"
-	next "back on it is not"
-	next "recommended.@"
+	page "le nez. Ne lui"
+	next "tournez jamais le"
+	next "dos!@"

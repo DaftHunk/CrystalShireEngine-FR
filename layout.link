@@ -120,11 +120,12 @@ ROMX $1f
 	"Map Scripts 10"
 ROMX $20
 	"bank20"
-	"Enemy Trainer Parties 2"
+	"Pic Pointers"
 ROMX $21
 	"bank21"
 ROMX $22
 	"Crystal Features 2"
+	"Enemy Trainer Parties 2"
 ROMX $23
 	"bank23"
 ROMX $24
@@ -212,13 +213,12 @@ ROMX $46
 ROMX $47
 	"Battle Tower"
 ROMX $48
-	"Pic Pointers"
+	"Trainer Pic Pointers"
 	"Pics 1"
 ROMX $49
 	"Unown Pic Pointers"
 	"Pics 2"
 ROMX $4a
-	"Trainer Pic Pointers"
 	"Pics 3"
 ROMX $4b
 	"Pics 4"
@@ -310,6 +310,8 @@ ROMX $74
 	"Pokedex Entries 193-251"
 ROMX $75
 	"16-bit ID stuff"
+ROMX $76
+	"Map Scripts 26"
 ROMX $77
 	"Unown Font"
 	"Print Party"
@@ -319,6 +321,10 @@ ROMX $77
 	"European Mail"
 ROMX $78
 	"Tileset Data 8"
+ROMX $79
+	"Map Scripts 27"
+ROMX $7a
+	"Map Scripts 28"
 ROMX $7b
 	"Battle Tower Text"
 ROMX $7c

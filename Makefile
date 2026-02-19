@@ -29,7 +29,7 @@ pokecrystal_vc_obj    := $(rom_obj:.o=_vc.o)
 
 ### Build tools
 
-ifeq (,$(shell which sha1sum))
+ifeq (,$(shell command -v sha1sum 2>/dev/null))
 SHA1 := shasum
 else
 SHA1 := sha1sum
@@ -45,12 +45,12 @@ RGBLINK ?= $(RGBDS)rgblink
 ### Build targets
 
 .SUFFIXES:
-.PHONY: all crystal clean tidy tools
+.PHONY: all crystal crystal_debug clean tidy compare tools
 .SECONDEXPANSION:
 .PRECIOUS:
 .SECONDARY:
 
-all: crystal crystal_debug crystal_vc
+all: crystal
 crystal:       pokecrystal.gbc
 crystal_debug: pokecrystal_debug.gbc
 crystal_vc:    pokecrystal.patch
@@ -86,11 +86,18 @@ tidy:
 	      rgbdscheck.o
 	$(MAKE) clean -C tools/
 
+compare: $(roms) $(patches)
+	@$(SHA1) -c roms.sha1
+
 tools:
 	$(MAKE) -C tools/
 
 
 RGBASMFLAGS = -Q8 -P includes.asm -Weverything -Wtruncation=1
+# Create a sym/map for debug purposes if `make` run with `DEBUG=1`
+ifeq ($(DEBUG),1)
+RGBASMFLAGS += -E
+endif
 
 $(pokecrystal_obj):       RGBASMFLAGS +=
 $(pokecrystal_debug_obj): RGBASMFLAGS += -D _DEBUG
@@ -121,13 +128,14 @@ endef
 $(foreach obj, $(pokecrystal_obj), $(eval $(call DEP,$(obj),$(obj:.o=.asm))))
 $(foreach obj, $(pokecrystal_debug_obj), $(eval $(call DEP,$(obj),$(obj:_debug.o=.asm))))
 $(foreach obj, $(pokecrystal_vc_obj), $(eval $(call DEP,$(obj),$(obj:_vc.o=.asm))))
+$(foreach obj, $(pokecrystal11_vc_obj), $(eval $(call DEP,$(obj),$(obj:11_vc.o=.asm))))
 
 endif
 
 
-pokecrystal_opt         = -Cjv -t PM_CRYSTAL -i BYTE -n 0 -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
-pokecrystal_debug_opt   = -Cjv -t PM_CRYSTAL -i BYTE -n 0 -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
-pokecrystal_vc_opt      = -Cjv -t PM_CRYSTAL -i BYTE -n 0 -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
+pokecrystal_opt       = -Cjv -t PM_CRYSTAL -i BYTF -n 0 -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
+pokecrystal_debug_opt = -Cjv -t PM_CRYSTAL -i BYTF -n 0 -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
+pokecrystal_vc_opt    = -Cjv -t PM_CRYSTAL -i BYTF -n 0 -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
 
 .gbc: tools/bankends
 %.gbc: $$(%_obj) layout.link

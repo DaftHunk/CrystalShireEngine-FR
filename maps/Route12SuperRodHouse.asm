@@ -33,44 +33,42 @@ Route12SuperRodHouseFishingGuruScript:
 	end
 
 OfferSuperRodText:
-	text "I'm the FISHING"
-	line "GURU's younger"
-	cont "brother."
+	text "Je suis le petit"
+	line "frère du Maître"
+	cont "Pêcheur."
 
-	para "I can see that you"
-	line "like fishing."
+	para "Tu aimes la pêche,"
+	line "toi! Ca se voit."
 
-	para "There's no doubt"
-	line "in my mind at all!"
-
-	para "So? I know I'm"
-	line "right."
+	para "J'ai raison, hein?"
+	line "Bien sûr que oui!"
 	done
 
 GiveSuperRodText:
-	text "Yes, yes. Just as"
-	line "I thought!"
+	text "Crénom de là!"
+	line "C'est ben vrai!"
 
-	para "Here, fishing fan!"
-	line "Take this--it's a"
-	cont "SUPER ROD."
+	para "Tiens boudiou!"
+	line "Prends ça: c'est"
+	cont "la Mega Canne."
 	done
 
 GaveSuperRodText:
-	text "Try your hand at"
-	line "fishing wherever"
-	cont "there is water."
+	text "Essaie de pêcher"
+	line "un peu partout où"
+	cont "il y a de l'eau."
 
-	para "Remember--you can"
-	line "catch different"
+	para "Souviens-toi: tu"
+	line "peux attraper plu-"
 
-	para "#MON using"
-	line "different RODS."
+	para "sieurs #mon"
+	line "grâce à différen-"
+	cont "tes Cannes."
 	done
 
 DontWantSuperRodText:
-	text "Huh? My own eyes"
-	line "deceived me?"
+	text "Hein? On m'aurait"
+	line "trompé?"
 	done
 
 Route12SuperRodHouse_MapEvents:

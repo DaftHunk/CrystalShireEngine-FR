@@ -1,101 +1,105 @@
 BillPhoneMornGreetingText:
-	text "Good morning!"
+	text "Bonjour!"
 
-	para "This is the #-"
-	line "MON STORAGE SYSTEM"
+	para "Voici le Service"
+	line "d'Administration"
 
-	para "ADMINISTRATION"
-	line "SERVICE."
+	para "du Système de"
+	line "Stockage de"
+	cont "#mon."
 	done
 
 BillPhoneDayGreetingText:
-	text "Good day!"
+	text "Bonjour!"
 
-	para "This is the #-"
-	line "MON STORAGE SYSTEM"
+	para "Voici le Service"
+	line "d'Administration"
 
-	para "ADMINISTRATION"
-	line "SERVICE."
+	para "du Système de"
+	line "Stockage de"
+	cont "#mon."
 	done
 
 BillPhoneNiteGreetingText:
-	text "Good evening!"
+	text "Bonsoir!"
 
-	para "This is the #-"
-	line "MON STORAGE SYSTEM"
+	para "Voici le Service"
+	line "d'Administration"
 
-	para "ADMINISTRATION"
-	line "SERVICE."
+	para "du Système de"
+	line "Stockage de"
+	cont "#mon."
 	done
 
 BillPhoneGenericText:
-	text "Who's calling?"
+	text "Qui est-ce?"
 
-	para "<PLAY_G>, is it?"
-	line "Hang on a sec…"
+	para "<PLAY_G>?"
+	line "Une seconde..."
 
 	para "<……>"
 	line "<……>"
 	done
 
 BillPhoneNotFullText:
-	text "Thanks for"
-	line "waiting!"
+	text "Merci d'avoir"
+	line "attendu!"
 
-	para "<PLAY_G>, your BOX"
-	line "has room for @"
+	para "<PLAY_G>, ta Boîte"
+	line "a de la place pour"
+	cont "encore @"
 	text_ram wStringBuffer3
 	text_start
-	cont "more #MON."
+	cont "#mon."
 
-	para "Get out there and"
-	line "fill it up!"
+	para "Va en choper!"
 	done
 
 BillPhoneNearlyFullText:
-	text "Thanks for"
-	line "waiting!"
+	text "Merci d'avoir"
+	line "attendu!"
 
-	para "<PLAY_G>, your BOX"
-	line "has room for only"
-	cont "@"
+	para "<PLAY_G>, ta Boîte"
+	line "a de la place pour"
+	cont "encore @"
 	text_ram wStringBuffer3
-	text " more #MON."
+	text_start
+	cont "#mon."
 
-	para "Maybe you should"
-	line "switch your BOX."
+	para "Tu devrais changer"
+	line "de Boîte."
 	done
 
 BillPhoneFullText:
-	text "Thanks for"
-	line "waiting!"
+	text "Merci d'avoir"
+	line "attendu!"
 
-	para "<PLAY_G>, your BOX"
-	line "is full!"
+	para "<PLAY_G>, ta Boîte"
+	line "est pleine!"
 
-	para "You'll have to"
-	line "switch BOXES if"
-
-	para "you want to catch"
-	line "more #MON."
+	para "Tu devrais changer"
+	line "de Boîte pour"
+	cont "attraper d'autres"
+	cont "#mon."
 	done
 
 BillPhoneNewlyFullText:
-	text "Hi, <PLAY_G>?"
-	line "It's me, BILL!"
+	text "<PLAY_G>?"
+	line "C'est moi! Léo!"
 
-	para "Thanks for using"
-	line "my STORAGE SYSTEM."
+	para "Merci d'utiliser"
+	line "le Système de"
+	cont "Stockage."
 
-	para "That last #MON"
-	line "you sent filled"
-	cont "your BOX up."
+	para "Le dernier #mon"
+	line "envoyé a rempli"
+	cont "ta Boîte."
 
-	para "You'll have to"
-	line "switch BOXES if"
+	para "Il faut changer de"
+	line "Boîte pour attra-"
 
-	para "you want to catch"
-	line "more #MON."
+	para "per d'autres"
+	line "#mon."
 
-	para "Bye now!"
+	para "Salut!"
 	done

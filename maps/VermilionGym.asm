@@ -103,159 +103,152 @@ VermilionGymStatue:
 	jumpstd GymStatue2Script
 
 LtSurgeIntroText:
-	text "SURGE: Hey, you"
-	line "little tyke!"
+	text "Bob: Hé toi!"
+	line "Le lutin!"
 
-	para "I have to hand it"
-	line "to you. It may not"
+	para "On peut dire que"
+	line "tu as du courage"
 
-	para "be very smart to"
-	line "challenge me, but"
-	cont "it takes guts!"
+	para "de venir me cher-"
+	line "cher des noises!"
 
-	para "When it comes to"
-	line "electric #MON,"
-	cont "I'm number one!"
+	para "Moi j'suis le boss"
+	line "des #mon"
+	cont "électriques!"
 
-	para "I've never lost on"
-	line "the battlefield."
+	para "Je n'ai jamais"
+	line "perdu un combat."
 
-	para "I'll zap you just"
-	line "like I did my"
-	cont "enemies in war!"
+	para "J'vais te punir!"
+	line "Comme à l'entraî-"
+	cont "nement!"
 	done
 
 LtSurgeWinLossText:
-	text "SURGE: Arrrgh!"
-	line "You are strong!"
+	text "Bob: Arrrgh!"
+	line "Trop fort!"
 
-	para "OK, kid. You get"
-	line "THUNDERBADGE!"
+	para "OK. Voilà ton"
+	line "Badge Foudre!"
 	done
 
 ReceivedThunderBadgeText:
-	text "<PLAYER> received"
-	line "THUNDERBADGE."
+	text "<PLAYER> reçoit"
+	line "le Badge Foudre."
 	done
 
 LtSurgeThunderBadgeText:
-	text "SURGE: THUNDER-"
-	line "BADGE increases"
-	cont "#MON's speed."
+	text "Bob: Le Badge Fou-"
+	line "dre augmente la"
+	cont "Vitesse de tes"
+	cont "#mon."
 
-	para "Consider it proof"
-	line "that you defeated"
+	para "Ce Badge est la"
+	line "preuve de ta vic-"
 
-	para "me. You wear it"
-	line "proudly, hear?"
+	para "toire. Porte-le"
+	line "fièrement!!!"
 	done
 
 LtSurgeFightDoneText:
-	text "SURGE: Hey, kid!"
-	line "Still slugging and"
-	cont "chugging away?"
+	text "Bob: Hé toi!"
+	line "Tu tiens le coup?"
 
-	para "My #MON and I"
-	line "are still at it!"
+	para "Moi et mes #mon"
+	line "on a la pêche!"
 	done
 
 GentlemanGregorySeenText:
-	text "You're here to"
-	line "defeat LT.SURGE?"
+	text "Tu viens défier le"
+	line "Major Bob?"
 
-	para "Not if I can help"
-	line "it!"
+	para "C'est ce qu'on va"
+	line "voir!"
 	done
 
 GentlemanGregoryBeatenText:
-	text "Sorry I failed"
-	line "you, LT.SURGE,"
-	cont "sir!"
+	text "Pardon, Major"
+	line "Bob!"
 	done
 
 GentlemanGregoryAfterBattleText:
-	text "When I was still"
-	line "in the army, LT."
-
-	para "SURGE saved my"
-	line "life."
+	text "A l'armée, le"
+	line "Major Bob m'a"
+	cont "sauvé la vie."
 	done
 
 GuitaristVincentSeenText:
-	text "LT.SURGE recog-"
-	line "nized my potential"
+	text "Le Major Bob a foi"
+	line "en mes talents de"
 
-	para "with electric"
-	line "#MON."
+	para "dresseur de #-"
+	line "mon électriques."
 
-	para "Think you can beat"
-	line "me?"
+	para "Tu crois pouvoir"
+	line "me battre?"
 	done
 
 GuitaristVincentBeatenText:
-	text "Ooh, how shocking!"
+	text "Ooh, sous le choc!"
 	done
 
 GuitaristVincentAfterBattleText:
-	text "If the GYM's traps"
-	line "were working, you"
-
-	para "would have been"
-	line "toast…"
+	text "Si les pièges de"
+	line "l'Arène marchaient"
+	cont "tu en aurais bavé!"
 	done
 
 JugglerHortonSeenText:
-	text "I'm going to take"
-	line "you down! Prepare"
-	cont "to be shocked!"
+	text "J'vais t'allonger!"
+	line "Oh que oui!"
 	done
 
 JugglerHortonBeatenText:
 	text "Gwaaah!"
-	line "I was overpowered…"
+	line ""
 	done
 
 JugglerHortonAfterBattleText:
-	text "Don't get too com-"
-	line "fortable about"
+	text "Ne te réjouis pas"
+	line "trop de m'avoir"
 
-	para "beating me…"
-	line "LT.SURGE is tough."
+	para "battu. Le Major"
+	line "Bob, c'est pas la"
+	cont "même limonade."
 	done
 
 VermilionGymGuideText:
-	text "Yo! CHAMP in"
-	line "making!"
+	text "Hé! Graine de"
+	line "star!"
 
-	para "You lucked out"
-	line "this time."
+	para "Tu sais quoi..."
 
-	para "LT.SURGE is very"
-	line "cautious. He has"
+	para "Le Major Bob qui"
+	line "est très prudent,"
 
-	para "traps set all over"
-	line "the GYM."
+	para "a posé des pièges"
+	line "dans l'Arène."
 
-	para "But--he-heh--the"
-	line "traps aren't"
-	cont "active right now."
+	para "Mais...hé hé..."
+	line "les pièges ne sont"
+	cont "pas branchés."
 
-	para "You'll have no"
-	line "problem getting to"
-	cont "LT.SURGE."
+	para "Tu n'auras donc"
+	line "aucun problème à"
+	cont "voir le Major Bob."
 	done
 
 VermilionGymGuideWinText:
-	text "Whew! That was an"
-	line "electrifying bout!"
+	text "Fouii! C'était une"
+	line "sacrée rencontre!"
 
-	para "It sure made me"
-	line "nervous."
+	para "Ça m'a tout"
+	line "retourné."
 	done
 
 VermilionGymTrashCanText:
-	text "Nope! Nothing here"
-	line "but trash."
+	text "Mmmm! Une bonne"
+	line "poubelle dégueue."
 	done
 
 VermilionGym_MapEvents:

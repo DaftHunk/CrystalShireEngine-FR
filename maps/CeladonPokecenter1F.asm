@@ -71,76 +71,78 @@ CeladonEusine:
 	step_end
 
 CeladonPokecenter1FCooltrainerFText:
-	text "ERIKA is a master"
-	line "of grass #MON."
+	text "Erika est la"
+	line "maîtresse des"
+	cont "#mon des"
+	cont "plantes."
 
-	para "She'll make you"
-	line "pay if you don't"
-	cont "watch yourself."
+	para "Fais attention ou"
+	line "tu le regretteras."
 	done
 
 CeladonPokecenter1FPharmacistText:
-	text "TEAM ROCKET's"
-	line "hideout is in the"
+	text "La planque de la"
+	line "Team Rocket est au"
 
-	para "basement of the"
-	line "GAME CORNER."
+	para "sous-sol du"
+	line "Casino."
 
-	para "Oh, wait. That was"
-	line "three years ago."
+	para "Attends... C'était"
+	line "il y a 3 ans, ça."
 	done
 
 CeladonEusineText1:
-	text "EUSINE: Hi!"
+	text "Eusine: Bonjour!"
 
-	para "I'm back visiting"
-	line "my hometown."
+	para "Je suis de retour"
+	line "dans ma ville"
+	cont "natale."
 
-	para "It's been quite a"
-	line "while."
+	para "Ça faisait bien"
+	line "longtemps."
 	done
 
 EusineLeavesCeladonText:
-	text "<PLAYER>, have you"
-	line "heard?"
+	text "<PLAYER>, es-tu"
+	line "au courant?"
 
-	para "There have been"
-	line "fresh rumors of a"
+	para "On raconte qu'un"
+	line "#mon aux cou-"
 
-	para "rainbow-colored"
-	line "#MON appearing"
-	cont "at TIN TOWER."
+	para "leurs de l'arc-"
+	line "en-ciel est apparu"
+	cont "à la Tour"
+	cont "Ferraille."
 
-	para "I've just had my"
-	line "party healed, so"
+	para "Je viens de soi-"
+	line "gner mon équipe."
 
-	para "now I'm headed to"
-	line "ECRUTEAK."
+	para "Je retourne à"
+	line "Rosalia."
 
-	para "I'll be seeing"
-	line "you, <PLAYER>!"
+	para "A très bientôt,"
+	line "<PLAYER>!"
 	done
 
 NoBeastsText:
-	text "Oh, by the way,"
+	text "Au fait,"
 	line "<PLAYER>."
 
-	para "Have you caught"
-	line "the legendary"
+	para "As-tu attrapé les"
+	line "#mon légendai-"
 
-	para "#MON RAIKOU and"
-	line "ENTEI?"
+	para "res Raikou et"
+	line "Entei?"
 
 	para "<……><……><……>"
 
-	para "Okay…"
+	para "D'accord..."
 
-	para "If you catch even"
-	line "one, I hope that"
-	cont "you'll inform me."
+	para "Si tu en attrapes"
+	line "un, préviens-moi."
 
-	para "I'm counting on"
-	line "you, <PLAYER>!"
+	para "Je compte sur toi,"
+	line "<PLAYER>!"
 	done
 
 CeladonPokecenter1F_MapEvents:

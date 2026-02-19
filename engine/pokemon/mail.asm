@@ -547,14 +547,14 @@ MailboxPC:
 
 .SubMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 13, 9
+	menu_coords 0, 0, 17, 9
 	dw .SubMenuData
 	db 1 ; default option
 
 .SubMenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "READ MAIL@"
-	db "PUT IN PACK@"
-	db "ATTACH MAIL@"
-	db "CANCEL@"
+	db "Lire Lettre@"
+	db "Mettre dans Sac@"
+	db "Confier Lettre@"
+	db "Retour@"

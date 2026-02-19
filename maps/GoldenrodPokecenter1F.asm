@@ -151,96 +151,93 @@ GoldenrodPokeCenter1FLinkReceptionistWalkToStairsFromRightDoorwayTileMovement:
 	step_end
 
 GoldenrodPokecenter1FGameboyKidText:
-	text "The COLOSSEUM"
-	line "upstairs is for"
-	cont "link battles."
+	text "Le Colisée sert"
+	line "à faire des com-"
+	cont "bats en Link."
 
-	para "Battle records are"
-	line "posted on the"
-
-	para "wall, so I can't"
-	line "afford to lose."
+	para "Les records sont"
+	line "affichés sur le"
+	cont "mur. Perdre, c'est"
+	cont "la honte!"
 	done
 
 GoldenrodPokecenter1FLassText:
-	text "A higher level"
-	line "#MON doesn't"
-	cont "always win."
+	text "Un #mon de"
+	line "niveau élevé ne"
+	cont "gagnera pas à tous"
+	cont "les coups."
 
-	para "After all, it may"
-	line "have a type dis-"
-	cont "advantage."
+	para "Après tout, il y a"
+	line "peut-être un type"
+	cont "désavantagé."
 
-	para "I don't think"
-	line "there is a single"
+	para "Je ne crois pas"
+	line "qu'il y ait un"
 
-	para "#MON that is"
-	line "the toughest."
+	para "type de #mon"
+	line "qui soit le plus"
+	cont "résistant."
 	done
 
 GoldenrodPokeCenter1FLinkReceptionistPleaseAcceptGSBallText:
-	text "<PLAYER>, isn't it?"
+	text "<PLAYER>?"
 
-	para "Congratulations!"
+	para "Félicitations!"
 
-	para "As a special deal,"
-	line "a GS BALL has been"
-	cont "sent just for you!"
+	para "En cadeau spécial,"
+	line "une GS Ball vous a"
+	cont "été envoyée!"
 
-	para "Please accept it!"
+	para "C'est pour vous!"
 	done
 
 GoldenrodPokeCenter1FLinkReceptionistPleaseDoComeAgainText:
-	text "Please do come"
-	line "again!"
+	text "A très bientôt!"
 	done
 
 GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
-	text "Oh my, your pack"
-	line "looks so heavy!"
+	text "Ton Sac a l'air"
+	line "siiiii lourd!"
 
-	para "Oh! Do you happen"
-	line "to have something"
-	cont "named EON MAIL?"
+	para "Oh! As-tu un truc"
+	line "du nom de Letr."
+	cont "Evoli?"
 
-	para "My daughter is"
-	line "after one."
+	para "Ma fille en veut"
+	line "une."
 
-	para "You can part with"
-	line "one, can't you?"
+	para "Tu peux m'en"
+	line "donner une?"
 	done
 
 GoldenrodPokecenter1FAskGiveAwayAnEonMailText:
-	text "Give away an EON"
-	line "MAIL?"
+	text "Donner Letr.Evoli?"
 	done
 
 GoldenrodPokecenter1FPokefanFThisIsForYouText:
-	text "Oh, that's great!"
-	line "Thank you, honey!"
-
-	para "Here, this is for"
-	line "you in return!"
+	text "Oh, formidable!"
+	line "Merci merci!"
+	cont "Voilà pour toi!"
 	done
 
 GoldenrodPokecenter1FPokefanFDaughterWillBeDelightedText:
-	text "My daughter will"
-	line "be delighted!"
+	text "Ma fille sera"
+	line "ravie!"
 	done
 
 GoldenrodPokecenter1FPokefanFTooBadText:
-	text "Oh? You don't have"
-	line "one? Too bad."
+	text "Oh? Tu n'en as"
+	line "pas? Dommage."
 	done
 
 GoldenrodPokecenter1FPokefanFAnotherTimeThenText:
-	text "Oh… Well, another"
-	line "time, then."
+	text "Oh... Une autre"
+	line "fois, alors."
 	done
 
 GoldenrodPokecenter1FPlayerGaveAwayTheEonMailText:
-	text "<PLAYER> gave away"
-	line "the EON MAIL."
+	text "<PLAYER> donne"
+	line "la Letr.Evoli."
 	done
 
 GoldenrodPokecenter1F_MapEvents:

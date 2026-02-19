@@ -1,10 +1,10 @@
 # CrystalShireEngine (CSE)
 
 CrystalShireEngine (CSE) is an enhanced engine for Pokemon Crystal romhacking.
+CSE is currently still under developement. You will likely experience significant bugs and differences in the engine compared to vanilla pokecrystal. If you wish to use CSE, we highly recommend you join our discord server for support. We need your help to identify bugs, so we may improve the engine for everyone!
 
-#### CSE is currently still **under developement**. You will likely experience significant bugs and differences in the engine compared to vanilla pokecrystal. If you wish to use CSE, we highly recommend you join our [discord server](https://discord.gg/dvpf6wcqMn) for support. We need your help to identify bugs, so we may improve the engine for everyone!
 
-## Features
+## Fonctionnalitées
 
 - **Extended 16-bit Indexes:** Pokemon & Moves. Detailed info & usage can be found at the [pokecrystal16 wiki](https://github.com/vulcandth/pokecrystal16/wiki). Credits: [aaaaaa123456789](https://github.com/aaaaaa123456789), [vulcandth](https://github.com/vulcandth), [Rangi42](https://github.com/Rangi42).
 - **Newbox:** Complete overhaul of Bill's PC. Credits: [Rangi42](https://github.com/Rangi42), [FredrIQ](https://github.com/FredrIQ), [vulcandth](https://github.com/vulcandth).
@@ -31,11 +31,9 @@ CrystalShireEngine (CSE) is an enhanced engine for Pokemon Crystal romhacking.
 - **Smooth Fading Routines** Port smooth fading routines from Polished Crystal/Prism. Credits: [Rangi42](https://github.com/Rangi42), [FredrIQ](https://github.com/FredrIQ), Pokemon Polished Crystal, Pokemon Prism.
 - **newbag:** A refactor of the backpack, which includes the ability to expand pockets in the bag. Credits: [Monstarules](https://github.com/Monstarules)
 
-## Contributions
+## Crédits
 
-We warmly welcome contributions to the CrystalShireEngine project. If you're interested in contributing, please contact [vulcandth](https://github.com/vulcandth) on Discord to discuss how you can help!
-
-## Branch Structure
-
-- **core:** The default branch, aimed at integrating optimizations, bug & design flaw fixes, and various other engine improvements to support rom hacking.
-- **gen3, gen4, ...:** Upcoming branches set to incorporate a plethora of features (pokemon, moves, mechanics, etc.) from respective generations into the Crystal engine.
+- **Toute la communauté Pret** : pour leur désassemblage de [Pokémon Crystal](https://github.com/pret/pokecrystal) (entre autre !)
+- **Fellowship of the Roms** : pour leur [**CrystalShireEngine**](https://github.com/fellowship-of-the-roms/CrystalShireEngine) dont cette rom dérive
+- **[gb-mobile](https://github.com/gb-mobile/pokecrystal-mobile-fra)** : pour leur VF et leur restauration de la fonctionnalitée mobile Japonaise
+- **Rangi42** : pour [**Polished Crystal**](https://github.com/Rangi42/polishedcrystal) et sa tonne d'outils et de tuto qui m'ont énormément aidé

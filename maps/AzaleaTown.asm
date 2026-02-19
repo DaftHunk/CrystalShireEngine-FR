@@ -234,208 +234,224 @@ AzaleaTownPlayerLeavesKurtsHouseMovement:
 	step_end
 
 AzaleaTownRivalBeforeText:
-	text "…Tell me some-"
-	line "thing."
+	text "...Dis-moi quelque"
+	line "chose, p'tit"
+	cont "bouchon..."
 
-	para "Is it true that"
-	line "TEAM ROCKET has"
-	cont "returned?"
+	para "Est-ce vrai que la"
+	line "Team Rocket est de"
+	cont "retour?"
 
-	para "What? You beat"
-	line "them? Hah! Quit"
-	cont "lying."
+	para "Quoi? Tu les as"
+	line "battus? Hah!"
+	cont "Arrête de mentir."
 
-	para "You're not joking?"
-	line "Then let's see how"
-	cont "good you are."
+	para "Naan, t'aimes"
+	line "pas crâner, toi!"
+	cont "Allez, baston..."
 	done
 
 AzaleaTownRivalWinText:
-	text "… Humph! Useless"
-	line "#MON!"
+	text "...Humpff! Vilains"
+	line "#mon!"
 
-	para "Listen, you. You"
-	line "only won because"
+	para "Ouvre bien tes"
+	line "oreilles mon p'tit"
 
-	para "my #MON were"
-	line "weak."
+	para "chat, t'as gagné"
+	line "parce que mes"
+	cont "#mon se sont"
+	cont "couchés tard..."
 	done
 
 AzaleaTownRivalAfterText:
-	text "I hate the weak."
+	text "Je déteste les"
+	line "minus."
 
-	para "#MON, trainers."
-	line "It doesn't matter"
-	cont "who or what."
+	para "#mon ou"
+	line "dresseur, c'est"
+	cont "du kif-kif."
 
-	para "I'm going to be"
-	line "strong and wipe"
-	cont "out the weak."
+	para "Je vais devenir"
+	line "surpuissant et"
+	cont "balayer les minus."
 
-	para "That goes for TEAM"
-	line "ROCKET too."
+	para "Et c'est pareil"
+	line "pour la Team"
+	cont "Rocket."
 
-	para "They act big and"
-	line "tough in a group."
+	para "Ils sont redoutés"
+	line "parce qu'ils agis-"
 
-	para "But get them"
-	line "alone, and they're"
-	cont "weak."
+	para "sent en groupe,"
+	line "mais un par un ils"
+	cont "sont faibles."
 
-	para "I hate them all."
+	para "Je les déteste"
+	line "tous!"
 
-	para "You stay out of my"
-	line "way. A weakling"
+	para "Hors de ma vue"
+	line "minus! Quelqu'un"
 
-	para "like you is only a"
-	line "distraction."
+	para "comme toi"
+	line "ne peut rien"
+	cont "m'apporter..."
 	done
 
 AzaleaTownRivalLossText:
-	text "…Humph! I knew"
-	line "you were lying."
+	text "...Humpff! Je me"
+	line "doutais bien que"
+	cont "tu pipotais..."
 	done
 
 AzaleaTownRocket1Text:
-	text "It's unsafe to go"
-	line "in there, so I'm"
-	cont "standing guard."
+	text "C'est dangereux"
+	line "d'entrer ici, je"
+	cont "monte la garde."
 
-	para "Aren't I a good"
-	line "Samaritan?"
+	para "J'suis trop cool,"
+	line "tu ne trouves pas?"
 	done
 
 AzaleaTownRocket2Text:
-	text "Do you know about"
-	line "SLOWPOKETAIL? I"
-	cont "heard it's tasty!"
+	text "Que sais-tu sur la"
+	line "QueueRamolos? On"
+	cont "dit que c'est"
+	cont "goûtu!"
 
-	para "Aren't you glad I"
-	line "told you that?"
+	para "C'est trop bien"
+	line "de savoir ça, non?"
 	done
 
 AzaleaTownGrampsTextBefore:
-	text "The SLOWPOKE have"
-	line "disappeared from"
-	cont "town…"
+	text "Les Ramoloss ont"
+	line "déserté la ville."
 
-	para "I heard their"
-	line "TAILS are being"
-	cont "sold somewhere."
+	para "On dit qu'on vend"
+	line "leur Queue quelque"
+	cont "part."
 	done
 
 AzaleaTownGrampsTextAfter:
-	text "The SLOWPOKE have"
-	line "returned."
+	text "Les Ramoloss sont"
+	line "de retour."
 
-	para "Knowing them, they"
-	line "could've just been"
-
-	para "goofing off some-"
-	line "where."
+	para "A mon avis, ils"
+	line "devaient traîner"
+	cont "quelque part."
 	done
 
 AzaleaTownTeacherText:
-	text "Did you come to"
-	line "get KURT to make"
-	cont "some BALLS?"
+	text "Es-tu ici pour"
+	line "Fargas, celui qui"
+	cont "fabrique les"
+	cont "Balls?"
 
-	para "A lot of people do"
-	line "just that."
+	para "Il n'y a pas que"
+	line "toi."
 	done
 
 AzaleaTownYoungsterText:
-	text "Cut through AZALEA"
-	line "and you'll be in"
-	cont "ILEX FOREST."
+	text "Passe par Ecorcia"
+	line "et tu te retrou-"
+	cont "veras au Bois aux"
+	cont "Chênes."
 
-	para "But these skinny"
-	line "trees make it"
+	para "Mais ces petits"
+	line "arbustes bloquent"
+	cont "le passage."
 
-	para "impossible to get"
-	line "through."
-
-	para "The CHARCOAL MAN's"
-	line "#MON can CUT"
-	cont "down trees."
+	para "Le #mon du"
+	line "Charbonnier peut"
+	cont "couper les arbres."
 	done
 
 AzaleaTownSlowpokeText1:
-	text "SLOWPOKE: …"
+	text "Ramoloss: ..."
 
-	para "<……> <……> <……>"
+	para ".................."
 	done
 
 AzaleaTownSlowpokeText2:
-	text "<……> <……>Yawn?"
+	text ".........gueuh?"
+	done
+
+WoosterText:
+	text "Kiki: Gaaahh..."
 	done
 
 AzaleaTownKurtText1:
-	text "ILEX FOREST is"
-	line "restless!"
+	text "Le Bois aux Chênes"
+	line "est agité!"
 
-	para "What is going on?"
+	para "Que se passe-t-il?"
 	done
 
 AzaleaTownKurtText2:
-	text "<PLAYER>, here's"
-	line "your GS BALL back!"
+	text "<PLAYER>, voilà"
+	line "ta GS Ball!"
 	done
 
 AzaleaTownKurtText3:
-	text "Could you go see"
-	line "why ILEX FOREST is"
-	cont "so restless?"
+	text "Peux-tu voir pour-"
+	line "quoi le Bois aux"
+	cont "Chênes est si"
+	cont "agité?"
 	done
 
 AzaleaTownSignText:
-	text "AZALEA TOWN"
-	line "Where People and"
+	text "Ecorcia"
+	line "La ville où les"
 
-	para "#MON Live in"
-	line "Happy Harmony"
+	para "gens et les petits"
+	line "#mon sont"
+	cont "bien contents"
+	cont "d'habiter"
 	done
 
 KurtsHouseSignText:
-	text "KURT'S HOUSE"
+	text "Maison de Fargas"
 	done
 
 AzaleaGymSignText:
-	text "AZALEA TOWN"
-	line "#MON GYM"
-	cont "LEADER: BUGSY"
+	text "Champion d'Arène"
+	line "d'Ecorcia: Hector"
 
-	para "The Walking"
-	line "Bug #MON"
-	cont "Encyclopedia"
+	para "L'expert des"
+	line "#mon Insecte!"
 	done
 
 SlowpokeWellSignText:
-	text "SLOWPOKE WELL"
+	text "Puits Ramoloss"
 
-	para "Also known as the"
-	line "RAINMAKER WELL."
+	para "Aussi connu sous"
+	line "le nom de..."
+	cont "Puits de Pluie."
 
-	para "Locals believe"
-	line "that a SLOWPOKE's"
-	cont "yawn summons rain."
+	para "Les gens du coin"
+	line "pensent que le"
+	cont "baillement du"
+	cont "Ramoloss invoque"
+	cont "la pluie."
 
-	para "Records show that"
-	line "a SLOWPOKE's yawn"
+	para "Les archives"
+	line "montrent qu'un"
 
-	para "ended a drought"
-	line "400 years ago."
+	para "baillement de"
+	line "Ramoloss a mis fin"
+	cont "à 400 ans de"
+	cont "sécheresse."
 	done
 
 CharcoalKilnSignText:
-	text "CHARCOAL KILN"
+	text "Four à Charbon"
 	done
 
 AzaleaTownIlexForestSignText:
-	text "ILEX FOREST"
+	text "Bois aux Chênes"
 
-	para "Enter through the"
-	line "gate."
+	para "On y entre par la"
+	line "porte."
 	done
 
 AzaleaTown_MapEvents:

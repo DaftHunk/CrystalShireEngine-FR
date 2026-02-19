@@ -106,161 +106,153 @@ SaffronCityMartSign:
 	jumpstd MartSignScript
 
 SaffronCityLass1Text:
-	text "A little girl who"
-	line "is an expert at"
+	text "Une fille experte"
+	line "en imitation vit"
+	cont "ici."
 
-	para "mimicking people"
-	line "lives here."
+	para "Elle imite même"
+	line "les gens avec qui"
 
-	para "She even mimics"
-	line "the people she's"
-
-	para "conversing with."
-	line "It's confusing."
+	para "elle parle. C'est"
+	line "un peu lourd."
 	done
 
 SaffronCityLass1Text_ReturnedMachinePart:
-	text "The COPYCAT girl"
-	line "looked unhappy."
+	text "La Copieuse semble"
+	line "malheureuse. Elle"
 
-	para "She said she lost"
-	line "her favorite #"
-	cont "DOLL--CLEFAIRY."
+	para "dit avoir perdu sa"
+	line "# Poupée pré-"
+	cont "férée: Mélofée."
 	done
 
 SaffronCityPokefanMText:
-	text "You came out from"
-	line "JOHTO?"
+	text "Tu viens de Johto?"
 
-	para "You can zip back"
-	line "home if the MAGNET"
-	cont "TRAIN's running."
+	para "Tu peux retourner"
+	line "chez toi en une"
+	cont "seconde si le"
+	cont "Train Magnet"
+	cont "fonctionne."
 	done
 
 SaffronCityPokefanMText_ReturnedMachinePart:
-	text "You came out from"
-	line "JOHTO?"
+	text "Tu viens de Johto?"
 
-	para "You can zip back"
-	line "home by hopping on"
-	cont "the MAGNET TRAIN."
+	para "Tu peux retourner"
+	line "chez toi en une"
+	cont "seconde avec le"
+	cont "Train Magnet."
 	done
 
 SaffronCityCooltrainerMText:
-	text "I went to the GYM,"
-	line "raring for battles"
-	cont "against trainers…"
+	text "J'allais à l'Arène"
+	line "pour faire plein"
+	cont "de combats..."
 
-	para "It turns out, I"
-	line "stumbled into the"
+	para "Et puis j'suis"
+	line "arrivé à l'Arène"
+	cont "cassée d'à côté."
 
-	para "unused GYM next"
-	line "door."
-
-	para "Boy, I was pretty"
-	line "embarrassed."
+	para "J'avais l'air"
+	line "un peu crétin."
 	done
 
 SaffronCityCooltrainerFText:
-	text "This is SILPH CO.,"
-	line "famous for #MON"
-	cont "merchandise."
+	text "La Sylphe SARL est"
+	line "célèbre pour ses"
+	cont "produits #mon."
 
-	para "In the past, TEAM"
-	line "ROCKET wanted the"
+	para "C'est pour ça que"
+	line "la Team Rocket"
 
-	para "company because of"
-	line "that."
+	para "voulait la contrô-"
+	line "ler..."
 	done
 
 SaffronCityFisherText:
-	text "Chew… Chew…"
+	text "(bouffe)(mâche)"
 
-	para "I hear there's big"
-	line "trouble brewing at"
-	cont "the POWER PLANT."
+	para "On dit qu'il y a"
+	line "du tintouin à la"
+	cont "Centrale."
 
-	para "Chew… Chew…"
+	para "(bouffe)(mâche)"
 	done
 
 SaffronCityFisherText_ReturnedMachinePart:
-	text "Chew… Chew…"
+	text "(bouffe)(mâche)"
 
-	para "I hear there was"
-	line "big trouble at the"
-	cont "POWER PLANT."
+	para "On dit qu'il y a-"
+	line "vait du tintouin à"
+	cont "la Centrale."
 
-	para "Chew… Chew…"
-	line "Haaah, I'm full!"
+	para "(bouffe)(mâche)"
+	line "J'ai plus faim!"
 	done
 
 SaffronCityYoungster1Text:
-	text "Going into an"
-	line "alley for the"
+	text "Se balader dans"
+	line "une ruelle pour la"
 
-	para "first time makes"
-	line "me sorta anxious."
+	para "première fois fait"
+	line "peur, non?"
 	done
 
 SaffronCityYoungster2Text:
-	text "There's a place"
-	line "called TRAINER"
+	text "On dit que les"
+	line "dresseurs se ren-"
 
-	para "HOUSE in VIRIDIAN"
-	line "where trainers"
-
-	para "gather from all"
-	line "over the place."
+	para "contrent au Club"
+	line "des Dresseurs à"
+	cont "Jadielle."
 	done
 
 SaffronCityLass2Text:
-	text "Our city was"
-	line "featured on a"
-	cont "radio program."
+	text "On a parlé de"
+	line "notre ville à la"
+	cont "radio."
 
-	para "It's nice to hear"
-	line "praise for your"
-
-	para "city, but it's a"
-	line "bit embarrassing"
-	cont "too."
+	para "Ça fait plaisir."
+	line "C'est pas tous les"
+	cont "jours."
 	done
 
 SaffronCitySignText:
-	text "SAFFRON CITY"
+	text "Safrania"
 
-	para "Shining, Golden"
-	line "Land of Commerce"
+	para "Le berceau doré"
+	line "du commerce"
 	done
 
 SaffronGymSignText:
-	text "SAFFRON CITY"
-	line "#MON GYM"
-	cont "LEADER: SABRINA"
+	text "Champion d'Arène"
+	line "de Safrania:"
+	cont "Morgane"
 
-	para "The Master of"
-	line "Psychic #MON!"
+	para "La maîtresse des"
+	line "#mon Psy!"
 	done
 
 FightingDojoSignText:
-	text "Everyone Welcome!"
-	line "FIGHTING DOJO"
+	text "Dojo"
+	line "Bienvenue à tous!"
 	done
 
 SilphCoSignText:
-	text "SILPH CO."
-	line "OFFICE BUILDING"
+	text "Bureaux de la"
+	line "Sylphe SARL"
 	done
 
 MrPsychicsHouseSignText:
-	text "MR.PSYCHIC'S"
-	line "HOUSE"
+	text "Maison de"
+	line "M.Psy"
 	done
 
 SaffronCityMagnetTrainStationSignText:
-	text "SAFFRON CITY"
-	line "MAGNET TRAIN"
-	cont "STATION"
+	text "Station du"
+	line "Train Magnet"
+	cont "de Safrania"
 	done
 
 SaffronCity_MapEvents:

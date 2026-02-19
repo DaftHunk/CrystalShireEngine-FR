@@ -111,158 +111,154 @@ CeladonGymStatue:
 	jumpstd GymStatue2Script
 
 ErikaBeforeBattleText:
-	text "ERIKA: Hello…"
-	line "Lovely weather,"
+	text "Erika: Bonjour..."
+	line "Belle journée,"
+	cont "non?"
 
-	para "isn't it?"
-	line "It's so pleasant…"
+	para "C'est beau la vie."
 
-	para "…I'm afraid I may"
-	line "doze off…"
+	para "Moi je suis Erika,"
+	line "Championne de"
+	cont "l'Arène de Célado-"
+	cont "pole."
 
-	para "My name is ERIKA."
-	line "I am the LEADER of"
-	cont "CELADON GYM."
+	para "...Oh? Tu viens"
+	line "de Johto?"
+	cont "C'est bien..."
 
-	para "…Oh? All the way"
-	line "from JOHTO, you"
-	cont "say? How nice…"
+	para "...Quoi? Tu veux"
+	line "te battre? Mais il"
+	cont "faut le dire!!!"
 
-	para "Oh. I'm sorry, I"
-	line "didn't realize"
-
-	para "that you wished to"
-	line "challenge me."
-
-	para "Very well, but I"
-	line "shall not lose."
+	para "J'vais te casser"
+	line "ta face!!!"
 	done
 
 ErikaBeatenText:
-	text "ERIKA: Oh!"
-	line "I concede defeat…"
+	text "Erika: Oh!"
+	line "J'ai perdu..."
 
-	para "You are remarkably"
-	line "strong…"
+	para "Toi t'es un p'tit"
+	line "tigre..."
 
-	para "I shall give you"
-	line "RAINBOWBADGE…"
+	para "Voilà pour toi: le"
+	line "Badge Prisme..."
 	done
 
 PlayerReceivedRainbowBadgeText:
-	text "<PLAYER> received"
-	line "RAINBOWBADGE."
+	text "<PLAYER> reçoit"
+	line "le Badge Prisme."
 	done
 
 ErikaExplainTMText:
-	text "ERIKA: That was a"
-	line "delightful match."
+	text "Erika: Quel beau"
+	line "match."
 
-	para "I felt inspired."
-	line "Please, I wish you"
-	cont "to have this TM."
+	para "Je tiens à ce que"
+	line "tu acceptes cette"
+	cont "belle CT."
 
-	para "It is GIGA DRAIN."
+	para "C'est la"
+	line "Giga-Sangsue."
 
-	para "It is a wonderful"
-	line "move that drains"
+	para "Cette capacité"
+	line "draine la moitié"
 
-	para "half the damage it"
-	line "inflicts to heal"
-	cont "your #MON."
+	para "des dégâts infli-"
+	line "gés pour soigner"
+	cont "ton #mon."
 
-	para "Please use it if"
-	line "it pleases you…"
+	para "Tu verras, c'est"
+	line "très utile..."
 	done
 
 ErikaAfterBattleText:
-	text "ERIKA: Losing"
-	line "leaves a bitter"
-	cont "aftertaste…"
+	text "Erika: Perdre"
+	line "fait toujours un"
+	cont "peu mal mais..."
 
-	para "But knowing that"
-	line "there are strong"
-
-	para "trainers spurs me"
-	line "to do better…"
+	para "Combattre un bon"
+	line "adversaire est"
+	cont "stimulant..."
 	done
 
 LassMichelleSeenText:
-	text "Do you think a"
-	line "girls-only GYM"
-	cont "is rare?"
+	text "Ça t'étonne une"
+	line "Arène remplie"
+	cont "de filles?"
 	done
 
 LassMichelleBeatenText:
-	text "Oh, bleah!"
+	text "Ouiiiiin!"
 	done
 
 LassMichelleAfterBattleText:
-	text "I just got care-"
-	line "less, that's all!"
+	text "Je ne faisais pas"
+	line "attention!"
 	done
 
 PicnickerTanyaSeenText:
-	text "Oh, a battle?"
-	line "That's kind of"
-	cont "scary, but OK!"
+	text "Un combat?"
+	line "Heu...non."
+	cont "..."
+	cont "Allez, d'accord!"
 	done
 
 PicnickerTanyaBeatenText:
-	text "Oh, that's it?"
+	text "C'est fini?"
 	done
 
 PicnickerTanyaAfterBattleText:
-	text "Oh, look at all"
-	line "your BADGES. No"
+	text "T'en as plein des"
+	line "Badges. Comment"
 
-	para "wonder I couldn't"
-	line "win!"
+	para "je pouvais gagner,"
+	line "moi?!"
 	done
 
 BeautyJuliaSeenText:
-	text "Were you looking"
-	line "at these flowers"
-	cont "or at me?"
+	text "Tu regardes les"
+	line "fleurs ou c'est"
+	cont "moi que tu mates?"
 	done
 
 BeautyJuliaBeatenText:
-	text "How annoying!"
+	text "C'est pas bien!"
 	done
 
 BeautyJuliaAfterBattleText:
-	text "How do I go about"
-	line "becoming ladylike"
-	cont "like ERIKA?"
+	text "Comment devenir"
+	line "une belle fille"
+	cont "comme Erika?"
 	done
 
 TwinsJoAndZoe1SeenText:
-	text "We'll show you"
-	line "#MON moves that"
-	cont "ERIKA taught us!"
+	text "Erika nous a ap-"
+	line "pris plein de"
+	cont "trucs!"
 	done
 
 TwinsJoAndZoe1BeatenText:
-	text "Oh… We lost…"
+	text "Oh... On a perdu."
 	done
 
 TwinsJoAndZoe1AfterBattleText:
-	text "ERIKA will get you"
-	line "back for us!"
+	text "Erika!"
+	line "Venge-nous!"
 	done
 
 TwinsJoAndZoe2SeenText:
-	text "We're going to"
-	line "protect ERIKA!"
+	text "On doit protéger"
+	line "la grande Erika!"
 	done
 
 TwinsJoAndZoe2BeatenText:
-	text "We couldn't win…"
+	text "Nooooonn...."
 	done
 
 TwinsJoAndZoe2AfterBattleText:
-	text "ERIKA is much,"
-	line "much stronger!"
+	text "Erika est bien"
+	line "plus forte!"
 	done
 
 CeladonGym_MapEvents:

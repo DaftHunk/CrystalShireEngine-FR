@@ -53,7 +53,7 @@ VioletPokecenter1F_ElmsAideScript:
 	end
 
 .eggname
-	db "EGG@"
+	db "Oeuf@"
 
 .AideGivesEgg:
 	jumpstd ReceiveTogepiEggScript
@@ -104,90 +104,99 @@ MovementData_AideFinishesLeavingPokecenter:
 	step_end
 
 VioletPokecenterElmsAideFavorText:
-	text "<PLAY_G>, long"
-	line "time, no see."
+	text "<PLAY_G>!"
+	line "Ça faisait long-"
 
-	para "PROF.ELM asked me"
-	line "to find you."
+	para "temps. Le Prof."
+	line "Orme m'a demandé"
+	cont "de te trouver."
 
-	para "He has another"
-	line "favor to ask."
+	para "Il a encore un"
+	line "service à te"
+	cont "demander."
 
-	para "Would you take the"
-	line "#MON EGG?"
+	para "Peux-tu prendre"
+	line "l'Oeuf #mon?"
 	done
 
 VioletPokecenterElmsAideGiveEggText:
-	text "We discovered that"
-	line "a #MON will not"
+	text "Nous avons décou-"
+	line "vert qu'un #mon"
 
-	para "hatch until it"
-	line "grows in the EGG."
+	para "ne peut naître qu'"
+	line "en grandissant"
+	cont "dans l'Oeuf."
 
-	para "It also has to be"
-	line "with other active"
-	cont "#MON to hatch."
+	para "Il doit aussi être"
+	line "en compagnie de"
+	cont "#mon actifs."
 
-	para "<PLAY_G>, you're"
-	line "the only person"
-	cont "we can rely on."
+	para "<PLAY_G>, nous ne"
+	line "pouvons que comp-"
+	cont "ter sur toi."
 
-	para "Please call PROF."
-	line "ELM when that EGG"
-	cont "hatches!"
+	para "Appelle le Prof."
+	line "Orme après son"
+	cont "éclosion!"
 	done
 
 VioletCityElmsAideFullPartyText:
-	text "Oh, no. You can't"
-	line "carry any more"
-	cont "#MON with you."
+	text "Oh, flûte. Tu ne"
+	line "peux plus avoir de"
+	cont "#mon sur toi."
 
-	para "I'll wait here"
-	line "while you make"
-	cont "room for the EGG."
+	para "Je t'attends ici"
+	line "pendant que tu"
+	cont "fais de la place"
+	cont "pour l'Oeuf."
 	done
 
 VioletPokecenterElmsAideRefuseText:
-	text "B-but… PROF.ELM"
-	line "asked for you…"
+	text "M-Mais..."
+	line "Le Prof.Orme te"
+	cont "cherchait..."
 	done
 
 VioletPokecenterElmsAideAskEggText:
-	text "<PLAY_G>, will you"
-	line "take the EGG?"
+	text "<PLAY_G>, veux-tu"
+	line "prendre l'Oeuf?"
 	done
-
+ 
 VioletPokecenter1FGameboyKidText:
-	text "A guy named BILL"
-	line "made the #MON"
-	cont "PC storage system."
+	text "Un type du nom de"
+	line "Léo a créé le"
+	cont "système de stocka-"
+	cont "ge de #mon."
 	done
 
 VioletPokecenter1FGentlemanText:
-	text "It was around"
-	line "three years ago."
+	text "Ça fait plus ou"
+	line "moins trois ans."
 
-	para "TEAM ROCKET was up"
-	line "to no good with"
-	cont "#MON."
+	para "La Team Rocket"
+	line "était la pire en-"
+	cont "nemie des #mon."
 
-	para "But justice pre-"
-	line "vailed--a young"
-	cont "kid broke 'em up."
+	para "Mais y'a une"
+	line "justice! Un jeune"
+	cont "gamin les a depuis"
+	cont "détrônés."
 	done
 
 VioletPokecenter1FYoungsterText:
-	text "#MON are smart."
-	line "They won't obey a"
+	text "Les #mon"
+	line "sont intelligents."
 
-	para "trainer they don't"
-	line "respect."
+	para "Ils n'obéissent"
+	line "pas aux dresseurs"
+	cont "qui ne les res-"
+	cont "pectent pas."
 
-	para "Without the right"
-	line "GYM BADGES, they"
+	para "Sans les Badges"
+	line "appropriés, ils"
 
-	para "will just do as"
-	line "they please."
+	para "n'en feront qu'à"
+	line "leur tête."
 	done
 
 VioletPokecenter1F_MapEvents:

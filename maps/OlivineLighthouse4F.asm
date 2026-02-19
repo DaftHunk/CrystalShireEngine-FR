@@ -30,53 +30,54 @@ TrainerSailorKent:
 	end
 
 SailorKentSeenText:
-	text "JASMINE must be"
-	line "worried sick about"
-	cont "the #MON here."
+	text "Jasmine doit"
+	line "s'inquiéter à pro-"
+	cont "pos du #mon."
 
-	para "She won't even"
-	line "smile these days."
+	para "Elle ne sourit"
+	line "même plus."
 	done
 
 SailorKentBeatenText:
-	text "I can't manage a"
-	line "smile either…"
+	text "Moi non plus..."
+	line "J'souris plus..."
 	done
 
 SailorKentAfterBattleText:
-	text "Speaking of sick,"
-	line "I've heard there's"
+	text "Au fait, je crois"
+	line "qu'il y a une bon-"
 
-	para "a good PHARMACY in"
-	line "CIANWOOD."
+	para "ne Pharmacie à"
+	line "Irisia."
 	done
 
 LassConnie1SeenText:
-	text "JASMINE is this"
-	line "city's GYM LEADER."
+	text "Jasmine est la"
+	line "Championne de"
+	cont "cette ville."
 
-	para "I mean to bring"
-	line "her back with me."
+	para "Et moi j'suis plus"
+	line "forte qu'elle."
 
-	para "Nobody had better"
-	line "get in my way!"
+	para "Et ça... Tu vas"
+	line "le comprendre!"
 	done
 
 LassConnie1BeatenText:
-	text "Aaack! My #MON!"
+	text "Aaah! Mes #mon!"
 	done
 
 LassConnie1AfterBattleText:
-	text "Right. Anybody"
-	line "would be worried"
-	cont "if his or her own"
-	cont "#MON were hurt."
+	text "Chaque dresseur"
+	line "est responsable de"
+	cont "la santé de ses"
+	cont "#mon."
 
-	para "I'll pray for the"
-	line "#MON here, so"
+	para "Je prie pour le"
+	line "#mon, ainsi"
 
-	para "JASMINE can come"
-	line "back to the GYM."
+	para "Jasmine reviendra"
+	line "à l'Arène."
 	done
 
 OlivineLighthouse4F_MapEvents:

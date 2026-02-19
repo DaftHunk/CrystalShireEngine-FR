@@ -76,98 +76,101 @@ Route8FruitTree:
 	fruittree FRUITTREE_ROUTE_8
 
 BikerDwayneSeenText:
-	text "We're the KANTO"
-	line "#MON FEDERATION"
-	cont "trainer group."
+	text "Nous sommes la"
+	line "Fédération des"
+	cont "dresseurs de #-"
+	cont "mon de Kanto."
 
-	para "We'll drive you"
-	line "under our wheels!"
+	para "On va te faire"
+	line "ta fête!"
 	done
 
 BikerDwayneBeatenText:
-	text "S-sorry!"
+	text "P-Pardon!"
 	done
 
 BikerDwayneAfterBattleText:
-	text "The KANTO #MON"
-	line "FEDERATION will"
-	cont "never fall!"
+	text "La Fédération des"
+	line "dresseurs de Kanto"
+	cont "est invincible!"
 	done
 
 BikerHarrisSeenText:
-	text "The cops shut down"
-	line "our UNDERGROUND"
+	text "La police a fermé"
+	line "notre Souterrain!"
 
-	para "PATH! That really"
-	line "fries me!"
+	para "C'est injuste!"
+	line "C'est dégueulasse!"
 	done
 
 BikerHarrisBeatenText:
-	text "F-forgive me!"
+	text "P-Pardon!"
 	done
 
 BikerHarrisAfterBattleText:
-	text "Wiped out by some"
-	line "punk from JOHTO…"
+	text "Battu par quelqu'"
+	line "un de Johto..."
 	done
 
 BikerZekeSeenText:
-	text "We're the KANTO"
-	line "#MON FEDERA-"
-	cont "TION!"
-	cont "Right on!"
+	text "On est la Fédéra-"
+	line "tion des dresseurs"
+	cont "de Kanto."
+	cont "On est cool!"
 	done
 
 BikerZekeBeatenText:
-	text "Yikes! Sorry!"
+	text "Oups! Pardon!"
 	done
 
 BikerZekeAfterBattleText:
-	text "We'll try not to"
-	line "disturb anyone"
-	cont "from now on…"
+	text "On va essayer de"
+	line "n'plus déranger..."
+	cont "Pardon."
 	done
 
 SupernerdSamSeenText:
-	text "How does the MAG-"
-	line "NET TRAIN work?"
+	text "Comment ça marche"
+	line "un Train Magnet?"
 	done
 
 SupernerdSamBeatenText:
-	text "I just want to see"
-	line "the MAGNET TRAIN…"
+	text "Moi je veux voir"
+	line "le Train Magnet..."
 	done
 
 SupernerdSamAfterBattleText:
-	text "The power of mag-"
-	line "nets is awesome!"
+	text "La puissance"
+	line "magnétique, c'est"
+	cont "terrible!"
 	done
 
 SupernerdTomSeenText:
-	text "Hm… You've got"
-	line "many GYM BADGES."
+	text "Hmm... Tu en as"
+	line "des bô Badges."
 	done
 
 SupernerdTomBeatenText:
-	text "Just as I thought…"
-	line "You're tough!"
+	text "Pas mal..."
+	line "Je m'y attendais!"
 	done
 
 SupernerdTomAfterBattleText:
-	text "GYM BADGES give"
-	line "you advantages in"
-	cont "battles."
+	text "Les Badges donnent"
+	line "l'avantage en"
+	cont "combat."
 	done
 
 Route8LockedDoorText:
-	text "It's locked…"
+	text "C'est fermé..."
 	done
 
 Route8UndergroundPathSignText:
-	text "The flyer's torn."
+	text "L'affiche est"
+	line "déchirée."
 
-	para "It's impossible to"
-	line "read…"
+	para "C'est impossible"
+	line "de la lire..."
 	done
 
 Route8_MapEvents:

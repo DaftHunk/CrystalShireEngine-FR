@@ -131,169 +131,157 @@ Route40HiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_ROUTE_40_HIDDEN_HYPER_POTION
 
 SwimmermSimonSeenText:
-	text "You have to warm"
-	line "up before going"
-	cont "into the water."
+	text "Il faut s'échauf-"
+	line "fer avant de se"
+	cont "baigner."
 
-	para "That's basic."
+	para "Tout le monde sait"
+	line "ça!"
 	done
 
 SwimmermSimonBeatenText:
-	text "OK! Uncle! I give!"
+	text "Aïe! Une crampe!"
 	done
 
 SwimmermSimonAfterBattleText:
-	text "CIANWOOD CITY is"
-	line "a good distance"
-	cont "away from here."
+	text "Irisia est assez"
+	line "loin d'ici."
 	done
 
 SwimmermRandallSeenText:
-	text "Hey, you're young"
-	line "and fit!"
+	text "T'as la flemme ou"
+	line "quoi?"
 
-	para "Don't ride your"
-	line "#MON! Swim!"
+	para "Nage au lieu de"
+	line "monter sur ton"
+	cont "#mon!"
 	done
 
 SwimmermRandallBeatenText:
-	text "Uh-oh. I lost…"
+	text "Zut de flûte."
 	done
 
 SwimmermRandallAfterBattleText:
-	text "Swimming exercises"
-	line "your entire body."
-	cont "It's healthy."
+	text "Nager, c'est bon"
+	line "pour la santé."
 	done
 
 SwimmerfElaineSeenText:
-	text "Are you going to"
-	line "CIANWOOD?"
+	text "Tu vas à Irisia?"
 
-	para "How about a quick"
-	line "battle first?"
+	para "On s'bat d'abord?"
 	done
 
 SwimmerfElaineBeatenText:
-	text "I lost that one!"
+	text "C'est perdu!"
 	done
 
 SwimmerfElaineAfterBattleText:
-	text "I'd say I'm a bet-"
-	line "ter swimmer than"
-	cont "you. Yeah!"
+	text "En tout cas, je"
+	line "nage mieux que"
+	cont "toi. Ouais!"
 	done
 
 SwimmerfPaulaSeenText:
-	text "No inner tube for"
-	line "me."
-
-	para "I'm hanging on to"
-	line "a sea #MON!"
+	text "J'adore les #-"
+	line "mon marins!"
 	done
 
 SwimmerfPaulaBeatenText:
-	text "Ooh, I'm feeling"
-	line "dizzy!"
+	text "Oups!"
 	done
 
 SwimmerfPaulaAfterBattleText:
-	text "While I float like"
-	line "this, the waves"
-	cont "carry me along."
+	text "Je me laisse"
+	line "porter par les"
+	cont "vagues."
 	done
 
 Route40Lass1Text:
-	text "Although you can't"
-	line "see it from here,"
-
-	para "CIANWOOD is across"
-	line "the sea."
+	text "Irisia est de"
+	line "l'autre côté de la"
+	cont "mer."
 	done
 
 Route40PokefanMText:
-	text "Hm! There's a big"
-	line "building up ahead!"
+	text "Hmm! Il y a un"
+	line "grand immeuble"
+	cont "droit devant!"
 
-	para "What is it?"
+	para "C'est quoi donc?"
 	done
 
 Route40Lass2Text:
-	text "I came to OLIVINE"
-	line "by ship to see the"
+	text "Je suis venue à"
+	line "Oliville pour"
 
-	para "sights and soak up"
-	line "the atmosphere."
+	para "voir les beaux"
+	line "paysages..."
 
-	para "Being a port, it"
-	line "feels so different"
-	cont "from a big city."
+	para "La mer, c'est bô."
 	done
 
 Route40StandingYoungsterText:
-	text "Have you gone to"
-	line "the BATTLE TOWER?"
+	text "As-tu visité la"
+	line "Tour de Combat?"
 
-	para "I think a lot of"
-	line "tough trainers"
+	para "Plein de"
+	line "dresseurs super"
 
-	para "have gathered"
-	line "there already."
+	para "puissants s'y sont"
+	line "réunis."
 
-	para "But since you have"
-	line "so many BADGES,"
+	para "Mais vu que tu as"
+	line "des Badges, tu"
 
-	para "you shouldn't do"
-	line "badly at all."
+	para "devrais t'en"
+	line "tirer."
 	done
 
 MeetMonicaText:
-	text "MONICA: Glad to"
-	line "meet you. I'm"
+	text "Lucie: Bonjour!"
+	line "Je suis Lucie du"
 
-	para "MONICA of Monday."
+	para "Lundi."
 	done
 
 MonicaGivesGiftText:
-	text "As a token of our"
-	line "friendship, I have"
-	cont "a gift for you!"
+	text "Puisqu'on est des"
+	line "potes, voilà un"
+	cont "petit cadeau!"
 	done
 
 MonicaGaveGiftText:
-	text "MONICA: It's an"
-	line "item that raises"
+	text "Lucie: C'est un"
+	line "objet qui améliore"
 
-	para "the power of fly-"
-	line "ing-type moves."
+	para "les capacités du"
+	line "type Vol."
 
-	para "You should equip a"
-	line "bird #MON with"
-	cont "that item."
+	para "Tu devrais le don-"
+	line "ner à un #mon"
+	cont "oiseau."
 	done
 
 MonicaMondayText:
-	text "MONICA: My broth-"
-	line "ers and sisters"
+	text "Lucie: Mes frères"
+	line "et soeurs sont un"
+	cont "peu partout."
 
-	para "are all over the"
-	line "place."
-
-	para "See if you could"
-	line "find them all!"
+	para "Trouve-les tous!"
 	done
 
 MonicaNotMondayText:
-	text "MONICA: I don't"
-	line "think today is"
-	cont "Monday. How sad…"
+	text "Lucie: On est pas"
+	line "Lundi aujourd'hui!"
+	cont "Dommage..."
 	done
 
 Route40SignText:
-	text "ROUTE 40"
+	text "Route 40"
 
-	para "CIANWOOD CITY -"
-	line "OLIVINE CITY"
+	para "Irisia -"
+	line "Oliville"
 	done
 
 Route40_MapEvents:

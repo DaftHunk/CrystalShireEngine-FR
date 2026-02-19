@@ -1,10 +1,11 @@
-	db "KITE@" ; species name
-	dw 611, 4850 ; height, weight
+	db "Cervolant@" ; species name
+	db 21 ; height
+	dw 2200 ; weight
 
-	db   "It swims along"
-	next "freely, eating"
-	next "things that swim"
+	db   "Il nage la bouche"
+	next "ouverte pour ava-"
+	next "ler tout et n'im-"
 
-	page "into its mouth."
-	next "Its whole body is"
-	next "very coarse.@"
+	page "porte quoi."
+	next "Son corps est très"
+	next "granuleux.@"

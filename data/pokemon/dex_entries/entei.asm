@@ -1,10 +1,11 @@
-	db "VOLCANO@" ; species name
-	dw 607, 4370 ; height, weight
+	db "Volcan@" ; species name
+	db 21 ; height
+	dw 1980 ; weight
 
-	db   "This brawny"
-	next "#MON courses"
-	next "around the earth,"
+	db   "Ce puissant #-"
+	next "mon court sans"
+	next "arrêt en crachant"
 
-	page "spouting flames"
-	next "hotter than a"
-	next "volcano's magma.@"
+	page "des flammes plus"
+	next "chaudes que du"
+	next "magma.@"

@@ -184,7 +184,7 @@ else
 endc
 
 .HatchSoonString:
-	db "▶HATCH SOON!@"
+	db "▶Eclot bientôt!@"
 endc
 
 StatsScreen_LoadPage:
@@ -641,23 +641,23 @@ LoadPinkPage:
 	ret
 
 .Status_Type:
-	db   "STATUS/"
-	next "TYPE/@"
+	db   "Statut/"
+	next "Type/@"
 
 .OK_str:
-	db "OK @"
+	db "OK@"
 
 .ExpPointStr:
-	db "EXP POINTS@"
+	db "Pts.Exp.@"
 
 .LevelUpStr:
-	db "LEVEL UP@"
+	db "Proch.Niv.@"
 
 .ToStr:
-	db "TO@"
+	db "▶@"
 
 .PkrsStr:
-	db "#RUS@"
+	db "#rus@"
 
 LoadGreenPage:
 	ld de, .Item
@@ -667,7 +667,7 @@ LoadGreenPage:
 	hlcoord 8, 8
 	rst PlaceString
 	ld de, .Move
-	hlcoord 0, 10
+	hlcoord 0, 9
 	rst PlaceString
 	ld hl, wTempMonMoves
 	ld de, wListMoves_MoveIndicesBuffer
@@ -691,13 +691,13 @@ LoadGreenPage:
 	jmp GetItemName
 
 .Item:
-	db "ITEM@"
+	db "Objet/@"
 
 .ThreeDashes:
 	db "---@"
 
 .Move:
-	db "MOVE@"
+	db "Capacité/@"
 
 LoadBluePage:
 	call .PlaceOTInfo
@@ -754,10 +754,10 @@ LoadBluePage:
 	dw wBufferMonOT
 
 IDNoString:
-	db "<ID>№.@"
+	db "№.<ID>@"
 
 OTString:
-	db "OT/@"
+	db "DO/@"
 
 StatsScreen_PlaceFrontpic:
 	ld hl, wTempMonDVs
@@ -943,7 +943,7 @@ if DEF(_DEBUG)
 	jr .placed_push_start
 
 .PushStartString:
-	db "▶PUSH START.@"
+	db "▶PUSH Start.@"
 
 .placed_push_start
 endc
@@ -977,31 +977,31 @@ endc
 	jmp PlaySFX
 
 EggString:
-	db "EGG@"
+	db "Oeuf@"
 
 FiveQMarkString:
 	db "?????@"
 
 EggSoonString:
-	db   "It's making sounds"
-	next "inside. It's going"
-	next "to hatch soon!@"
+	db   "Cela fait du bruit"
+	next "à l'intérieur. Il"
+	next "va bientôt éclore!@"
 
 EggCloseString:
-	db   "It moves around"
-	next "inside sometimes."
-	next "It must be close"
-	next "to hatching.@"
+	db   "Il se déplace à"
+	next "l'intérieur. Il"
+	next "est sur le point"
+	next "d'éclore!@"
 
 EggMoreTimeString:
-	db   "Wonder what's"
-	next "inside? It needs"
-	next "more time, though.@"
+	db   "Qu'y a-t-il à"
+	next "l'intérieur?"
+	next "Il faut attendre"
+	next "encore un peu.@"
 
 EggALotMoreTimeString:
-	db   "This EGG needs a"
-	next "lot more time to"
-	next "hatch.@"
+	db   "Cet Oeuf va mettre"
+	next "du temps à éclore!@"
 
 StatsScreen_AnimateEgg:
 	call StatsScreen_GetAnimationParam

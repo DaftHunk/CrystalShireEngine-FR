@@ -139,80 +139,85 @@ GoldenrodDeptStore5FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore5FReceptionistOhYourMonDotDotDotText:
-	text "Hello. Oh, your"
-	line "#MON…"
+	text "Bonjour. Oh, ton"
+	line "#mon..."
 	done
 
 GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText:
-	text "It's very attached"
-	line "to you."
+	text "Il est vraiment"
+	line "attaché à toi."
 
-	para "This move should"
-	line "be perfect for a"
-	cont "pair like you."
+	para "Cette capacité"
+	line "devrait tout à"
+	cont "fait vous convenir"
+	cont "à tous les deux."
 	done
 
 GoldenrodDeptStore5FReceptionistItsAdorableText:
-	text "It's adorable!"
+	text "Il est adorable!"
 
-	para "You should teach"
-	line "it good TM moves."
+	para "Tu devrais lui"
+	line "enseigner de"
+	cont "bonnes CT."
 	done
 
 GoldenrodDeptStore5FReceptionistItLooksEvilHowAboutThisTMText:
-	text "It looks evil. How"
-	line "about this TM for"
-	cont "it?"
+	text "Il a l'air un peu"
+	line "méchant. Que"
+	cont "penses-tu de cette"
+	cont "CT pour lui?"
 	done
 
 GoldenrodDeptStore5FReceptionistThereAreTMsPerfectForMonText:
-	text "There are sure to"
-	line "be TMs that are"
+	text "Je suis sûre qu'il"
+	line "y a une CT par-"
 
-	para "just perfect for"
-	line "your #MON."
+	para "faitement adaptée"
+	line "à ton #mon."
 	done
 
 GoldenrodDeptStore5FCarrieMysteryGiftExplanationText:
-	text "MYSTERY GIFT."
+	text "Le Cadeau Mystère."
 
-	para "With just a"
-	line "little beep, you"
-	cont "get a gift."
+	para "Au bip..."
+	line "Un cadeau!"
 	done
 
 GoldenrodDeptStore5FCarrieMysteryGiftRequiresGBCText:
-	text "The MYSTERY GIFT"
-	line "option requires a"
-	cont "Game Boy Color."
+	text "L'option Cadeau"
+	line "Mystère nécessite"
+	cont "un Game Boy Color."
 	done
 
 GoldenrodDeptStore5FLassText:
-	text "On Sundays, a lady"
-	line "comes to check out"
-	cont "#MON."
+	text "Le Dimanche, une"
+	line "dame vient voir"
+	cont "les #mon."
 
-	para "She even gives"
-	line "away TMs!"
+	para "Elle donne même"
+	line "des CT!"
 	done
 
 GoldenrodDeptStore5FPokefanMText:
-	text "You can't rename a"
-	line "#MON you get in"
-	cont "a trade."
+	text "Tu ne peux pas"
+	line "renommer un #-"
+	cont "mon que tu as eu"
+	cont "dans un échange."
 
-	para "The name is a re-"
-	line "flection of the"
+	para "Le nom d'origine"
+	line "est donné après"
 
-	para "original trainer's"
-	line "feelings for it."
+	para "des années de"
+	line "recherches par son"
+	cont "dresseur."
 	done
 
 GoldenrodDeptStore5FDirectoryText:
-	text "Customize Your"
-	line "#MON"
+	text "Pour personnaliser"
+	line "son #mon..."
 
-	para "5F TM CORNER"
+	para "4ème Y'a bon les"
+	line "     CT"
 	done
 
 GoldenrodDeptStore5F_MapEvents:

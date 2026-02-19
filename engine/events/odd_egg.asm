@@ -124,6 +124,6 @@ _GiveOddEgg:
 	farjp AddMobileMonToParty
 
 .Odd:
-	db "ODD@@@@@@@@@"
+	db "Bizar@@@@@@@"
 
 INCLUDE "data/events/odd_eggs.asm"

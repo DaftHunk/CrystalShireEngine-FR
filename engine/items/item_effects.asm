@@ -1297,12 +1297,12 @@ StatStrings:
 	dw .sp_atk
 	dw .sp_def
 
-.health  db "HEALTH@"
-.attack  db "ATTACK@"
-.defense db "DEFENSE@"
-.speed   db "SPEED@"
-.sp_atk  db "SPCL.ATK@"
-.sp_def  db "SPCL.DEF@"
+.health  db "PV@"
+.attack  db "Attaque@"
+.defense db "Défense@"
+.speed   db "Vitesse@"
+.sp_atk  db "Atq.Spé.@"
+.sp_def  db "Déf.Spé.@"
 
 GetEVRelativePointer:
 	ld a, [wCurItem]

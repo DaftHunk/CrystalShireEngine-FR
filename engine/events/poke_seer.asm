@@ -157,7 +157,7 @@ GetCaughtLevel:
 .unknown
 	ld de, wSeerCaughtLevelString
 	ld hl, .unknown_level
-	ld bc, 4
+	ld bc, 5
 	jmp CopyBytes
 
 .unknown_level
@@ -180,9 +180,9 @@ GetCaughtTime:
 	ret
 
 .times
-	db "Morning@"
-	db "Day@"
-	db "Night@"
+	db "Matin@"
+	db "Jour@"
+	db "Nuit@"
 	db "Evening@"
 
 UnknownCaughtData:
@@ -191,7 +191,7 @@ UnknownCaughtData:
 	jmp CopyBytes
 
 .unknown
-	db "Unknown@"
+	db "Inconnu@"
 
 GetCaughtLocation:
 	ld a, [wSeerCaughtGender]

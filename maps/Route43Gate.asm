@@ -191,51 +191,50 @@ Rocket2Script_LetsYouPassNorth:
 	step_end
 
 RocketText_TollFee:
-	text "Hold it there,"
-	line "kiddo!"
+	text "Minute, mon p'tit"
+	line "bouchon!"
 
-	para "The toll is ¥{d:ROUTE43GATE_TOLL}"
-	line "to go through."
+	para "Le péage est de"
+	line "1000¥."
 	done
 
 RocketText_ThankYou:
-	text "Thank you very"
-	line "much!"
+	text "Merci bien!"
 	done
 
 RocketText_AllYouGot:
-	text "Then pay what you"
-	line "have, please."
+	text "Alors donne ce que"
+	line "t'as."
 	done
 
 RocketText_MakingABundle:
-	text "He-he-he. We're"
-	line "making a bundle."
+	text "Hé-hé-hé. On se"
+	line "fait des thunes."
 
-	para "Everyone wants to"
-	line "see what's going"
+	para "Tout le monde veut"
+	line "voir ce qu'il se"
 
-	para "on up at LAKE OF"
-	line "RAGE."
+	para "passe au Lac"
+	line "Colère."
 	done
 
 OfficerText_FoundTM:
-	text "I got chased from"
-	line "my post by these"
-	cont "thugs in black."
+	text "Des voyous en noir"
+	line "m'ont fait quitter"
+	cont "mon poste."
 
-	para "They left this"
-	line "behind."
+	para "Ils ont oublié ce"
+	line "truc en plus."
 
-	para "It makes me uncom-"
-	line "fortable. Could"
-	cont "you take it away?"
+	para "J'veux pas le gar-"
+	line "der, moi..."
+	cont "Tu le veux?"
 	done
 
 OfficerText_AvoidGrass:
-	text "Use this gate to"
-	line "avoid walking in"
-	cont "the grass."
+	text "Emprunte cette"
+	line "porte pour éviter"
+	cont "les hautes herbes."
 	done
 
 Route43Gate_MapEvents:

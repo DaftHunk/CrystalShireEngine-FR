@@ -35,47 +35,49 @@ LavenderPokecenter1FYoungsterScript:
 	end
 
 LavenderPokecenter1FGentlemanText:
-	text "To the north of"
-	line "LAVENDER is ROCK"
+	text "Au Nord de Lavan-"
+	line "ville se trouve la"
 
-	para "TUNNEL. Go through"
-	line "it to get to the"
-	cont "POWER PLANT."
+	para "Grotte. Traverse-"
+	line "la pour accéder"
+	cont "à la Centrale."
 	done
 
 LavenderPokecenter1FTeacherText:
-	text "There's a radio"
-	line "program that plays"
-	cont "# FLUTE music."
+	text "Une émission de"
+	line "radio diffuse des"
+	cont "mélodies jouées à"
+	cont "la # Flûte."
 
-	para "Oh? Ah, your radio"
-	line "needs an EXPN CARD"
-	cont "to tune into it."
+	para "Oh? Il faut un"
+	line "Cpn.Expan. à ta"
+	cont "radio pour pouvoir"
+	cont "l'écouter."
 	done
 
 LavenderPokecenter1FYoungsterText:
-	text "If the POWER PLANT"
-	line "isn't running, the"
+	text "Si la Centrale ne"
+	line "marche pas, le"
 
-	para "MAGNET TRAIN won't"
-	line "run either…"
+	para "Train Magnet ne"
+	line "peut pas circuler."
 
-	para "It also means the"
-	line "RADIO STATION"
-	cont "can't broadcast…"
+	para "La Station Radio"
+	line "ne peut rien"
+	cont "émettre non plus."
 	done
 
 LavenderPokecenter1FYoungsterText_ReturnedMachinePart:
-	text "The DIRECTOR of"
-	line "the RADIO STATION"
-	cont "sure was happy."
+	text "Le Directeur de la"
+	line "Station de Radio"
+	cont "était content."
 
-	para "He said they're"
-	line "back on the air"
+	para "Il dit que les"
+	line "émissions peuvent"
 
-	para "because the POWER"
-	line "PLANT is running"
-	cont "smoothly again."
+	para "reprendre depuis"
+	line "la réparation de"
+	cont "la Centrale."
 	done
 
 LavenderPokecenter1F_MapEvents:

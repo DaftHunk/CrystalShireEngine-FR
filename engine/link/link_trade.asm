@@ -102,7 +102,7 @@ InitTradeSpeciesList:
 	jmp PlaceString
 
 .CancelString:
-	db "CANCEL@"
+	db "Annuler@"
 
 _LoadTradeScreenBorderGFX:
 	jmp __LoadTradeScreenBorderGFX
@@ -138,10 +138,10 @@ PlaceWaitingTextAndSyncAndExchangeNybble:
 	jmp WaitBGMap2
 
 .PlaceWaitingText:
-	hlcoord 4, 10
-	lb bc, 1, 10
+	hlcoord 3, 10
+	lb bc, 1, 11
 	predef LinkTextboxAtHL
-	hlcoord 5, 11
+	hlcoord 4, 11
 	ld de, .Waiting
 	rst PlaceString
 	call WaitBGMap
@@ -150,7 +150,7 @@ PlaceWaitingTextAndSyncAndExchangeNybble:
 	jmp DelayFrames
 
 .Waiting:
-	db "WAITING..!@"
+	db "Un moment…!@"
 
 LinkTradeMenu:
 	call .MenuAction

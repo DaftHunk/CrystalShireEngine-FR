@@ -227,73 +227,76 @@ VermilionPortApproachFastShipRightMovement:
 	step_end
 
 VermilionPortDepartingText:
-	text "We're departing"
-	line "soon. Please get"
-	cont "on board."
+	text "Le départ est"
+	line "proche. Montez à"
+	cont "bord s.v.p."
 	done
 
 VermilionPortCantBoardText:
-	text "Sorry. You can't"
-	line "board now."
+	text "On ne monte plus"
+	line "à bord."
 	done
 
 VermilionPortAskBoardingText:
-	text "Welcome to FAST"
-	line "SHIP S.S.AQUA."
+	text "Bienvenue sur le"
+	line "Bateau Express:"
+	cont "L'Aquaria."
 
-	para "Will you be board-"
-	line "ing today?"
+	para "Allez-vous monter"
+	line "à bord?"
 	done
 
 VermilionPortAskTicketText:
-	text "May I see your"
-	line "S.S.TICKET?"
+	text "Puis-je voir votre"
+	line "Passe Bateau?"
 	done
 
 VermilionPortComeAgainText:
-	text "We hope to see you"
-	line "again!"
+	text "A bientot!"
 	done
 
 VermilionPortSSTicketText:
-	text "<PLAYER> flashed"
-	line "the S.S.TICKET."
+	text "<PLAYER> montre"
+	line "son Passe Bateau."
 
-	para "That's it."
-	line "Thank you!"
+	para "Parfait."
+	line "Merci bien!"
 	done
 
 VermilionPortNoTicketText:
-	text "<PLAYER> tried to"
-	line "show the S.S."
-	cont "TICKET…"
+	text "<PLAYER> voudrait"
+	line "bien montrer son"
+	cont "Passe Bateau..."
 
-	para "…But no TICKET!"
+	para "Mais..."
+	line "Pas de Ticket!"
 
-	para "Sorry!"
-	line "You may board only"
+	para "Désolé!"
+	line "On ne monte à bord"
 
-	para "if you have an"
-	line "S.S.TICKET."
+	para "que sur présenta-"
+	line "tion d'un Passe."
 	done
 
 VermilionPortSailWednesdayText:
-	text "The FAST SHIP will"
-	line "sail on Wednesday."
+	text "Le Bateau Express"
+	line "partira Mercredi"
+	cont "prochain."
 	done
 
 VermilionPortSailSundayText:
-	text "The FAST SHIP will"
-	line "sail next Sunday."
+	text "Le Bateau Express"
+	line "partira Dimanche"
+	cont "prochain."
 	done
 
 VermilionPortSuperNerdText:
-	text "You came from"
-	line "JOHTO?"
+	text "Tu viens de"
+	line "Johto?"
 
-	para "I hear many rare"
-	line "#MON live over"
-	cont "there."
+	para "On dit qu'il y a"
+	line "plein de #mon"
+	cont "rares là-bas."
 	done
 
 VermilionPort_MapEvents:

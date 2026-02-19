@@ -76,7 +76,7 @@ NamingScreen:
 	dw .Rival
 	dw .Mom
 	dw .Box
-	dw .Tomodachi
+	dw .Friend
 	dw .Pokemon
 	dw .Pokemon
 
@@ -127,8 +127,8 @@ NamingScreen:
 	jmp .StoreMonIconParams
 
 .NicknameStrings:
-	db "'S@"
-	db "NICKNAME?@"
+	db "@"
+	db "Surnom?@"
 
 .Player:
 	farcall GetPlayerIcon
@@ -139,7 +139,7 @@ NamingScreen:
 	jmp .StoreSpriteIconParams
 
 .PlayerNameString:
-	db "YOUR NAME?@"
+	db "Votre Nom?@"
 
 .Rival:
 	ld de, RivalSpriteGFX
@@ -151,7 +151,7 @@ NamingScreen:
 	jmp .StoreSpriteIconParams
 
 .RivalNameString:
-	db "RIVAL'S NAME?@"
+	db "Nom du Rival?@"
 
 .Mom:
 	ld de, MomSpriteGFX
@@ -163,7 +163,7 @@ NamingScreen:
 	jmp .StoreSpriteIconParams
 
 .MomNameString:
-	db "MOTHER'S NAME?@"
+	db "Nom Mère?@"
 
 .Box:
 	ld de, PokeBallSpriteGFX
@@ -186,16 +186,16 @@ NamingScreen:
 	jr .StoreBoxIconParams
 
 .BoxNameString:
-	db "BOX NAME?@"
+	db "Nom Boîte?@"
 
-.Tomodachi:
+.Friend:
 	hlcoord 3, 2
-	ld de, .oTomodachi_no_namae_sutoringu
+	ld de, .FriendsNameString
 	rst PlaceString
 	jr .StoreSpriteIconParams
 
-.oTomodachi_no_namae_sutoringu
-	db "おともだち　の　なまえは？@"
+.FriendsNameString:
+	db "  Nom d'Ami?@"
 
 .LoadSprite:
 	push de
@@ -1095,7 +1095,7 @@ INCBIN "gfx/naming_screen/mail.2bpp"
 	ld c, a
 	ld hl, SPRITEANIMSTRUCT_VAR1
 	add hl, bc
-	ld [hl], $9
+	ld [hl], $c
 	ld hl, SPRITEANIMSTRUCT_VAR2
 	add hl, bc
 	ld [hl], $5
@@ -1170,10 +1170,10 @@ ComposeMail_AnimateCursor:
 	ret
 
 .LetterEntries:
-	db $00, $10, $20, $30, $40, $50, $60, $70, $80, $90
+	db $18, $20, $28, $30, $38, $40, $48, $50, $58, $60, $68, $70, $78
 
 .CaseDelEnd:
-	db $00, $00, $00, $30, $30, $30, $60, $60, $60, $60
+	db $00, $00, $00, $00, $30, $30, $30, $30, $60, $60, $60, $60, $60
 
 .GetDPad:
 	ld hl, hJoyLast
@@ -1195,7 +1195,7 @@ ComposeMail_AnimateCursor:
 	ld hl, SPRITEANIMSTRUCT_VAR1
 	add hl, bc
 	ld a, [hl]
-	cp $9
+	cp $c
 	jr nc, .wrap_around_letter_right
 	inc [hl]
 	ret
@@ -1289,9 +1289,9 @@ ComposeMail_GetCursorPosition:
 	ld hl, SPRITEANIMSTRUCT_VAR1
 	add hl, bc
 	ld a, [hl]
-	cp $3
+	cp $4
 	jr c, .case
-	cp $6
+	cp $8
 	jr c, .del
 	ld a, $3
 	ret

@@ -39,35 +39,35 @@ CianwoodPharmacyBookshelf:
 	jumpstd DifficultBookshelfScript
 
 PharmacistGiveSecretpotionText:
-	text "Your #MON ap-"
-	line "pear to be fine."
+	text "Ton #mon"
+	line "semble en pleine"
 
-	para "Is something wor-"
-	line "rying you?"
+	para "forme. Quelque"
+	line "chose te tracasse?"
 
-	para "…"
+	para "..."
 
-	para "The LIGHTHOUSE"
-	line "#MON is in"
-	cont "trouble?"
+	para "Le Phare #mon"
+	line "est en danger?"
 
-	para "I got it!"
+	para "J'ai pigé!"
 
-	para "This ought to do"
-	line "the trick."
+	para "Ça devrait faire"
+	line "l'affaire."
 	done
 
 ReceivedSecretpotionText:
-	text "<PLAYER> received"
-	line "SECRETPOTION."
+	text "<PLAYER> reçoit"
+	line "une PotionSecret."
 	done
 
 PharmacistDescribeSecretpotionText:
-	text "My SECRETPOTION is"
-	line "a tad too strong."
+	text "Ma PotionSecret"
+	line "est un tantinet"
 
-	para "I only offer it in"
-	line "an emergency."
+	para "trop forte. Je ne"
+	line "l'offre qu'en cas"
+	cont "d'extrême urgence."
 	done
 
 CianwoodPharmacy_MapEvents:

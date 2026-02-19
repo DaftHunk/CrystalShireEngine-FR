@@ -243,252 +243,254 @@ LakeOfRageLanceTeleportIntoSkyMovement:
 	step_end
 
 LakeOfRageLanceForcedToEvolveText:
-	text "This lake is full"
-	line "of GYARADOS but"
-	cont "nothing else…"
+	text "Ce Lac est rempli"
+	line "de Léviator et"
+	cont "rien d'autre..."
 
-	para "So the MAGIKARP"
-	line "are being forced"
-	cont "to evolve…"
+	para "Les Magicarpe ont"
+	line "été forcés"
+	cont "d'évoluer..."
 	done
 
 LakeOfRageLanceIntroText:
-	text "Did you come here"
-	line "because of the"
-	cont "rumors?"
+	text "Es-tu ici à cause"
+	line "de la rumeur?"
 
-	para "You're <PLAYER>?"
-	line "I'm LANCE, a"
-	cont "trainer like you."
+	para "Tu es <PLAYER>?"
+	line "Moi c'est Peter,"
+	cont "un dresseur comme"
+	cont "toi."
 
-	para "I heard some ru-"
-	line "mors, so I came to"
-	cont "investigate…"
+	para "J'ai entendu"
+	line "certaines informa-"
+	cont "tions et je suis"
+	cont "venu faire mon"
+	cont "enquête..."
 
-	para "I saw the way you"
-	line "battled earlier,"
-	cont "<PLAY_G>."
+	para "Je t'ai vu com-"
+	line "battre, <PLAY_G>."
 
-	para "I can tell that"
-	line "you're a trainer"
+	para "On peut dire que"
+	line "tu as du talent."
 
-	para "with considerable"
-	line "skill."
-
-	para "If you don't mind,"
-	line "could you help me"
-	cont "investigate?"
+	para "Ça te dirait de"
+	line "me donner un coup"
+	cont "de main?"
 	done
 
 LakeOfRageLanceRadioSignalText:
-	text "LANCE: Excellent!"
+	text "Peter: Excellent!"
 
-	para "It seems that the"
-	line "LAKE's MAGIKARP"
+	para "On dirait que"
+	line "quelque chose"
+	cont "force les"
+	cont "Magicarpe du Lac"
+	cont "à évoluer."
 
-	para "are being forced"
-	line "to evolve."
+	para "Un mystérieux"
+	line "signal radio vient"
+	cont "d'Acajou."
 
-	para "A mysterious radio"
-	line "broadcast coming"
-
-	para "from MAHOGANY is"
-	line "the cause."
-
-	para "I'll be waiting"
-	line "for you, <PLAY_G>."
+	para "Je t'y attendrai,"
+	line "<PLAY_G>."
 	done
 
 LakeOfRageLanceRefusedText:
-	text "Oh… Well, if you"
-	line "change your mind,"
-	cont "please help me."
+	text "Oh... Bon, si tu"
+	line "changes d'avis,"
+	cont "tu pourras"
+	cont "m'aider."
 	done
 
 LakeOfRageLanceAskHelpText:
-	text "LANCE: Hm? Are you"
-	line "going to help me?"
+	text "Peter: Hum? Vas-tu"
+	line "m'aider?"
 	done
 
 LakeOfRageGyaradosCryText:
-	text "GYARADOS: Gyashaa!"
+	text "Léviator: Tttooor!"
 	done
 
 LakeOfRageGotRedScaleText:
-	text "<PLAYER> obtained a"
-	line "RED SCALE."
+	text "<PLAYER> obtient"
+	line "une EcailleRouge."
 	done
 
 LakeOfRageGrampsText:
-	text "The GYARADOS are"
-	line "angry!"
+	text "Les Léviator sont"
+	line "en colère!"
 
-	para "It's a bad omen!"
+	para "Mauvais présage!"
 	done
 
 LakeOfRageGrampsText_ClearedRocketHideout:
-	text "Hahah! The MAGI-"
-	line "KARP are biting!"
+	text "Hahah! Les"
+	line "Magicarpe mordent!"
 	done
 
 LakeOfRageSuperNerdText:
-	text "I heard this lake"
-	line "was made by ram-"
-	cont "paging GYARADOS."
+	text "On dit que ce Lac"
+	line "a été fait par"
+	cont "le déchaînement de"
+	cont "Léviator."
 
-	para "I wonder if there"
-	line "is any connection"
+	para "Je me demande"
+	line "s'il y a un lien"
 
-	para "to their mass out-"
-	line "break now?"
+	para "avec leur colère?"
 	done
 
 LakeOfRageCooltrainerFText:
-	text "Did my eyes de-"
-	line "ceive me? I saw a"
+	text "J'ai la berlue ou"
+	line "quoi? J'ai vu un"
+	cont "Léviator rouge"
+	cont "dans le Lac..."
 
-	para "red GYARADOS in"
-	line "the LAKE…"
-
-	para "But I thought"
-	line "GYARADOS were"
-	cont "usually blue?"
+	para "Je croyais qu'il"
+	line "n'y avait que des"
+	cont "Léviator bleus?"
 	done
 
 FisherAndreSeenText:
-	text "Let me battle with"
-	line "the #MON I just"
-	cont "caught!"
+	text "Laisse-moi donc"
+	line "combattre avec le"
+	cont "#mon que je"
+	cont "viens d'attraper!"
 	done
 
 FisherAndreBeatenText:
-	text "I might be an ex-"
-	line "pert angler, but"
+	text "J'suis peut-être"
+	line "un bon pêcheur"
 
-	para "I stink as a #-"
-	line "MON trainer…"
+	para "mais j'suis un"
+	line "mauvais dresseur."
 	done
 
 FisherAndreAfterBattleText:
-	text "I won't lose as an"
-	line "angler! I catch"
-	cont "#MON all day."
+	text "J'suis un bon"
+	line "pêcheur, moi."
+	cont "Et j'attrape des"
+	cont "#mon!"
 	done
 
 FisherRaymondSeenText:
-	text "No matter what I"
-	line "do, all I catch"
+	text "Qu'importe ce que"
+	line "je fais, j'attrape"
 
-	para "are the same #-"
-	line "MON…"
+	para "toujours le même"
+	line "#mon..."
 	done
 
 FisherRaymondBeatenText:
-	text "My line's all"
-	line "tangled up…"
+	text "Ma ligne est toute"
+	line "emmêlée..."
 	done
 
 FisherRaymondAfterBattleText:
-	text "Why can't I catch"
-	line "any good #MON?"
+	text "Pourquoi je ne"
+	line "peux pas attraper"
+	cont "de bons #mon?"
 	done
 
 CooltrainermAaronSeenText:
-	text "If a trainer spots"
-	line "another trainer,"
+	text "Si un dresseur"
+	line "éclabousse un"
 
-	para "he has to make a"
-	line "challenge."
+	para "autre dresseur, ça"
+	line "fini en duel."
 
-	para "That is our"
-	line "destiny."
+	para "C'est la loi."
 	done
 
 CooltrainermAaronBeatenText:
-	text "Whew…"
-	line "Good battle."
+	text "Whaa..."
+	line "Bon combat!"
 	done
 
 CooltrainermAaronAfterBattleText:
-	text "#MON and their"
-	line "trainer become"
+	text "Les #mon et"
+	line "leur dresseur"
 
-	para "powerful through"
-	line "constant battling."
+	para "deviennent forts"
+	line "en combattant"
+	cont "régulièrement."
 	done
 
 CooltrainerfLoisSeenText:
-	text "What happened to"
-	line "the red GYARADOS?"
+	text "Qu'est-il arrivé"
+	line "au Léviator rouge?"
 
-	para "It's gone?"
+	para "Il est parti?"
 
-	para "Oh, darn. I came"
-	line "here for nothing?"
+	para "Oh, zut! Je suis"
+	line "venue pour rien?"
 
-	para "I know--let's"
-	line "battle!"
+	para "Bon..."
+	line "COMBAT!"
 	done
 
 CooltrainerfLoisBeatenText:
-	text "Good going!"
+	text "Pas mal!"
 	done
 
 CooltrainerfLoisAfterBattleText:
-	text "Come to think of"
-	line "it, I've seen a"
-	cont "pink BUTTERFREE."
+	text "Au fait..."
+	line "J'ai vu un"
+	cont "Papilusion rose."
 	done
 
 MeetWesleyText:
-	text "WESLEY: Well, how"
-	line "do you do?"
+	text "Homer: Alors,"
+	line "comment va?"
 
-	para "Seeing as how it's"
-	line "Wednesday today,"
+	para "Moi c'est Homer"
+	line "du Mercredi. Et"
 
-	para "I'm WESLEY of"
-	line "Wednesday."
+	para "aujourd'hui..."
+	line "C'est Mercredi!"
 	done
 
 WesleyGivesGiftText:
-	text "Pleased to meet"
-	line "you. Please take a"
-	cont "souvenir."
+	text "Enchanté de faire"
+	line "ta connaissance."
+	cont "V'là un souvenir."
 	done
 
 WesleyGaveGiftText:
-	text "WESLEY: BLACKBELT"
-	line "beefs up the power"
-	cont "of fighting moves."
+	text "Homer: La Ceint."
+	line "Noire renforce le"
+	cont "pouvoir des capa-"
+	cont "cités de Combat."
 	done
 
 WesleyWednesdayText:
-	text "WESLEY: Since you"
-	line "found me, you must"
+	text "Homer: Avant de"
+	line "m'avoir trouvé,"
 
-	para "have met my broth-"
-	line "ers and sisters."
+	para "t'as dû rencontrer"
+	line "mes frères et"
+	cont "soeurs."
 
-	para "Or did you just"
-	line "get lucky?"
+	para "Ou alors t'es en"
+	line "veine?"
 	done
 
 WesleyNotWednesdayText:
-	text "WESLEY: Today's"
-	line "not Wednesday."
-	cont "That's too bad."
+	text "Homer: On n'est"
+	line "pas Mercredi!!!"
+	cont "Dommage!"
 	done
 
 LakeOfRageSignText:
-	text "LAKE OF RAGE,"
-	line "also known as"
-	cont "GYARADOS LAKE."
+	text "Lac Colère,"
+	line "aussi connu sous"
+	cont "le nom de Lac"
+	cont "Léviator."
 	done
 
 FishingGurusHouseSignText:
-	text "FISHING GURU'S"
-	line "HOUSE"
+	text "Maison du Maître"
+	line "Pêcheur"
 	done
 
 LakeOfRage_MapEvents:

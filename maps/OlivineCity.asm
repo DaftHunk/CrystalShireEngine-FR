@@ -166,114 +166,120 @@ OlivineCityPlayerStepsAsideBottomMovement:
 	step_end
 
 OlivineCityRivalText:
-	text "…"
+	text ".........."
 
-	para "You again?"
+	para "Encore toi?"
 
-	para "There's no need to"
-	line "panic. I don't"
+	para "Pas la peine de"
+	line "paniquer. Je ne me"
 
-	para "bother with wimps"
-	line "like you."
+	para "tracasse pas avec"
+	line "des minus comme"
+	cont "toi!"
 
-	para "Speaking of weak-"
-	line "lings, the city's"
+	para "En parlant de"
+	line "minus, le"
 
-	para "GYM LEADER isn't"
-	line "here."
+	para "Champion d'Arène"
+	line "n'est pas ici."
 
-	para "Supposedly taking"
-	line "care of a sick"
+	para "Il est soi-disant"
+	line "en train de"
 
-	para "#MON at the"
-	line "LIGHTHOUSE."
+	para "s'occuper du #-"
+	line "mon malade au"
+	cont "Phare."
 
-	para "Humph! Boo-hoo!"
-	line "Just let sick"
-	cont "#MON go!"
+	para "Humph! Bou-hou!"
+	line "Laissons donc"
+	cont "filer les #mon"
+	cont "malades!"
 
-	para "A #MON that"
-	line "can't battle is"
-	cont "worthless!"
+	para "Un #mon qui ne"
+	line "peut pas combattre"
+	cont "est inutile!"
 
-	para "Why don't you go"
-	line "train at the"
-	cont "LIGHTHOUSE?"
+	para "Pourquoi ne vas-tu"
+	line "pas t'entraîner au"
+	cont "Phare?"
 
-	para "Who knows. It may"
-	line "make you a bit"
-	cont "less weak!"
+	para "Qui sait? Peut-"
+	line "être que cela"
+	cont "te rendra moins"
+	cont "faible!"
 	done
 
 OlivineCitySailor1Text:
-	text "Dark roads are"
-	line "dangerous at"
-	cont "night."
+	text "Les routes sombres"
+	line "sont dangereuses"
+	cont "la nuit."
 
-	para "But in the pitch-"
-	line "black of night,"
+	para "Dans la pénombre"
+	line "la plus totale,"
 
-	para "the sea is even"
-	line "more treacherous!"
+	para "la mer est encore"
+	line "plus traître!"
 
-	para "Without the beacon"
-	line "of the LIGHTHOUSE"
+	para "Sans la lumière du"
+	line "Phare pour les"
 
-	para "to guide it, no"
-	line "ship can sail."
+	para "guider, aucun"
+	line "navire ne peut"
+	cont "naviguer."
 	done
 
 OlivineCityStandingYoungsterPokegearText:
-	text "That thing you"
-	line "have--it's a #-"
-	cont "GEAR, right? Wow,"
-	cont "that's cool."
+	text "Le truc que tu as,"
+	line "c'est un #matos"
+	cont "pas vrai? Whaou,"
+	cont "c'est cool!"
 	done
 
 OlivineCityStandingYoungsterPokedexText:
-	text "Wow, you have a"
-	line "#DEX!"
+	text "Heu, t'as un joli"
+	line "#dex! C'est"
 
-	para "That is just so"
-	line "awesome."
+	para "vraiment très"
+	line "impressionnant."
 	done
 
 OlivineCitySailor2Text:
-	text "The sea is sweet!"
+	text "Vive la mer!"
 
-	para "Sunsets on the sea"
-	line "are marvelous!"
+	para "Vive les couchers"
+	line "de soleil!"
 
-	para "Sing with me!"
-	line "Yo-ho! Blow the"
-	cont "man down!…"
+	para "Chante avec moi!"
+	line "Whahahahahahah!"
 	done
 
 OlivineCitySignText:
-	text "OLIVINE CITY"
+	text "Oliville"
 
-	para "The Port Closest"
-	line "to Foreign Lands"
+	para "Le port vers d'au-"
+	line "tres horizons"
 	done
 
 OlivineCityPortSignText:
-	text "OLIVINE PORT"
-	line "FAST SHIP PIER"
+	text "Port d'Oliville"
+	line "Port du Bateau"
+	cont "Express"
 	done
 
 OlivineGymSignText:
-	text "OLIVINE CITY"
-	line "#MON GYM"
-	cont "LEADER: JASMINE"
+	text "Champion d'Arène"
+	line "d'Oliville:"
+	cont "Jasmine"
 
-	para "The Steel-Clad"
-	line "Defense Girl"
+	para "La fille aux nerfs"
+	line "d'acier"
 	done
 
 OlivineLighthouseSignText:
-	text "OLIVINE LIGHTHOUSE"
-	line "Also known as the"
-	cont "GLITTER LIGHTHOUSE"
+	text "Phare d'Oliville"
+	line "Aussi connu sous"
+	cont "le nom de Phare"
+	cont "Scintillant"
 	done
 
 OlivineCityBattleTowerSignText:

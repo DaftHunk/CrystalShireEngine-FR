@@ -31,32 +31,32 @@ SlowpokeWellB2FTMRainDance:
 	itemball TM_RAIN_DANCE
 
 SlowpokeWellB2FGymGuideText:
-	text "I'm waiting to see"
-	line "SLOWPOKE's moment"
-	cont "of evolution."
+	text "J'attends de voir"
+	line "l'évolution du"
+	cont "Ramoloss."
 
-	para "Through observa-"
-	line "tion, I made a new"
-	cont "discovery."
+	para "En observant j'ai"
+	line "fait une nouvelle"
+	cont "découverte."
 
-	para "A SLOWPOKE with a"
-	line "KING'S ROCK often"
+	para "Un Ramoloss avec"
+	line "une Roche Royale"
 
-	para "gets bitten by a"
-	line "SHELLDER."
+	para "se fait mordre par"
+	line "un Kokiyas."
 
-	para "Here, I'll share a"
-	line "KING'S ROCK with"
-	cont "you."
+	para "Tiens! Je vais te"
+	line "donner une Roche"
+	cont "Royale."
 	done
 
 SlowpokeWellB2FGymGuideText_GotKingsRock:
-	text "I'm going to be"
-	line "like SLOWPOKE."
+	text "Je serai comme"
+	line "Ramoloss."
 
-	para "I'll wait patient-"
-	line "ly, so I can see"
-	cont "one evolve."
+	para "Je serai patient"
+	line "et j'en verrai un"
+	cont "évoluer."
 	done
 
 SlowpokeWellB2F_MapEvents:
